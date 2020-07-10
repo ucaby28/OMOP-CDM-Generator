@@ -6,22 +6,27 @@ fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
 
+# generating a random name
 def person_name():
     return fake.name()
 
 
+# generating a random UK phone number
 def phone_num():
     return fake.phone_number()
 
 
+# generating a random UK address
 def address():
     return fake.street_address()
 
 
+# generating a random UK city
 def city():
     return fake.city()
 
 
+# generating a random UK postcode
 def p_code():
     return fake.postcode()
 
@@ -55,20 +60,23 @@ class PatientRecord:
                     "Phone Number": phone_num(),
                     "Address": address(),
                     "City": city(),
-                    "Zip Code": p_code()
+                    "Postcode": p_code()
                 })
                 PatientRecord.person_id += 1
             csvFile.close()
 
 
-header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
-               "Phone Number", "Address", "Zip Code", "City"]
-
-
 if __name__ == "__main__":
+
+    # define the column names for each field
+    header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
+                   "Phone Number", "Address", "City", "Postcode"]
+
+    # the user can customize the number of rows to generate
     while True:
         num_records = input("Please enter the number of patient records you want to create: ")
         try:
+            # checking whether the entered number is valid
             if int(num_records) > 0:
                 p1 = PatientRecord(num_records, header_list)
                 PatientRecord.random_generate(p1)

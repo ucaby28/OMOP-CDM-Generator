@@ -58,14 +58,17 @@ class OMOP_PatientRecord:
             OMOPcsvFile.close()
 
 
-header_list = ["person_id", "gender_concept_id", "year_of_birth", "month_of_birth", "day_of_birth", "birth_datetime",
-               "race_concept_id", "ethnicity_concept_id"]
-
-
 if __name__ == "__main__":
+
+    # define the column names for each field according to the OMOP CDM
+    header_list = ["person_id", "gender_concept_id", "year_of_birth", "month_of_birth", "day_of_birth",
+                   "birth_datetime", "race_concept_id", "ethnicity_concept_id"]
+
+    # the user can customize the number of rows to generate
     while True:
         num_records = input("Please enter the number of OMOP Person records you want to create: ")
         try:
+            # checking whether the entered number is valid
             if int(num_records) > 0:
                 p1 = OMOP_PatientRecord(num_records, header_list)
                 OMOP_PatientRecord.data_generate(p1)
