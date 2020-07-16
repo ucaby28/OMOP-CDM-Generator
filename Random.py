@@ -13,8 +13,6 @@ header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
 # messages to display at CLI
 m1 = "Please enter the number of patient records you want to create: "
 m2 = "Random Patient CSV generation complete!"
-m3 = "Please enter a number that is greater than 0."
-m4 = "Please try again and enter a number."
 
 
 # generating a random name
@@ -43,16 +41,15 @@ def p_code():
 
 
 # obtaining user input and generating data
-def main(msg1, msg2, header):
+def main(msg1, msg2):
     # the user can customize the number of rows to generate
     while True:
         num_records = input(msg1)
         try:
             # checking whether the entered number is valid
             if int(num_records) > 0:
-                PatientRecord(num_records, header).random_generate()
                 print(msg2)
-                break
+                return num_records
             else:
                 print("Please enter a number that is greater than 0.")
         except ValueError:
@@ -79,7 +76,7 @@ class PatientRecord:
         return PatientRecord.this_year - self.sdg_dob.year
 
     # output the random values as a csv file
-    def random_generate(self):
+    def data_generate(self):
         with open("Random_Patient_Data.csv", 'w') as csvFile:
             writer = csv.DictWriter(csvFile, fieldnames=self.headers)
             writer.writeheader()
@@ -100,4 +97,4 @@ class PatientRecord:
 
 
 if __name__ == "__main__":
-    main(m1, m2, header_list)
+    PatientRecord(main(m1, m2), header_list).data_generate()

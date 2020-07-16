@@ -23,23 +23,6 @@ def choosing(file):
     return random.choice(id_list)
 
 
-# obtaining user input and generating data
-def main(msg1, msg2, header):
-    # the user can customize the number of rows to generate
-    while True:
-        num_records = input(msg1)
-        try:
-            # checking whether the entered number is valid
-            if int(num_records) > 0:
-                OMOP_PatientRecord(num_records, header).data_generate()
-                print(msg2)
-                break
-            else:
-                print("Please enter a number that is greater than 0.")
-        except ValueError:
-            print("Please try again and enter a number.")
-
-
 # generating all the fields required in PERSON table and filled with random values
 class OMOP_PatientRecord(rd.PatientRecord):
 
@@ -65,4 +48,4 @@ class OMOP_PatientRecord(rd.PatientRecord):
 
 
 if __name__ == "__main__":
-    main(m1, m2, header_list)
+    OMOP_PatientRecord(rd.main(m1, m2), header_list).data_generate()
