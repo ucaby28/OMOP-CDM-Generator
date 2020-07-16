@@ -1,43 +1,42 @@
 import csv
 import datetime as dt
 import random
+import pandas as pd
 from faker import Faker
 
+# specify location information for Faker
 fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
-
-def gender_id():
-    # Male: 8507, Female: 8532
-    return random.choice([8507, 8532])
-
-
-def race_id():
-    race_id_list = [38003572, 38003573, 38003574, 38003575, 38003576, 38003577, 38003578, 38003579, 38003580, 38003581,
-                    38003582, 38003583, 38003584, 38003585, 38003586, 38003587, 38003588, 38003589, 38003590, 38003591,
-                    38003592, 38003593, 38003594, 38003595, 38003596, 38003597, 38003598, 38003599, 38003600, 38003601,
-                    38003602, 38003603, 38003604,38003605, 38003606, 38003607, 38003608, 38003609, 38003610, 38003611,
-                    38003612, 38003613, 38003614, 38003615,38003616, 8515, 8516, 8527, 8557, 8657]
-    return random.choice(race_id_list)
+# CSV file paths
+gender_file = 'config_files/gender_id.csv'
+race_file = 'config_files/race_id.csv'
+ethnicity_file = 'config_files/ethnicity_id.csv'
 
 
-def ethnicity_id():
-    # Hispanic or Latino: 38003563, Not Hispanic or Latino: 38003564
-    return random.choice([38003563, 38003564])
+# creating a random choosing function
+def choosing(file):
+    df = pd.read_csv(file)
+    id_list = df['Id']
+    return random.choice(id_list)
 
 
+# generating all the fields required in PERSON table and filled with random values
 class OMOP_PatientRecord:
     person_id = 1
     this_year = dt.datetime.today().year
 
+    # initialize the variables and types
     def __init__(self, records, headers):
         self.records = int(records)
         self.headers = list(headers)
 
+    # generating a random date of birth and time
     def dob_time(self):
         self.sdg_dob = fake1.date_time_ad()
         return self.sdg_dob
 
+    # generating a PERSON table and output as a csv file
     def data_generate(self):
         with open("Random_OMOP_Person.csv", 'wt') as OMOPcsvFile:
             writer = csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
@@ -46,13 +45,13 @@ class OMOP_PatientRecord:
             for i in range(self.records):
                 writer.writerow({
                     "person_id": OMOP_PatientRecord.person_id,
-                    "gender_concept_id": gender_id(),
+                    "gender_concept_id": choosing(gender_file),
                     "year_of_birth": self.dob_time().year,
                     "month_of_birth": self.sdg_dob.month,
                     "day_of_birth": self.sdg_dob.day,
                     "birth_datetime": self.sdg_dob,
-                    "race_concept_id": race_id(),
-                    "ethnicity_concept_id": ethnicity_id(),
+                    "race_concept_id": choosing(race_file),
+                    "ethnicity_concept_id": choosing(ethnicity_file),
                 })
                 OMOP_PatientRecord.person_id += 1
             OMOPcsvFile.close()

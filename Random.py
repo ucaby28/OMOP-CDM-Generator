@@ -2,6 +2,7 @@ import csv
 from faker import Faker
 import datetime as dt
 
+# specify location information for Faker
 fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
@@ -31,21 +32,26 @@ def p_code():
     return fake.postcode()
 
 
+# generating selected fields with random values
 class PatientRecord:
     person_id = 1
     this_year = dt.datetime.today().year
 
+    # initialize the variables and types
     def __init__(self, records, headers):
         self.records = int(records)
         self.headers = list(headers)
 
+    # generating a random date of birth and time
     def dob_time(self):
         self.sdg_dob = fake1.date_time_ad()
         return self.sdg_dob
 
+    # calculate the age according to the date of birth
     def age(self):
         return PatientRecord.this_year - self.sdg_dob.year
 
+    # output the random values as a csv file
     def random_generate(self):
         with open("Random_Patient_Data.csv", 'w') as csvFile:
             writer = csv.DictWriter(csvFile, fieldnames=self.headers)
