@@ -1,17 +1,19 @@
-import csv
-import datetime as dt
 import random
 import pandas as pd
-from faker import Faker
+import Random as rd
 
-# specify location information for Faker
-fake = Faker('en_GB')
-fake1 = Faker('en_US')
-
-# CSV file paths
+# CSV file paths for pre-stored IDs
 gender_file = 'config_files/gender_id.csv'
 race_file = 'config_files/race_id.csv'
 ethnicity_file = 'config_files/ethnicity_id.csv'
+
+# define the column names for each field according to the OMOP CDM
+header_list = ["person_id", "gender_concept_id", "year_of_birth", "month_of_birth", "day_of_birth",
+               "birth_datetime", "race_concept_id", "ethnicity_concept_id"]
+
+# messages to display at CLI
+m1 = "Please enter the number of OMOP Person records you want to create: "
+m2 = "Random OMOP Person CSV generation complete!"
 
 
 # creating a random choosing function
@@ -21,25 +23,30 @@ def choosing(file):
     return random.choice(id_list)
 
 
+# obtaining user input and generating data
+def main(msg1, msg2, header):
+    # the user can customize the number of rows to generate
+    while True:
+        num_records = input(msg1)
+        try:
+            # checking whether the entered number is valid
+            if int(num_records) > 0:
+                OMOP_PatientRecord(num_records, header).data_generate()
+                print(msg2)
+                break
+            else:
+                print("Please enter a number that is greater than 0.")
+        except ValueError:
+            print("Please try again and enter a number.")
+
+
 # generating all the fields required in PERSON table and filled with random values
-class OMOP_PatientRecord:
-    person_id = 1
-    this_year = dt.datetime.today().year
-
-    # initialize the variables and types
-    def __init__(self, records, headers):
-        self.records = int(records)
-        self.headers = list(headers)
-
-    # generating a random date of birth and time
-    def dob_time(self):
-        self.sdg_dob = fake1.date_time_ad()
-        return self.sdg_dob
+class OMOP_PatientRecord(rd.PatientRecord):
 
     # generating a PERSON table and output as a csv file
     def data_generate(self):
         with open("Random_OMOP_Person.csv", 'wt') as OMOPcsvFile:
-            writer = csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
+            writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
 
             for i in range(self.records):
@@ -58,22 +65,4 @@ class OMOP_PatientRecord:
 
 
 if __name__ == "__main__":
-
-    # define the column names for each field according to the OMOP CDM
-    header_list = ["person_id", "gender_concept_id", "year_of_birth", "month_of_birth", "day_of_birth",
-                   "birth_datetime", "race_concept_id", "ethnicity_concept_id"]
-
-    # the user can customize the number of rows to generate
-    while True:
-        num_records = input("Please enter the number of OMOP Person records you want to create: ")
-        try:
-            # checking whether the entered number is valid
-            if int(num_records) > 0:
-                p1 = OMOP_PatientRecord(num_records, header_list)
-                OMOP_PatientRecord.data_generate(p1)
-                print("Random OMOP Person CSV generation complete!")
-                break
-            else:
-                print("Please enter a number that is greater than 0.")
-        except ValueError:
-            print("Please try again and enter a number.")
+    main(m1, m2, header_list)

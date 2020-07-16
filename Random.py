@@ -6,6 +6,16 @@ import datetime as dt
 fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
+# define the column names for each field
+header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
+               "Phone Number", "Address", "City", "Postcode"]
+
+# messages to display at CLI
+m1 = "Please enter the number of patient records you want to create: "
+m2 = "Random Patient CSV generation complete!"
+m3 = "Please enter a number that is greater than 0."
+m4 = "Please try again and enter a number."
+
 
 # generating a random name
 def person_name():
@@ -30,6 +40,23 @@ def city():
 # generating a random UK postcode
 def p_code():
     return fake.postcode()
+
+
+# obtaining user input and generating data
+def main(msg1, msg2, header):
+    # the user can customize the number of rows to generate
+    while True:
+        num_records = input(msg1)
+        try:
+            # checking whether the entered number is valid
+            if int(num_records) > 0:
+                PatientRecord(num_records, header).random_generate()
+                print(msg2)
+                break
+            else:
+                print("Please enter a number that is greater than 0.")
+        except ValueError:
+            print("Please try again and enter a number.")
 
 
 # generating selected fields with random values
@@ -73,22 +100,4 @@ class PatientRecord:
 
 
 if __name__ == "__main__":
-
-    # define the column names for each field
-    header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
-                   "Phone Number", "Address", "City", "Postcode"]
-
-    # the user can customize the number of rows to generate
-    while True:
-        num_records = input("Please enter the number of patient records you want to create: ")
-        try:
-            # checking whether the entered number is valid
-            if int(num_records) > 0:
-                p1 = PatientRecord(num_records, header_list)
-                PatientRecord.random_generate(p1)
-                print("Random Patient CSV generation complete!")
-                break
-            else:
-                print("Please enter a number that is greater than 0.")
-        except ValueError:
-            print("Please try again and enter a number.")
+    main(m1, m2, header_list)
