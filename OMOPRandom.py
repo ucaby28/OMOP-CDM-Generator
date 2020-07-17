@@ -23,7 +23,7 @@ def choosing(file):
     return random.choice(id_list)
 
 
-# generating all the fields required in PERSON table and filled with random values
+# the class that generate random values for all the fields required in PERSON table
 class OMOP_PatientRecord(rd.PatientRecord):
 
     # generating a PERSON table and output as a csv file
@@ -31,7 +31,6 @@ class OMOP_PatientRecord(rd.PatientRecord):
         with open("Random_OMOP_Person.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
-
             for i in range(self.records):
                 writer.writerow({
                     "person_id": OMOP_PatientRecord.person_id,

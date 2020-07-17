@@ -40,13 +40,13 @@ def p_code():
     return fake.postcode()
 
 
-# obtaining user input and generating data
+# obtaining user input and return the input value
 def main(msg1, msg2):
     # the user can customize the number of rows to generate
     while True:
         num_records = input(msg1)
         try:
-            # checking whether the entered number is valid
+            # checking whether the entered number is valid and return the valid input
             if int(num_records) > 0:
                 print(msg2)
                 return num_records
