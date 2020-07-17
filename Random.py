@@ -25,21 +25,6 @@ def phone_num():
     return fake.phone_number()
 
 
-# generating a random UK address
-def address():
-    return fake.street_address()
-
-
-# generating a random UK city
-def city():
-    return fake.city()
-
-
-# generating a random UK postcode
-def p_code():
-    return fake.postcode()
-
-
 # obtaining user input and return the input value
 def main(msg1, msg2):
     # the user can customize the number of rows to generate
@@ -66,14 +51,19 @@ class PatientRecord:
         self.records = int(records)
         self.headers = list(headers)
 
-    # generating a random date of birth and time
+    # generating a random UK address with the corresponding city and postcode
+    def address(self):
+        self.uk_add = fake.address()
+        self.address_list = self.uk_add.split('\n')
+        self.postcode = self.address_list[-1]
+        self.city = self.address_list[-2]
+        return self.uk_add
+
+    # generating a random date of birth and time with the corresponding age
     def dob_time(self):
         self.sdg_dob = fake1.date_time_ad()
+        self.age = PatientRecord.this_year - self.sdg_dob.year
         return self.sdg_dob
-
-    # calculate the age according to the date of birth
-    def age(self):
-        return PatientRecord.this_year - self.sdg_dob.year
 
     # output the random values as a csv file
     def data_generate(self):
@@ -86,11 +76,11 @@ class PatientRecord:
                     "PERSON_ID": PatientRecord.person_id,
                     "Patient Name": person_name(),
                     "BIRTH_DATETIME": self.dob_time(),
-                    "Age": self.age(),
+                    "Age": self.age,
                     "Phone Number": phone_num(),
-                    "Address": address(),
-                    "City": city(),
-                    "Postcode": p_code()
+                    "Address": self.address(),
+                    "City": self.city,
+                    "Postcode": self.postcode
                 })
                 PatientRecord.person_id += 1
             csvFile.close()
