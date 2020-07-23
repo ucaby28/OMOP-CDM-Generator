@@ -6,10 +6,6 @@ import datetime as dt
 fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
-# define the column names for each field
-header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
-               "Phone Number", "Address", "City", "Postcode"]
-
 # messages to display at CLI
 m1 = "Please enter the number of patient records you want to create: "
 m2 = "Random Patient CSV generation complete!"
@@ -45,6 +41,10 @@ def main(msg1, msg2):
 class PatientRecord:
     person_id = 1
     this_year = dt.datetime.today().year
+
+    # define the column names for each field
+    header_list = ["PERSON_ID", "Patient Name", "BIRTH_DATETIME", "Age",
+                   "Phone Number", "Address", "City", "Postcode"]
 
     # initialize the variables and types
     def __init__(self, records, headers):
@@ -87,4 +87,4 @@ class PatientRecord:
 
 
 if __name__ == "__main__":
-    PatientRecord(main(m1, m2), header_list).data_generate()
+    PatientRecord(main(m1, m2), PatientRecord.header_list).data_generate()
