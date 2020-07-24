@@ -1,0 +1,1927 @@
+Id,Code,Name,Standard Class,Domain,Vocab,Validity,Concept
+759813,1.021E+12,Physical object specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759820,1.031E+12,Paper specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759825,1.041E+12,Writing paper specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759826,1.051E+12,Envelope specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759829,1.061E+12,Package specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759869,1.071E+12,Clothing specimen,Specimen,Specimen,SNOMED,Valid,Standard
+759936,1.081E+12,Surface wipe specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762633,4.29881E+14,Acute phase serum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762634,4.29891E+14,Convalescent phase serum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762635,4.29901E+14,Bloody stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762636,4.29911E+14,Fluid feces specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762637,4.29921E+14,Bloody fluid feces specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762638,4.29931E+14,Nasal aspirate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762639,4.29951E+14,Bacterial isolate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+762922,4.33771E+14,Popliteal cyst fluid,Specimen,Specimen,SNOMED,Valid,Standard
+762923,4.33781E+14,Tissue specimen from mass,Specimen,Specimen,SNOMED,Valid,Standard
+762924,4.33801E+14,Nasopharyngeal and oropharyngeal swab,Specimen,Specimen,SNOMED,Valid,Standard
+762931,4.33871E+14,Nasal washings,Specimen,Specimen,SNOMED,Valid,Standard
+762932,4.33881E+14,Nasal and throat swab,Specimen,Specimen,SNOMED,Valid,Standard
+763036,4.35291E+14,Grain specimen,Specimen,Specimen,SNOMED,Valid,Standard
+763054,4.35541E+14,Scab specimen,Specimen,Specimen,SNOMED,Valid,Standard
+763090,4.35971E+14,Body fluid specimen from peritoneal dialysis insertion site,Specimen,Specimen,SNOMED,Valid,Standard
+763155,4.36651E+14,Swab of fluid from vesicle,Specimen,Specimen,SNOMED,Valid,Standard
+763166,4.36761E+14,Vegetable AND/OR fruit specimen,Specimen,Specimen,SNOMED,Valid,Standard
+763268,4.37921E+14,First void urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+763756,4.45611E+14,Specimen from bite wound,Specimen,Specimen,SNOMED,Valid,Standard
+763757,4.45621E+14,Specimen from scratch wound,Specimen,Specimen,SNOMED,Valid,Standard
+764128,4.51091E+14,Pre-partum vaginal blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+764435,4.54871E+14,Swab from upper limb,Specimen,Specimen,SNOMED,Valid,Standard
+764436,4.54881E+14,Swab from heel,Specimen,Specimen,SNOMED,Valid,Standard
+764437,4.54901E+14,Swab from eyelid,Specimen,Specimen,SNOMED,Valid,Standard
+764438,4.54911E+14,Swab from face,Specimen,Specimen,SNOMED,Valid,Standard
+764439,4.54921E+14,Swab from knee region,Specimen,Specimen,SNOMED,Valid,Standard
+764440,4.54931E+14,Swab from shoulder region,Specimen,Specimen,SNOMED,Valid,Standard
+764441,4.54941E+14,Swab from foot,Specimen,Specimen,SNOMED,Valid,Standard
+764442,4.54951E+14,Swab from head,Specimen,Specimen,SNOMED,Valid,Standard
+764443,4.54971E+14,Swab from forearm,Specimen,Specimen,SNOMED,Valid,Standard
+764444,4.54981E+14,Fluid specimen from pelvis,Specimen,Specimen,SNOMED,Valid,Standard
+764477,4.55541E+14,Cultured cells specimen,Specimen,Specimen,SNOMED,Valid,Standard
+764568,4.56721E+14,Apheresis fluid,Specimen,Specimen,SNOMED,Valid,Standard
+764569,4.56731E+14,Donor pre-apheresis blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+764575,4.56891E+14,Donor lymphocyte infusion,Specimen,Specimen,SNOMED,Valid,Standard
+764635,4.851E+12,Sand specimen,Specimen,Specimen,SNOMED,Valid,Standard
+764637,4.861E+12,Baby food specimen,Specimen,Specimen,SNOMED,Valid,Standard
+764638,4.871E+12,Whey specimen,Specimen,Specimen,SNOMED,Valid,Standard
+765315,1.091E+12,Surface wet wipe specimen,Specimen,Specimen,SNOMED,Valid,Standard
+765496,4.30791E+14,Human breast milk specimen,Specimen,Specimen,SNOMED,Valid,Standard
+765681,4.54891E+14,Swab from scalp,Specimen,Specimen,SNOMED,Valid,Standard
+765682,4.54961E+14,Swab from upper arm,Specimen,Specimen,SNOMED,Valid,Standard
+765751,4.841E+12,Seafood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+765900,4.29971E+14,Mycobacterial isolate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+3200298,3.04E+15,Paraffin mounted tissue block specimen,Specimen,Specimen,Nebraska Lexicon,Valid,Standard
+4000611,119294007,Dried blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000612,119301009,Plant specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000613,119306004,Drain device specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000614,119310001,Tube specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000615,119313004,Implantable venous catheter specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000616,119320006,Food specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000617,119323008,Pus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000618,119327009,Nail specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000620,119331003,Skeletal muscle specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000622,119351004,Erythrocyte specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000623,119359002,Bone marrow specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000624,119360007,Dialysis fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000626,119361006,Plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000627,119362004,Platelet poor plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000628,119366001,Specimen from wound abscess,Specimen,Specimen,SNOMED,Valid,Standard
+4000629,119369008,Specimen from ulcer,Specimen,Specimen,SNOMED,Valid,Standard
+4000630,119377007,Myocardial specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000631,119378002,Endocardial specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4000632,119380008,Specimen from small intestine,Specimen,Specimen,SNOMED,Valid,Standard
+4000633,119385003,Specimen from left fallopian tube,Specimen,Specimen,SNOMED,Valid,Standard
+4000635,119395005,Specimen from uterine cervix,Specimen,Specimen,SNOMED,Valid,Standard
+4000636,119400006,Specimen from cornea,Specimen,Specimen,SNOMED,Valid,Standard
+4000637,119401005,Specimen from conjunctiva,Specimen,Specimen,SNOMED,Valid,Standard
+4001055,119307008,Specimen from endotracheal tube,Specimen,Specimen,SNOMED,Valid,Standard
+4001056,119309006,Arterial line specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001057,119314005,Electrode specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001058,119321005,Milk specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001059,119328004,Mother's milk specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001060,119340004,Meconium specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001061,119341000,Bile specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001062,119342007,Saliva specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001063,119344008,Specimen from genital system,Specimen,Specimen,SNOMED,Valid,Standard
+4001064,119348006,Seminal plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001065,119350003,Calculus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001179,119358005,Platelet specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001180,119363009,Platelet rich plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001181,119364003,Serum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001183,119371008,Specimen from abscess,Specimen,Specimen,SNOMED,Valid,Standard
+4001184,119381007,Specimen from large intestine,Specimen,Specimen,SNOMED,Valid,Standard
+4001185,119384004,Specimen from right fallopian tube,Specimen,Specimen,SNOMED,Valid,Standard
+4001186,119386002,Specimen from prostate,Specimen,Specimen,SNOMED,Valid,Standard
+4001187,119391001,Specimen from bronchus,Specimen,Specimen,SNOMED,Valid,Standard
+4001188,119393003,Specimen from urethra,Specimen,Specimen,SNOMED,Valid,Standard
+4001189,119394009,Specimen from vagina,Specimen,Specimen,SNOMED,Valid,Standard
+4001190,119399004,Specimen from eye,Specimen,Specimen,SNOMED,Valid,Standard
+4001192,119403008,Specimen from placenta,Specimen,Specimen,SNOMED,Valid,Standard
+4001224,119295008,Specimen obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+4001225,119297000,Blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001226,119298005,Mixed venous blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001345,119299002,Specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4001346,119300005,Specimen from blood product,Specimen,Specimen,SNOMED,Valid,Standard
+4001347,119304001,Blood bag specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001349,119311002,Catheter specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001350,119312009,Catheter tip specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001351,119316007,Non-biological fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001352,119318008,Water specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001353,119319000,Drug specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001354,119325001,Tissue specimen from skin,Specimen,Specimen,SNOMED,Valid,Standard
+4001355,119326000,Hair specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001356,119333000,Fibroblast specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001357,119336008,Exhaled air specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4001358,119338009,Dentin specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002219,119345009,Menstrual blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002220,119346005,Egg yolk specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002221,119365002,Specimen from wound,Specimen,Specimen,SNOMED,Valid,Standard
+4002222,119370009,Specimen from fistula,Specimen,Specimen,SNOMED,Valid,Standard
+4002223,119373006,Amniotic fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002224,119383005,Specimen from liver,Specimen,Specimen,SNOMED,Valid,Standard
+4002225,119388001,Specimen from internal nose,Specimen,Specimen,SNOMED,Valid,Standard
+4002226,119396006,Specimen from endometrium,Specimen,Specimen,SNOMED,Valid,Standard
+4002227,119398007,Specimen from brain,Specimen,Specimen,SNOMED,Valid,Standard
+4002736,119302002,Mushroom specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002737,119303007,Microbial isolate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002869,119305000,Plasma bag specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002870,119308003,Cannula specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002871,119317003,Gaseous material specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002873,119324002,Specimen of unknown material,Specimen,Specimen,SNOMED,Valid,Standard
+4002874,119329007,Colostrum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002875,119332005,Synovial fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002876,119334006,Sputum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002877,119335007,Coughed sputum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002878,119337004,Inhaled gas specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002879,119339001,Stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002880,119343002,Pancreatic fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002881,119347001,Seminal fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002882,119349003,Spermatozoa specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002883,119352006,Macrophage specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002884,119353001,Lymphocyte specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002885,119355008,Polymorphonuclear neutrophil specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002886,119356009,Eosinophil specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002887,119357000,Basophil specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002888,119367005,Specimen from burn injury,Specimen,Specimen,SNOMED,Valid,Standard
+4002889,119368000,Specimen from cyst,Specimen,Specimen,SNOMED,Valid,Standard
+4002890,119376003,Tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4002891,119379005,Specimen from stomach,Specimen,Specimen,SNOMED,Valid,Standard
+4002892,119382000,Specimen from colon,Specimen,Specimen,SNOMED,Valid,Standard
+4002893,119389009,Specimen from throat,Specimen,Specimen,SNOMED,Valid,Standard
+4002894,119390000,Specimen from trachea,Specimen,Specimen,SNOMED,Valid,Standard
+4002895,119392008,Specimen from anus,Specimen,Specimen,SNOMED,Valid,Standard
+4002896,119397002,Specimen from penis,Specimen,Specimen,SNOMED,Valid,Standard
+4004335,110899003,Breast nipple cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004336,110903005,Nasal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004337,110917001,Left pleural cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004338,110919003,Pericardial cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004339,110924000,Cytologic material from right main bronchus,Specimen,Specimen,SNOMED,Valid,Standard
+4004340,110928002,Bile duct cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004341,110945007,Vulva cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004342,110950001,Urinary bladder cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004343,110951002,Endocervical cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004344,110958008,Urinary tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004345,110959000,Placenta cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004346,110960005,Ureter cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004348,110966004,Jejunal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4004349,110970007,Cerebroventricular fluid cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006631,110893002,Cutaneous cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006633,110896005,Subcutaneous cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006635,110902000,Upper respiratory tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006636,110910004,Lung cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006637,110912007,Bronchial cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006638,110914008,Right upper lobe bronchus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006639,110915009,Right pleural cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006640,110916005,Right lower lobe bronchus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006641,110920009,Tracheal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006642,110922001,Cytologic material from left main bronchus,Specimen,Specimen,SNOMED,Valid,Standard
+4006644,110936006,Gastric cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006645,110941003,Epididymis cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006646,110942005,Rectal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006647,110946008,Upper urinary tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006648,110948009,Kidney cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006649,110949001,Cervix cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006650,110955006,Endometrium cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006651,110957003,Fallopian tube cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006652,110962002,Esophageal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006653,110967008,Amnion cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4006654,110968003,Fetal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007301,110894008,Mammary cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007302,110898006,Lymph node cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007303,110900008,Skeletal muscle cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007305,110901007,Bone cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007306,110907006,Epiglottic cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007307,110908001,Laryngeal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007308,110909009,Vocal cord cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007311,110921008,Right middle lobe bronchus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007312,110923006,Left lower lobe bronchus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007313,110926003,Gallbladder cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007430,110929005,Pancreatic cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007431,110930000,Salivary gland cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007432,110932008,Parotid gland cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007433,110934009,Pharyngeal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007434,110935005,Testis cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007435,110937002,Seminal vesicle cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007437,110947004,Vagina cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007439,110952009,Submaxillary gland cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007440,110963007,Anal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007441,110965000,Urethra cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007442,110969006,Cerebrospinal fluid cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007918,110904004,Accessory sinus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007919,110905003,Nasopharyngeal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007920,110906002,Lower respiratory tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007921,110913002,Pleural cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007922,110918006,Left upper lobe bronchus cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007923,110927007,Liver cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007924,110931001,Penis cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007925,110933003,Prostate cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007926,110938007,Duodenal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007927,110939004,Vas deferens cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007928,110940002,Ileal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007929,110943000,Renal pelvis cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007930,110944006,Peritoneal cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007931,110953004,Vaginal and cervical cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007932,110954005,Small intestine cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007933,110956007,Colonic cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007934,110961009,Chorion cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4007935,110964001,Lower urinary tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021081,116213003,Ovary cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021534,116155002,Ampulla of Vater cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021535,116156001,Gastrointestinal tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021536,116157005,Heart cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021537,116158000,Large intestine cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4021538,116159008,Upper aerodigestive tract cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4023410,116160003,Thyroid cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4023411,116161004,"Fine needle aspirate of thyroid, cytologic material",Specimen,Specimen,SNOMED,Valid,Standard
+4023412,116162006,"Thyroid cytologic material, processed intraoperatively",Specimen,Specimen,SNOMED,Valid,Standard
+4027387,128155007,Specimen from ovary,Specimen,Specimen,SNOMED,Valid,Standard
+4027388,128163008,Tissue specimen from endometrium,Specimen,Specimen,SNOMED,Valid,Standard
+4027389,128164002,Tissue specimen from eye,Specimen,Specimen,SNOMED,Valid,Standard
+4027390,128167009,Tissue specimen from internal nose,Specimen,Specimen,SNOMED,Valid,Standard
+4027391,128171007,Tissue specimen from stomach,Specimen,Specimen,SNOMED,Valid,Standard
+4027392,128172000,Tissue specimen from throat,Specimen,Specimen,SNOMED,Valid,Standard
+4028079,128156008,Tissue specimen from anus,Specimen,Specimen,SNOMED,Valid,Standard
+4028080,128160006,Tissue specimen from conjunctiva,Specimen,Specimen,SNOMED,Valid,Standard
+4028081,128168004,Tissue specimen from liver,Specimen,Specimen,SNOMED,Valid,Standard
+4028082,128170008,Tissue specimen from prostate,Specimen,Specimen,SNOMED,Valid,Standard
+4028083,128175003,Tissue specimen from vagina,Specimen,Specimen,SNOMED,Valid,Standard
+4043431,167867009,Multiple joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043432,167873005,Hip joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043433,167877006,Toe joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043443,167913002,Bone marrow source,Specimen,Specimen,SNOMED,Valid,Standard
+4043750,167870008,Wrist joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043751,167874004,Knee joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043752,167875003,Ankle joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043753,167876002,Foot joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4043941,168136008,Colostomy fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4043942,168139001,Peritoneal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4045667,122555007,Venous blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045668,122558009,Blood specimen from blood product,Specimen,Specimen,SNOMED,Valid,Standard
+4045670,122563008,"Blood bag specimen, from patient",Specimen,Specimen,SNOMED,Valid,Standard
+4045671,122564002,"Blood bag specimen, from blood product",Specimen,Specimen,SNOMED,Valid,Standard
+4045757,122565001,Urinary catheter specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045758,122567009,Urine sediment specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045760,122572000,Vomitus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045761,122580007,Cerumen specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045762,122584003,Leukocyte specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4045763,122586001,Peritoneal dialysis fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4045764,122593002,Tissue specimen obtained from ulcer,Specimen,Specimen,SNOMED,Valid,Standard
+4045765,122597001,"Specimen from breast obtained by complete excision, less than total mastectomy, with axillary contents",Specimen,Specimen,SNOMED,Valid,Standard
+4045766,122598006,"Specimen from breast obtained by complete excision, less than total mastectomy, without axillary contents",Specimen,Specimen,SNOMED,Valid,Standard
+4045767,122606006,Specimen from lung obtained by lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045768,122607002,Specimen from lung obtained by pneumonectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045770,122613006,Specimen from lung obtained by mediastinoscopic biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045771,122620004,Specimen from pleura obtained by thoracoscopic procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4045773,122624008,Specimen from heart obtained by excisional biopsy of lesion,Specimen,Specimen,SNOMED,Valid,Standard
+4045774,122639009,Specimen from duodenum obtained by Whipple resection,Specimen,Specimen,SNOMED,Valid,Standard
+4045775,122642003,Specimen from distal ileum obtained by right hemicolectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045776,122646000,Specimen from large intestine obtained by abdominoperineal resection,Specimen,Specimen,SNOMED,Valid,Standard
+4045777,122659008,Specimen from ampulla of Vater obtained by pancreaticoduodenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045778,122662006,Specimen from pancreatic body obtained by partial resection,Specimen,Specimen,SNOMED,Valid,Standard
+4045779,122664007,Specimen from pancreas obtained by total pancreatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045780,122667000,Specimen from pancreas obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045781,122669002,Specimen from urinary bladder obtained by anterior exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4045782,122672009,Specimen from kidney obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045784,122681003,Specimen from left kidney obtained by adrenal sparing radical nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045872,122685007,"Specimen from left kidney, superior pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4045873,122686008,Specimen from urinary bladder obtained by partial cystectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045875,122698003,Specimen from uterine cervix obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045876,122700007,Specimen from uterine cervix obtained by hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045877,122704003,Specimen from endometrium obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045878,122707005,Specimen from endometrium obtained by pelvic exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4045879,122708000,Specimen from ovary obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045880,122709008,Specimen from ovary obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045881,122710003,Specimen from ovary obtained by resection,Specimen,Specimen,SNOMED,Valid,Standard
+4045882,122716009,Specimen from left ovary obtained by oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045883,122722000,Specimen from right fallopian tube obtained by salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045884,122724004,Specimen from prostate obtained by enucleation,Specimen,Specimen,SNOMED,Valid,Standard
+4045885,122725003,Specimen from prostate obtained by radical prostatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045886,122734008,Specimen from left lobe of thyroid obtained by lobe resection,Specimen,Specimen,SNOMED,Valid,Standard
+4045887,122735009,Specimen from thyroid obtained by isthmectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4045888,122738006,Specimen obtained from breast by stereotactically guided core needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4045889,122739003,Specimen from breast obtained by incisional biopsy of breast mass,Specimen,Specimen,SNOMED,Valid,Standard
+4046275,122550002,Specimen obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4046276,122559001,Blood specimen from control,Specimen,Specimen,SNOMED,Valid,Standard
+4046277,122561005,Blood specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4046278,122568004,Exudate specimen from wound,Specimen,Specimen,SNOMED,Valid,Standard
+4046279,122573005,Gastric contents specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046280,122575003,Urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046281,122577006,Cervical mucus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046282,122581006,Erythrocyte specimen from blood donor,Specimen,Specimen,SNOMED,Valid,Standard
+4046283,122588000,Platelet poor plasma specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4046367,122591000,Serum specimen from blood product,Specimen,Specimen,SNOMED,Valid,Standard
+4046368,122592007,Acellular blood (serum or plasma) specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046369,122594008,Tears specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046370,122596005,"Specimen from breast obtained by complete excision of lesion, less than total mastectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4046371,122599003,Specimen from breast obtained by radical mastectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046372,122602008,Tissue specimen from biopsy of upper aerodigestive tract,Specimen,Specimen,SNOMED,Valid,Standard
+4046373,122605005,Specimen from lung obtained by segmentectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046374,122614000,Specimen from lung obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4046375,122622007,Specimen from pleura obtained by lymph node biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046376,122625009,Specimen from heart obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046377,122634004,Specimen from stomach obtained by total gastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046378,122640006,Specimen from jejunum obtained by segmental resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046379,122641005,Specimen from ileum obtained by segmental resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046380,122643008,Tissue specimen from large intestine,Specimen,Specimen,SNOMED,Valid,Standard
+4046382,122651006,Specimen from colon obtained by sigmoidectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046383,122653009,Specimen from rectum obtained by transanal disk excision,Specimen,Specimen,SNOMED,Valid,Standard
+4046384,122655002,"Specimen from rectum obtained by transanal disk excision, fragmented",Specimen,Specimen,SNOMED,Valid,Standard
+4046385,122660003,Specimen from ampulla of Vater obtained by pylorus-sparing pancreaticoduodenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046386,122663001,Specimen from pancreatic tail obtained by partial resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046387,122678008,"Specimen from right kidney, middle pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4046388,122680002,Specimen from left kidney obtained by radical nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046389,122682005,Specimen from left kidney obtained by partial nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046390,122684006,"Specimen from left kidney, middle pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4046391,122688009,Specimen from urinary bladder obtained by radical cystoprostatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046482,122689001,Specimen from right kidney obtained by radical nephrectomy and adrenalectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046483,122693007,Specimen from vagina obtained by vaginectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046484,122694001,Specimen from vagina obtained by radical vaginectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046485,122697008,Specimen from uterus obtained by pelvic exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4046486,122699006,Specimen from lesion of uterine cervix obtained by cone biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046488,122701006,Specimen from uterine cervix obtained by radical hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046489,122703009,Specimen from endometrium obtained by curettage,Specimen,Specimen,SNOMED,Valid,Standard
+4046490,122705002,Specimen from endometrium obtained by hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046491,122718005,Specimen from left ovary obtained by salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046492,122721007,Specimen from fallopian tube obtained by pelvic exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4046493,122726002,Specimen from prostate obtained by retropubic resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046494,122729009,Specimen from testis obtained by transscrotal needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046495,122730004,Specimen from testis obtained by transcrotal open biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046496,122732007,Specimen from thyroid obtained by lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046497,122733002,Specimen from right lobe of thyroid obtained by lobe resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046498,122736005,Tissue specimen from placenta,Specimen,Specimen,SNOMED,Valid,Standard
+4046499,122737001,Specimen from breast obtained by core needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046507,122880004,Urine specimen obtained by clean catch procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4046833,122553000,Blood specimen obtained from umbilicus,Specimen,Specimen,SNOMED,Valid,Standard
+4046834,122554006,Capillary blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046835,122556008,Cord blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046836,122557004,Cord blood specimen from fetus,Specimen,Specimen,SNOMED,Valid,Standard
+4046837,122566000,Fluid specimen from wound,Specimen,Specimen,SNOMED,Valid,Standard
+4046838,122569007,Sweat specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046839,122574004,Duodenal fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046840,122576002,Genital mucus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4046841,122585002,Leukocyte specimen from control,Specimen,Specimen,SNOMED,Valid,Standard
+4046842,122587005,Platelet poor plasma specimen from control,Specimen,Specimen,SNOMED,Valid,Standard
+4046843,122600000,Specimen from breast obtained by modified radical mastectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046844,122601001,Specimen from breast obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046845,122604009,Specimen from lung obtained by wedge resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046846,122611008,Specimen from lung obtained by fiberoptic bronchoscopic biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046847,122616003,Specimen from pleura obtained by open thoracotomy and biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046848,122617007,Specimen from pleura obtained by percutaneous needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046849,122618002,Specimen from pleura obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4046850,122628006,Specimen from esophagus obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046851,122631007,Specimen from esophagus obtained by esophagogastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046852,122632000,Specimen from stomach obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4046853,122635003,Specimen from stomach obtained by partial gastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046854,122636002,Specimen from proximal stomach obtained by partial gastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046855,122637006,Specimen from distal stomach obtained by partial gastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046856,122638001,Tissue specimen from small intestine,Specimen,Specimen,SNOMED,Valid,Standard
+4046857,122645001,Polyp from large intestine obtained by polypectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046858,122647009,Specimen from large intestine obtained by total abdominal colectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046859,122648004,Specimen from colon obtained by right hemicolectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046860,122652004,Specimen from colon obtained by rectal/rectosigmoid (low anterior) resection,Specimen,Specimen,SNOMED,Valid,Standard
+4046861,122654003,"Specimen from rectum obtained by transanal disk excision, intact",Specimen,Specimen,SNOMED,Valid,Standard
+4046934,122656001,Tissue specimen from gallbladder,Specimen,Specimen,SNOMED,Valid,Standard
+4046936,122666009,Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046937,122668005,Specimen from urinary tract obtained by transurethral excision,Specimen,Specimen,SNOMED,Valid,Standard
+4046938,122674005,Specimen from right kidney obtained by radical nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046939,122675006,Specimen from right kidney obtained by adrenal sparing radical nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046940,122677003,"Specimen from right kidney, inferior pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4046941,122683000,"Specimen from left kidney, inferior pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4046942,122690005,Specimen from left kidney obtained by radical nephrectomy and adrenalectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046943,122692002,Specimen from vagina obtained by excisional biopsy of lesion,Specimen,Specimen,SNOMED,Valid,Standard
+4046945,122696004,Specimen from uterus obtained by radical hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046946,122702004,Specimen from uterine cervix obtained by pelvic exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4046947,122706001,Specimen from endometrium obtained by radical hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046949,122712006,Specimen from ovary obtained by hysterectomy with salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046950,122715008,Specimen from right ovary obtained by salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046951,122723005,Specimen from left fallopian tube obtained by salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4046952,122728001,Specimen from testis obtained by inguinal exposure with testicular isolation and biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4047495,122551003,Peripheral blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4047496,122552005,Arterial blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4047497,122560006,Blood specimen from blood donor,Specimen,Specimen,SNOMED,Valid,Standard
+4048506,123038009,Specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4048847,122562003,Blood specimen from newborn,Specimen,Specimen,SNOMED,Valid,Standard
+4048848,122571007,Pericardial fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4048849,122578001,Female genital fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4048850,122579009,Genital lochia specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4048851,122582004,Erythrocyte specimen from blood product,Specimen,Specimen,SNOMED,Valid,Standard
+4048852,122583009,Erythrocyte specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4048853,122589008,Serum specimen from blood donor,Specimen,Specimen,SNOMED,Valid,Standard
+4048854,122590004,Serum specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4048855,122595009,Specimen from breast obtained by total mastectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048960,122608007,Specimen from lung obtained by major airway resection,Specimen,Specimen,SNOMED,Valid,Standard
+4048961,122609004,Specimen from lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4048962,122610009,Specimen from lung obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048964,122619005,Specimen from pleura obtained by thoracentesis,Specimen,Specimen,SNOMED,Valid,Standard
+4048965,122621000,Specimen from pleura obtained by thoracoscopic biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048966,122623002,Specimen from heart obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048967,122626005,Specimen from heart obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4048968,122627001,Specimen from gastrointestinal tract obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048969,122629003,Specimen from esophagus obtained by excisional biopsy of lesion,Specimen,Specimen,SNOMED,Valid,Standard
+4048970,122630008,Specimen from esophagus obtained by esophageal resection,Specimen,Specimen,SNOMED,Valid,Standard
+4048972,122633005,Polyp from stomach obtained by polypectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048973,122644002,Specimen from large intestine obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048974,122649007,Specimen from colon obtained by transverse colectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048975,122650007,Specimen from colon obtained by left hemicolectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048976,122657005,Specimen from ampulla of Vater obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048977,122658000,Specimen from ampulla of Vater obtained by ampullectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048978,122661004,Specimen from pancreas obtained by partial pancreatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048979,122665008,Specimen from pancreas obtained by pancreaticoduodenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048980,122670001,Specimen from kidney obtained by (core) needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048981,122671002,Specimen from kidney obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+4048982,122673004,Specimen from kidney obtained by wedge biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4048983,122676007,Specimen from right kidney obtained by partial nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4048984,122679000,"Specimen from right kidney, superior pole obtained by partial nephrectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4048985,122687004,Specimen from urinary bladder obtained by total cystectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4049104,122691009,Specimen from vagina obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4049106,122711004,Specimen from ovary obtained by removal of tumor in fragments,Specimen,Specimen,SNOMED,Valid,Standard
+4049107,122713001,Specimen from ovary obtained by subtotal right oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4049108,122714007,Specimen from right ovary obtained by oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4049109,122717000,Specimen from ovary obtained by subtotal left oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4049110,122719002,Specimen from fallopian tube obtained by hysterectomy with salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4049111,122720008,Specimen from fallopian tube obtained by excision of tubal fragments,Specimen,Specimen,SNOMED,Valid,Standard
+4049112,122727006,Specimen from prostate obtained by suprapubic resection,Specimen,Specimen,SNOMED,Valid,Standard
+4049122,122877000,Upper respiratory fluid specimen obtained by tracheal aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+4049123,122879002,Upper gastrointestinal contents specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4056121,168140004,Peritoneal dialysate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4056979,167869007,Elbow joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4056980,167871007,Hand joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4056981,167872000,Finger joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4057279,168137004,Gastric aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4057280,168138009,Gastric lavage aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4057281,168145009,Lymph sample,Specimen,Specimen,SNOMED,Valid,Standard
+4057467,167868004,Shoulder joint synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4057744,168141000,Nasal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4080731,278020009,Spot urine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4105822,256889002,Breast cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4105828,256912003,Red blood cell fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4116189,302794003,Nasogastric aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+4117419,303248007,Blood film sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119324,303247002,Adrenal tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119376,258423001,Hair bulb sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119377,258431006,Scrapings,Specimen,Specimen,SNOMED,Valid,Standard
+4119378,258432004,Sebum sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119379,258452003,Chylous fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119380,258454002,Dialysate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119381,258456000,Empyema fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119382,258465007,Lacrimal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119383,258466008,Middle ear fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119384,258470000,Prostatic fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119385,258475005,Sinus washings,Specimen,Specimen,SNOMED,Valid,Standard
+4119386,258479004,Interstitial fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4119387,258480001,Transtracheal aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119388,258485006,Corneal scraping sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119503,258489000,Slit skin smear,Specimen,Specimen,SNOMED,Valid,Standard
+4119504,258490009,Biliary stone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119505,258493006,Bladder stone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119506,258496003,Ureteric stone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119507,258498002,Conjunctival swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119508,258501002,Pernasal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119509,258504005,BCG site swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119510,258505006,Skin ulcer swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119511,258507003,Swab of line insertion site,Specimen,Specimen,SNOMED,Valid,Standard
+4119512,258508008,Genital swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119513,258511009,Penile urethral swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119514,258513007,Prepuce swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119515,258514001,Subpreputial swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119516,258524009,Cervical swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119517,258525005,Perineal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119518,258526006,Perianal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119519,258529004,Throat swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119520,258537007,Surface swab,Specimen,Specimen,SNOMED,Valid,Standard
+4119521,258540007,Prosthetic joint sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119522,258543009,Prosthetic heart valve sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119523,258548000,Dermatological sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119525,258556002,Rectal scrapes,Specimen,Specimen,SNOMED,Valid,Standard
+4119526,258557006,Rectal snips,Specimen,Specimen,SNOMED,Valid,Standard
+4119527,258558001,Oral secretion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119528,258567001,Gonad sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119529,258569003,Skin fibroblast sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119530,258572005,Ultrafiltrate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119531,258575007,Early morning urine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119533,258588005,Hematoma sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119534,258590006,Acidified serum sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119536,258603007,Respiratory sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119537,258604001,Upper respiratory sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119538,258606004,Lower respiratory sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119539,258608003,Sputum specimen obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+4119540,258610001,Sputum specimen obtained by sputum induction,Specimen,Specimen,SNOMED,Valid,Standard
+4119541,258616007,Maggot sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119542,258618008,Helminth sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119544,258630002,Venous cannula tip,Specimen,Specimen,SNOMED,Valid,Standard
+4119545,258631003,Arteriovenous shunt tip,Specimen,Specimen,SNOMED,Valid,Standard
+4119548,258650003,Intravenous lipid infusion fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119549,258651004,Cream sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119550,258653001,Formula milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119665,258656009,Whole milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4119666,258661006,Slide,Specimen,Specimen,SNOMED,Valid,Standard
+4119667,258662004,Adhesive slide,Specimen,Specimen,SNOMED,Valid,Standard
+4120211,258412000,Oropharyngeal aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+4120212,258414004,Adipose tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120213,258422006,Gonad tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4120214,258426009,Placental membrane tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120215,258433009,Smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120216,258434003,Spun urinary sediment,Specimen,Specimen,SNOMED,Valid,Standard
+4120333,258438000,Vitreous humor sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120334,258446004,Bronchial fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120335,258455001,Drainage fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120336,258459007,Gastric fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120337,258461003,Hydrocele fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120338,258467004,Nasopharyngeal washings,Specimen,Specimen,SNOMED,Valid,Standard
+4120339,258468009,Edema fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120340,258471001,Prostatic massage fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120341,258472008,Renal pelvis fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120342,258488008,Lymph node smear,Specimen,Specimen,SNOMED,Valid,Standard
+4120344,258510005,Penis swab,Specimen,Specimen,SNOMED,Valid,Standard
+4120345,258522008,Low vaginal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4120346,258530009,Urethral swab,Specimen,Specimen,SNOMED,Valid,Standard
+4120347,258531008,Wound swab,Specimen,Specimen,SNOMED,Valid,Standard
+4120348,258535004,Floor swab,Specimen,Specimen,SNOMED,Valid,Standard
+4120349,258544003,Native heart valve sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120351,258560004,Oral saliva sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120352,258562007,Genetic sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120353,258564008,Buccal smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120354,258565009,Chorionic villi sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120355,258566005,Deoxyribonucleic acid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120357,258599007,Contact lens solution sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120358,258601009,Lens sample,Specimen,Specimen,SNOMED,Valid,Standard
+4120698,257261003,Swab,Specimen,Specimen,SNOMED,Valid,Standard
+4121219,258411007,Nasopharyngeal aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+4121220,258415003,Biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121221,258419009,Curettings,Specimen,Specimen,SNOMED,Valid,Standard
+4121222,258425008,Natural lens tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4121223,258428005,Products of conception tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121224,258602002,Intraocular lens sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121320,302795002,Lymph node aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+4121345,258607008,Bronchoalveolar lavage fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121346,258611002,Sputum specimen obtained from sputum suction trap,Specimen,Specimen,SNOMED,Valid,Standard
+4121347,258614005,Insect sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121348,258617003,Parasite sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121350,258627009,Cannula tip,Specimen,Specimen,SNOMED,Valid,Standard
+4121353,258652006,Ice-cream sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121354,258658005,Skimmed milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121355,258660007,Goat's milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4121356,258663009,Sellotape slide,Specimen,Specimen,SNOMED,Valid,Standard
+4121357,258664003,Scotch tape slide,Specimen,Specimen,SNOMED,Valid,Standard
+4122247,258430007,Rectal snip sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122248,258435002,Tumor tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122249,258436001,Umbilical cord tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122250,258441009,Exudate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122251,258442002,Fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122252,258444001,Aqueous humor sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122253,258451005,Cervical secretion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122254,258457009,Fecal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122255,258458004,Fistula fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122256,258482009,Vesicle fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122257,258483004,Mucus sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122258,258492001,Gallstone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122259,258500001,Nasopharyngeal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122260,258502009,Pus swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122261,258503004,Skin swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122262,258509000,Male genital swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122263,258516004,Frenulum of penis swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122264,258517008,Shaft of penis swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122265,258519006,Female genital swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122266,258523003,Vulval swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122268,258536003,Incubator swab,Specimen,Specimen,SNOMED,Valid,Standard
+4122269,258538002,Transudate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122270,258539005,Bone and joint sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122271,258542004,Heart valve sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122272,258546001,Vegetation from native heart valve,Specimen,Specimen,SNOMED,Valid,Standard
+4122273,258547005,Cardiac bypass pump fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122274,258549008,Skin scale sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122275,258555003,Hot stool sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122276,258559009,Gingivocrevicular fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122277,258561000,Parotid gland saliva sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122278,258563002,Amniotic cell sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122279,258568006,Polar body sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122280,258574006,Mid-stream urine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122281,258576008,Suprapubic aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122282,258577004,Vaginal secretion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122283,258580003,Whole blood sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122284,258583001,Bone marrow clot sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122285,258584007,Bone marrow fragment sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122286,258587000,Buffy coat,Specimen,Specimen,SNOMED,Valid,Standard
+4122287,258591005,White blood cell sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122289,258609006,Sputum specimen obtained by aspiration from trachea,Specimen,Specimen,SNOMED,Valid,Standard
+4122361,258613004,Living sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122362,258615006,Larva sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122366,258628004,Vascular cannula tip,Specimen,Specimen,SNOMED,Valid,Standard
+4122372,258649003,Intravenous infusion fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122373,258654007,Soy milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122374,258655008,Cow's milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4122375,258657000,Semi-skimmed milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4123175,258407001,Abscess tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4123176,258417006,Bone tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4123177,258418001,Burn tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4123178,258420003,Cyst tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4124252,258421004,Embryo biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124253,258424007,Heart valve tissue,Specimen,Specimen,SNOMED,Valid,Standard
+4124254,258429002,Rectal scrape sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124255,258437005,Vegetation from heart valve,Specimen,Specimen,SNOMED,Valid,Standard
+4124256,258439008,Discharge specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4124257,258440005,Effusion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124258,258448003,Bursa fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124259,258450006,Cerebrospinal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124260,258453008,Cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124261,258462005,Ileostomy fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124262,258463000,Jejunal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124263,258469001,Pharyngeal washings,Specimen,Specimen,SNOMED,Valid,Standard
+4124264,258474009,Sinus fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124265,258476006,Subretinal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124266,258481002,Vaginal washout fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124267,258484005,Postmortem tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124268,258487003,Fecal smear,Specimen,Specimen,SNOMED,Valid,Standard
+4124269,258494000,Pancreatic stone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124270,258495004,Renal stone sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124271,258497007,Abscess swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124272,258499005,Cough swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124273,258506007,Swab of drain insertion site,Specimen,Specimen,SNOMED,Valid,Standard
+4124274,258512002,Glans penis swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124275,258515000,Coronal sulcus of penis swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124276,258518003,Scrotal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124277,258520000,Vaginal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124278,258521001,High vaginal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124279,258527002,Anal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124280,258528007,Rectal swab,Specimen,Specimen,SNOMED,Valid,Standard
+4124281,258532001,Swab of inanimate object,Specimen,Specimen,SNOMED,Valid,Standard
+4124282,258541006,Cardiovascular sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124283,258545002,Vegetation from prosthetic heart valve,Specimen,Specimen,SNOMED,Valid,Standard
+4124284,258553005,Duodenal string,Specimen,Specimen,SNOMED,Valid,Standard
+4124285,258554004,Fecal concretion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124286,258570002,Genitourinary sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124287,258571003,Machine hemodialysate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124288,258581004,Clotted blood sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124289,258582006,Blood clot sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124290,258585008,Bone marrow trephine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124291,258589002,Lymph node sample,Specimen,Specimen,SNOMED,Valid,Standard
+4124409,258629007,Arterial cannula tip,Specimen,Specimen,SNOMED,Valid,Standard
+4124417,258647001,Drain tip,Specimen,Specimen,SNOMED,Valid,Standard
+4124418,258659002,Sheep's milk sample,Specimen,Specimen,SNOMED,Valid,Standard
+4130883,264380007,Synovial fluid cells,Specimen,Specimen,SNOMED,Valid,Standard
+4132242,127456000,Specimen from breast,Specimen,Specimen,SNOMED,Valid,Standard
+4132243,127463000,Specimen from esophagus,Specimen,Specimen,SNOMED,Valid,Standard
+4132244,127464006,Tissue specimen from esophagus,Specimen,Specimen,SNOMED,Valid,Standard
+4132245,127466008,Tissue specimen from gastrointestinal tract,Specimen,Specimen,SNOMED,Valid,Standard
+4132246,127470000,Tissue specimen from pancreas,Specimen,Specimen,SNOMED,Valid,Standard
+4132247,127471001,Specimen from urinary tract,Specimen,Specimen,SNOMED,Valid,Standard
+4132248,127475005,Tissue specimen from testis,Specimen,Specimen,SNOMED,Valid,Standard
+4132249,127483004,Tissue specimen from fallopian tube,Specimen,Specimen,SNOMED,Valid,Standard
+4132583,127461003,Specimen from pleura obtained by pleurectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4132706,127465007,Specimen from gastrointestinal tract,Specimen,Specimen,SNOMED,Valid,Standard
+4132708,127478007,Tissue specimen from thyroid gland,Specimen,Specimen,SNOMED,Valid,Standard
+4132796,410729004,Amniocentesis fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4133170,127454002,Device specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4133171,127457009,Tissue specimen from breast,Specimen,Specimen,SNOMED,Valid,Standard
+4133172,127458004,Specimen from lung,Specimen,Specimen,SNOMED,Valid,Standard
+4133173,127460002,Tissue specimen from pleura,Specimen,Specimen,SNOMED,Valid,Standard
+4133174,127468009,Tissue specimen from ampulla of Vater,Specimen,Specimen,SNOMED,Valid,Standard
+4133175,127469001,Specimen from pancreas,Specimen,Specimen,SNOMED,Valid,Standard
+4133176,127472008,Tissue specimen from urinary tract,Specimen,Specimen,SNOMED,Valid,Standard
+4133739,127459007,Specimen from pleura,Specimen,Specimen,SNOMED,Valid,Standard
+4133740,127462005,Specimen from heart,Specimen,Specimen,SNOMED,Valid,Standard
+4133741,127467004,Specimen from ampulla of Vater,Specimen,Specimen,SNOMED,Valid,Standard
+4133742,127473003,Specimen from kidney,Specimen,Specimen,SNOMED,Valid,Standard
+4133743,127474009,Tissue specimen from kidney,Specimen,Specimen,SNOMED,Valid,Standard
+4133744,127476006,Specimen from fallopian tube,Specimen,Specimen,SNOMED,Valid,Standard
+4133745,127479004,Specimen from uterus,Specimen,Specimen,SNOMED,Valid,Standard
+4133746,127480001,Tissue specimen from uterus,Specimen,Specimen,SNOMED,Valid,Standard
+4133747,127481002,Tissue specimen from uterine cervix,Specimen,Specimen,SNOMED,Valid,Standard
+4133748,127482009,Tissue specimen from ovary,Specimen,Specimen,SNOMED,Valid,Standard
+4133993,128158009,Tissue specimen from bronchus,Specimen,Specimen,SNOMED,Valid,Standard
+4133994,128161005,Tissue specimen from cornea,Specimen,Specimen,SNOMED,Valid,Standard
+4134113,128162003,Tissue specimen from ear,Specimen,Specimen,SNOMED,Valid,Standard
+4134114,128166000,Tissue specimen from heart,Specimen,Specimen,SNOMED,Valid,Standard
+4134115,128173005,Tissue specimen from trachea,Specimen,Specimen,SNOMED,Valid,Standard
+4134116,128174004,Tissue specimen from urethra,Specimen,Specimen,SNOMED,Valid,Standard
+4134447,128154006,Specimen from testis,Specimen,Specimen,SNOMED,Valid,Standard
+4134448,128157004,Tissue specimen from brain,Specimen,Specimen,SNOMED,Valid,Standard
+4134449,128159001,Tissue specimen from colon,Specimen,Specimen,SNOMED,Valid,Standard
+4134451,128165001,Tissue specimen from genital system,Specimen,Specimen,SNOMED,Valid,Standard
+4134452,128169007,Tissue specimen from penis,Specimen,Specimen,SNOMED,Valid,Standard
+4143396,425804000,Specimen obtained by wide resection,Specimen,Specimen,SNOMED,Valid,Standard
+4143693,426924005,Specimen obtained by intralesional resection,Specimen,Specimen,SNOMED,Valid,Standard
+4144910,427558003,Specimen obtained by core needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4145680,426815000,Specimen obtained by marginal resection,Specimen,Specimen,SNOMED,Valid,Standard
+4153426,271514008,Sternal bone marrow sample,Specimen,Specimen,SNOMED,Valid,Standard
+4153427,271518006,Rib bone marrow sample,Specimen,Specimen,SNOMED,Valid,Standard
+4155002,371783005,Human tissue for identification,Specimen,Specimen,SNOMED,Valid,Standard
+4155958,371784004,Body parts for identification,Specimen,Specimen,SNOMED,Valid,Standard
+4157077,271515009,Iliac crest bone marrow sample,Specimen,Specimen,SNOMED,Valid,Standard
+4157078,271516005,Vertebral spinous process bone marrow sample,Specimen,Specimen,SNOMED,Valid,Standard
+4158565,373101006,Breast cytologic material obtained by percutaneous core biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4160153,430132004,Specimen from sympathetic nerve ganglion,Specimen,Specimen,SNOMED,Valid,Standard
+4160267,430220009,Specimen from head and neck structure,Specimen,Specimen,SNOMED,Valid,Standard
+4160272,430379005,Cytologic material obtained from pericardial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4160433,430157009,Specimen from meninges,Specimen,Specimen,SNOMED,Valid,Standard
+4160551,430232008,Specimen from trunk,Specimen,Specimen,SNOMED,Valid,Standard
+4160624,371780008,Specimen for identification,Specimen,Specimen,SNOMED,Valid,Standard
+4160625,371782000,Human bone for identification,Specimen,Specimen,SNOMED,Valid,Standard
+4161027,399486006,Tissue specimen from vulva,Specimen,Specimen,SNOMED,Valid,Standard
+4161038,399559008,Specimen from uvea obtained by enucleation of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4161146,399624001,Tissue specimen from ureter,Specimen,Specimen,SNOMED,Valid,Standard
+4161156,399657004,Tissue specimen from trophoblast,Specimen,Specimen,SNOMED,Valid,Standard
+4161160,399672000,Tissue specimen from thoracic mesothelium,Specimen,Specimen,SNOMED,Valid,Standard
+4161165,399689008,Specimen from thyroid obtained by thyroidectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4161244,432982004,Specimen from peritoneum obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4161253,432061007,Specimen from vein obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4161400,433323009,Specimen from retroperitoneum,Specimen,Specimen,SNOMED,Valid,Standard
+4161435,399411006,Specimen from trophoblast,Specimen,Specimen,SNOMED,Valid,Standard
+4161559,399541005,Tissue specimen from extrahepatic bile duct,Specimen,Specimen,SNOMED,Valid,Standard
+4161561,399551006,Specimen from central nervous system obtained by open biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4161668,399614009,Specimen from central nervous system obtained by total resection of tumor,Specimen,Specimen,SNOMED,Valid,Standard
+4161775,431696005,Specimen from spermatic cord obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4161915,433115004,Specimen from lip obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4161922,433324003,Specimen from eye region,Specimen,Specimen,SNOMED,Valid,Standard
+4161970,399649002,Specimen from regional lymph node obtained by lymphadenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4162055,432134009,Specimen from skin obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4162081,399661005,Specimen from pelvic lymphadenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4162500,433119005,Specimen from salivary gland obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4163441,399388008,Specimen from left fallopian tube obtained by hysterectomy with salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4163445,399402006,Specimen from ureter,Specimen,Specimen,SNOMED,Valid,Standard
+4163555,399443006,Specimen from eye obtained by complete exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4163997,399499009,Specimen from uvea obtained by complete exenteration of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4164005,399532000,Tissue specimen from renal pelvis,Specimen,Specimen,SNOMED,Valid,Standard
+4164007,399542003,Tissue specimen from central nervous system,Specimen,Specimen,SNOMED,Valid,Standard
+4164013,399572009,Tissue specimen from thymus gland,Specimen,Specimen,SNOMED,Valid,Standard
+4164020,399603006,Specimen from retina obtained by complete exenteration of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4164022,399622002,Specimen from thyroid obtained by total thyroidectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4164161,399693002,Total parotidectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4164319,399436000,Specimen from central nervous system,Specimen,Specimen,SNOMED,Valid,Standard
+4164324,399451009,Tissue specimen from retina,Specimen,Specimen,SNOMED,Valid,Standard
+4164325,399460001,Specimen from extrahepatic bile duct,Specimen,Specimen,SNOMED,Valid,Standard
+4164330,399484009,Superficial parotidectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4164332,399492000,Tissue specimen from lung,Specimen,Specimen,SNOMED,Valid,Standard
+4164340,399512001,Specimen from retina obtained by enucleation of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4164490,399619004,Tissue specimen from uvea,Specimen,Specimen,SNOMED,Valid,Standard
+4164607,399629006,Specimen from stomach obtained by gastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4164608,399633004,Specimen from thymus gland obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4164611,399640003,Specimen from retina obtained by limited exenteration of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4164613,399658009,Trophoblastic tissue obtained by hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4164619,399680007,Specimen from thyroid,Specimen,Specimen,SNOMED,Valid,Standard
+4167682,48469005,Cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4168673,418932006,Oral swab,Specimen,Specimen,SNOMED,Valid,Standard
+4170963,276446009,Cervical smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4174445,276833005,24 hour urine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4178954,363329003,Tissue specimen from respiratory system,Specimen,Specimen,SNOMED,Valid,Standard
+4180775,363328006,Tissue specimen from digestive system,Specimen,Specimen,SNOMED,Valid,Standard
+4181218,363311008,Specimen from digestive system,Specimen,Specimen,SNOMED,Valid,Standard
+4182922,369611008,Tissue specimen obtained from small intestine by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4182923,369614000,Tissue specimen obtained from extrahepatic bile ducts by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4183340,369617007,Tissue specimen obtained from gallbladder by cholecystectomy with partial hepatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4183341,369618002,Tissue specimen obtained from vulva by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4183746,369616003,Tissue specimen obtained from gallbladder by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4183915,369613006,Tissue specimen obtained for Hodgkin's disease by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4183916,369615004,Tissue specimen obtained from extrahepatic bile ducts by choledochal cyst resection,Specimen,Specimen,SNOMED,Valid,Standard
+4184231,370108001,Extrahepatic bile duct cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4187359,415293009,Respiratory secretion,Specimen,Specimen,SNOMED,Valid,Standard
+4187964,373192005,Lymph node from axillary dissection,Specimen,Specimen,SNOMED,Valid,Standard
+4188548,373102004,Specimen from breast obtained by image guided core biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4188549,373103009,Breast cytologic material obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4188644,373193000,Lymph node from sentinel lymph node dissection,Specimen,Specimen,SNOMED,Valid,Standard
+4190936,373826004,Surgical excision sample,Specimen,Specimen,SNOMED,Valid,Standard
+4196017,431233006,Specimen from fallopian tube obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4196166,431406009,Specimen from pancreas obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4196751,433854001,Specimen from seminal vesicle obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4196757,433873002,Specimen from spermatic cord obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4197196,432825001,Body secretion specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4197202,432864003,Specimen from large intestine obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4197998,431771004,Ascitic fluid cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4198146,431884001,Specimen from gallbladder obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4198147,431885000,Specimen from head and neck structure obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4198148,431888003,Specimen from unspecified body site obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+4198153,431905001,Swab of building drain,Specimen,Specimen,SNOMED,Valid,Standard
+4198608,432897002,Cytologic material obtained from joint fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4198766,433120004,Specimen from urethra obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4198922,433309007,Specimen from omentum,Specimen,Specimen,SNOMED,Valid,Standard
+4199053,433861002,Specimen from nasal sinus obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199231,434140003,Specimen from mesentery obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199530,432135005,Specimen from small intestine obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199532,432140002,Specimen from bronchus obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199533,432143000,Specimen from penis obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199534,432145007,Specimen from meninges obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4199836,434406008,Specimen from salivary gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4200609,433760005,Specimen from spleen obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4200623,434244002,Specimen from retroperitoneum obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4200625,434249007,Specimen from ear obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4201075,432420000,Specimen from ureter obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4201219,432608000,Specimen from nasal fossae obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4201652,433859006,Specimen from nasal fossae obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4201958,434250007,Specimen from pericardium obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4202430,432983009,Specimen from pituitary gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4202431,432984003,Specimen from thyroid obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4202452,433117007,Specimen from lower limb obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4202607,309055005,Breast fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202609,309061008,Breast fine needle aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202611,309067007,Specimen from skin obtained by curettage,Specimen,Specimen,SNOMED,Valid,Standard
+4202612,309068002,Skin lesion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202614,309075001,Skin cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202616,309078004,Lymph node tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202618,309108002,Excised tendon sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202619,309115005,Ligament biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202620,309116006,Excised ligament sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202621,309118007,Fascia biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202622,309119004,Excised fascia sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202623,309125000,Joint sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202624,309128003,Eye fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202625,309133004,Resected prostate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202626,309139000,Vas deferens sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202627,309150002,Parathyroid tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202632,309168004,Upper respiratory tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202633,309169007,Tracheal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202634,309173005,Transbronchial lung biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202635,309178001,Nasal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202636,309182004,Larynx biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202637,309185002,Oral cavity sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202638,309189008,Tongue biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202639,309190004,Excised salivary gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202775,309192007,Tonsillectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202777,309199003,Gastrointestinal fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202778,309203003,Liver biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202779,309204009,Liver direct smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202780,309205005,Cholecystectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202781,309214000,Gastric fundus biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202782,309225009,Colonic biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202783,309227001,Sigmoid colonic polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202792,309263001,Rectal polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202793,309277003,Urethra biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202794,309289001,Endometrial resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202795,309291009,Ovarian cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202969,309476009,Neck block dissection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202970,309480004,Vein sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202971,309483002,Lip biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202972,309485009,Excised sublingual gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202973,309487001,Total colectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202974,309491006,Biliary tract tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202975,309493009,Bile duct biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202976,309501000,Hysterectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202977,309502007,Fetus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4202978,309503002,Breast nipple discharge sample,Specimen,Specimen,SNOMED,Valid,Standard
+4202979,309504008,Skin punch biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4203090,309506005,Skin excision biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4203102,309548003,Breast duct sample,Specimen,Specimen,SNOMED,Valid,Standard
+4203700,438454007,Specimen from transplanted lung obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4203826,438545007,Fluid specimen from spermatocele,Specimen,Specimen,SNOMED,Valid,Standard
+4204130,438659007,Specimen from liver obtained by wedge biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4204155,433799002,Nerve ganglion specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4204179,309048008,Endocrine sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204180,309049000,Lesion sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204181,309051001,Body fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204182,309052008,Male genital sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204184,309066003,Skin biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204185,309070006,Vulval skin biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204186,309071005,Penis skin biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204189,309102001,Cartilage biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204190,309103006,Excised cartilage sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204191,309104000,Musculoskeletal sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204192,309107007,Tendon sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204193,309109005,Bursa sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204194,309114009,Ligament sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204195,309123007,Synovial sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204196,309124001,Joint biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204197,309126004,Articular tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204198,309130001,Nerve biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204285,433860001,Specimen from nasal sinus obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4204313,309131002,Neuroma sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204314,309134005,Prostate tru-cut biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204315,309140003,Epididymis sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204316,309142006,Adrenal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204317,309144007,Thyroid lobe sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204318,309146009,Thyroid fine needle aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204319,309151003,Parathyroid biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204320,309153000,Excised parathyroid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204321,309154006,Pituitary sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204324,309166000,Ear swab sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204325,309167009,Middle ear biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204326,309177006,Lung direct smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204327,309179009,Nasal polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204328,309180007,Nasopharyngeal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204329,309183009,Laryngectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204330,309187005,Dental tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204331,309191000,Tonsil biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204332,309207002,Peritoneal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204333,309208007,Omentum biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204334,309209004,Esophageal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204335,309210009,Esophageal brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204336,309217007,Ileal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204337,309221000,Terminal ileum resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204338,309222007,Appendix sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204339,309224008,Colon strip sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204340,309226005,Colonic polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204349,309265008,Anal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204350,309267000,Anal resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204351,309269002,Kidney biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204352,309271002,Ureter biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204353,309288009,Endometrial polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204354,309292002,Ovarian fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204355,309293007,Placenta biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204436,434014007,Specimen from mediastinum obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4204936,309053003,Female genital sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204937,309058007,Breast tru-cut biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204939,309074002,Soft tissue biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204942,309101008,Cartilage sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204943,309110000,Bursa tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204944,309111001,Bursa biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204945,309120005,Head of femur sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204946,309127008,Resected articular tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204947,309132009,Prostate biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204948,309141004,Adrenal gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204949,309147000,Thyroid cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204950,309164002,Upper respiratory swab sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204951,309165001,Ear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204952,309170008,Lower respiratory tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204953,309176002,Bronchial brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204954,309181006,Mastoid biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204955,309184003,Vocal cord biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204956,309188000,Mouth biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204958,309200000,Rectal tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204959,309212001,Gastric antral biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204960,309213006,Gastric brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204961,309218002,Ileal resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4204962,309223002,Colectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205085,309260003,Sigmoid colon biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205086,309261004,Sigmoid colon brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205087,309262006,Rectal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205088,309270001,Specimen from kidney obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4205089,309273004,Bladder biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205090,309278008,Female genital tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205091,309285007,Cervical loop excision sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205092,309286008,Cervical polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205093,309287004,Hysterectomy and bilateral salpingo-oophorectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205243,309479002,Artery sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205244,309482007,Frozen section lymph node sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205245,309489003,Anterior resection of rectum sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205246,309490007,Specimen from pancreas obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4205247,309494003,Ampulla of Vater biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205248,309496001,Omentectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205249,309497005,Total nephrectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205250,309505009,Skin incision biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205251,309507001,Muscle biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205259,309546004,Lumpectomy breast sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205260,309547008,Segmentectomy breast sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205695,309050000,Body substance sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205696,309057002,Breast direct smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205697,309059004,Frozen section breast sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205804,309060009,Mastectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205805,309072003,Soft tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205806,309073008,Lipoma biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205807,309077009,Spleen resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205808,309079007,Lymph node biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205816,309105004,Bone biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4205817,309112008,Excised bursa sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206129,309481000,Temporal artery sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206130,309484008,Parotidectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206131,309486005,Excised submandibular gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206132,309488006,Partial colectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206133,309498000,Partial nephrectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206134,309499008,Foreskin biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206136,309508006,Soft tissue lesion fine needle aspirate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206291,309113003,Tendon biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206292,309117002,Fascia sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206293,309121009,Synovial tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206294,309122002,Synovium biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206295,309129006,Nerve tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206296,309135006,Hydrocele sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206297,309137003,Testes biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206298,309138008,Orchidectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206299,309143001,Excised adrenal gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206300,309145008,Thyroid fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206301,309148005,Thyroid direct smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206302,309149002,Parathyroid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206304,309171007,Lower respiratory fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206305,309172000,Pleura biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206375,438660002,Specimen from prosthetic device,Specimen,Specimen,SNOMED,Valid,Standard
+4206376,438661003,Specimen from transplanted kidney obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4206409,309174004,Bronchial biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206410,309175003,Resected lung sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206411,309186001,Oral tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206412,309193002,Pharyngeal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206413,309201001,Ascitic fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206414,309202008,Gastrointestinal direct smear,Specimen,Specimen,SNOMED,Valid,Standard
+4206415,309206006,Pancreas biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206416,309211008,Gastric biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206417,309215004,Gastric ulcer sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206418,309216003,Duodenal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206419,309219005,Jejunal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206420,309220004,Small bowel resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206426,309264007,Excised rectum sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206427,309266009,Anal polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206428,309268005,Urological fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206429,309272009,Urinary bladder tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206430,309274005,Bladder curettings sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206431,309275006,Cystectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206432,309276007,Frozen section bladder sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206434,309280002,Vaginal biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206435,309281003,Vaginal vault biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206436,309283000,Cervical biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206437,309290005,Fallopian tube biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206538,440137008,Specimen obtained by peritoneal lavage,Specimen,Specimen,SNOMED,Valid,Standard
+4206584,309478005,Thrombus sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206586,309495002,Omentum tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206595,309549006,Minor salivary gland sample,Specimen,Specimen,SNOMED,Valid,Standard
+4206699,440229008,Specimen from environment,Specimen,Specimen,SNOMED,Valid,Standard
+4207128,440473005,Contact lens submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4207271,438352005,Specimen from trachea obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4207903,438803004,Tissue specimen from retroperitoneum,Specimen,Specimen,SNOMED,Valid,Standard
+4208611,440469007,Tissue specimen from ectopic pregnancy,Specimen,Specimen,SNOMED,Valid,Standard
+4208612,440493002,Graft specimen from patient,Specimen,Specimen,SNOMED,Valid,Standard
+4208910,439895009,Tissue specimen from nose obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4208942,312494007,Vaginal vault smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+4213277,396353007,Specimen from skin obtained by elliptical excision,Specimen,Specimen,SNOMED,Valid,Standard
+4213278,396354001,Specimen from skin obtained by wide excision,Specimen,Specimen,SNOMED,Valid,Standard
+4214074,415563002,Specimen from pancreas obtained by excisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4215282,396899000,Specimen from thymus gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4215283,396904001,Specimen from thymus gland obtained by limited thoracotomy,Specimen,Specimen,SNOMED,Valid,Standard
+4215398,397130007,Specimen from vulva obtained by local excision,Specimen,Specimen,SNOMED,Valid,Standard
+4215404,397235005,Specimen from renal pelvis obtained by complete nephroureterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4216004,396906004,Specimen from thymus gland obtained by video assisted thoracotomy,Specimen,Specimen,SNOMED,Valid,Standard
+4216016,397131006,Specimen from vulva obtained by wide excision,Specimen,Specimen,SNOMED,Valid,Standard
+4216017,397134003,Specimen from vulva obtained by radical vulvectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4216630,397456005,Specimen from thoracic mesothelium obtained by thoracoscopic biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4217275,397455009,Specimen from thoracic mesothelium obtained by percutaneous needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4217276,397458006,Specimen from thoracic mesothelium obtained by open thoracotomy,Specimen,Specimen,SNOMED,Valid,Standard
+4217277,397483006,Specimen from extrahepatic bile duct obtained by segmental resection of bile ducts,Specimen,Specimen,SNOMED,Valid,Standard
+4218678,396898008,Specimen from thymus gland obtained by thoracotomy,Specimen,Specimen,SNOMED,Valid,Standard
+4218858,396900005,Specimen from thymus gland obtained by needle biopsy using computed tomography guidance,Specimen,Specimen,SNOMED,Valid,Standard
+4218860,396902002,Specimen from thymus gland obtained by transthoracic needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4219033,397133009,Specimen from vulva obtained by total vulvectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4219035,397232008,Specimen from renal pelvis obtained by nephroureterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4219036,397234009,Specimen from renal pelvis obtained by partial nephroureterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4219317,397132004,Specimen from vulva obtained by partial vulvectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4219332,399467003,Specimen from uvea obtained by limited exenteration of eye,Specimen,Specimen,SNOMED,Valid,Standard
+4219606,399407000,Specimen from ureter obtained by ureterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4219717,399502008,Trophoblastic tissue obtained by pelvic exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4219725,397482001,Specimen from extrahepatic bile duct obtained by pancreaticoduodenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4220039,399645008,Tissue specimen from major salivary gland,Specimen,Specimen,SNOMED,Valid,Standard
+4220785,399447007,Trophoblastic tissue obtained by radical hysterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4221078,399526005,Specimen from major salivary gland,Specimen,Specimen,SNOMED,Valid,Standard
+4221357,420548004,Specimen from mass,Specimen,Specimen,SNOMED,Valid,Standard
+4221384,399396003,Trophoblastic tissue obtained from uterus by dilation and curettage,Specimen,Specimen,SNOMED,Valid,Standard
+4221388,399440009,Specimen from ureter obtained by nephroureterectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4222873,421615004,Specimen from appendix obtained by appendectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4225523,404643001,Sputum smear specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4229837,438543000,Specimen from transplanted liver obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4230139,438336007,Hemorrhoid tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4230142,438343001,Swab of pilonidal sinus,Specimen,Specimen,SNOMED,Valid,Standard
+4230285,438595008,Fluid specimen from sebaceous cyst,Specimen,Specimen,SNOMED,Valid,Standard
+4230572,439034006,Tissue specimen from liver obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4231191,438805006,Whole tooth specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4231652,439580004,Urine collection pad submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4232242,439479000,Tissue specimen obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4232562,439961009,Implant submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4233026,438960000,Specimen from intervertebral disc,Specimen,Specimen,SNOMED,Valid,Standard
+4233643,405902005,Specimen obtained by radical excision,Specimen,Specimen,SNOMED,Valid,Standard
+4234032,440468004,Tampon submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4234044,440515008,Specimen of targeted lesion obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4234527,40511003,Eluate,Specimen,Specimen,SNOMED,Valid,Standard
+4234779,440472000,Specimen from transplanted lung obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4234925,440674008,Specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+4235078,438351003,Tissue specimen obtained by esophagogastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4235351,438542005,Specimen from vagus nerve,Specimen,Specimen,SNOMED,Valid,Standard
+4235375,440675009,Specimen from upper urinary tract obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+4235559,406101006,Tissue specimen from axilla,Specimen,Specimen,SNOMED,Valid,Standard
+4236275,438804005,Tissue specimen from transplanted kidney,Specimen,Specimen,SNOMED,Valid,Standard
+4245001,396273004,Specimen from uterine cervix obtained by excision of cervix,Specimen,Specimen,SNOMED,Valid,Standard
+4245356,396477000,Specimen from liver obtained by extended right lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4245357,396479002,Specimen from liver obtained by left lateral segmentectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4245358,396483002,Specimen from skin obtained by shave excision,Specimen,Specimen,SNOMED,Valid,Standard
+4245368,396526009,Specimen from adrenal gland obtained by partial adrenalectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4245958,396481000,Specimen from explanted liver,Specimen,Specimen,SNOMED,Valid,Standard
+4246373,397056002,Specimen from small intestine obtained by Whipple resection,Specimen,Specimen,SNOMED,Valid,Standard
+4246378,397077004,Specimen obtained by incisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4246379,397078009,Specimen obtained by excisional biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4246390,397135002,Specimen from pelvic lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+4246700,397199005,Specimen from breast obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4246704,397221008,Specimen from renal pelvis obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4246708,397246008,Specimen from ovary obtained by hysterectomy with left salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4249844,409876003,Oral mucosal transudate sample,Specimen,Specimen,SNOMED,Valid,Standard
+4256485,410581002,Upper respiratory fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+4256779,408654003,Specimen obtained by amputation,Specimen,Specimen,SNOMED,Valid,Standard
+4257649,409821005,Timed urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4257903,440135000,Specimen from ureter obtained by brush biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4257904,440136004,Specimen from cranium,Specimen,Specimen,SNOMED,Valid,Standard
+4257905,440138003,Specimen containing crystals from synovial joint,Specimen,Specimen,SNOMED,Valid,Standard
+4259417,439628000,Urinary collection bag submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4259624,410580001,Respiratory fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4260367,440500007,Dried blood spot specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4260368,440502004,Soft tissue specimen obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4262614,396355000,Specimen from skin obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+4262615,396356004,Specimen from skin obtained by re-excision,Specimen,Specimen,SNOMED,Valid,Standard
+4262732,396359006,Lymph node from regional lymph node dissection,Specimen,Specimen,SNOMED,Valid,Standard
+4263147,396807009,"Specimen from pancreas obtained by pancreaticoduodenectomy, total pancreatectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4263284,396896007,Specimen from thymus gland,Specimen,Specimen,SNOMED,Valid,Standard
+4263285,396897003,Specimen from thymus gland obtained by transcervical thymectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4263384,396478005,Specimen from liver obtained by medial segmentectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4263385,396480004,Specimen from liver obtained by total left lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4263395,396525008,Specimen from adrenal gland obtained by needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4263396,396527000,Specimen from adrenal gland obtained by total adrenalectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4264108,396997002,Specimen from bone marrow obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+4264125,397053005,Specimen from small intestine obtained by polypectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4264271,397129002,Specimen from vulva,Specimen,Specimen,SNOMED,Valid,Standard
+4264445,397333000,Specimen from right fallopian tube obtained by salpingectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4264691,396998007,Specimen from bone marrow obtained by aspiration and biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4264692,396999004,Specimen from bone marrow obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4264706,397111007,Specimen from vagina obtained by partial vaginectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4264710,397136001,Specimen from inguinofemoral lymphadenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4264866,397233003,Specimen from renal pelvis,Specimen,Specimen,SNOMED,Valid,Standard
+4265161,399732002,Specimen from central nervous system obtained by partial excision of tumor,Specimen,Specimen,SNOMED,Valid,Standard
+4265163,399735000,Specimen from eye obtained by limited exenteration,Specimen,Specimen,SNOMED,Valid,Standard
+4265164,399747006,Specimen from salivary gland,Specimen,Specimen,SNOMED,Valid,Standard
+4265166,399752001,Specimen from anus obtained by abdominoperineal resection,Specimen,Specimen,SNOMED,Valid,Standard
+4265299,397462000,Specimen from pericardium obtained by pericardial resection,Specimen,Specimen,SNOMED,Valid,Standard
+4269747,399728008,Specimen from central nervous system obtained by stereotactically guided core needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4269749,399731009,Specimen from anus obtained by excision of anal polyp,Specimen,Specimen,SNOMED,Valid,Standard
+4269751,399741007,Specimen from kidney obtained by radical nephrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4270454,399713008,Specimen from uterine cervix obtained by cone biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4270466,399751008,Specimen from uterus obtained by dilation and curettage,Specimen,Specimen,SNOMED,Valid,Standard
+4286881,397326000,Specimen from right fallopian tube obtained by hysterectomy with salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4286885,396685001,Specimen from urinary bladder obtained by radical cystectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4287032,396804002,"Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, partial pancreatectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4287033,396805001,"Specimen from pancreas obtained by pylorus sparing pancreaticoduodenectomy, total pancreatectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4287034,396806000,"Specimen from pancreas obtained by pancreaticoduodenectomy, partial pancreatectomy",Specimen,Specimen,SNOMED,Valid,Standard
+4287180,396928004,Specimen from eye obtained by enucleation,Specimen,Specimen,SNOMED,Valid,Standard
+4287327,397055003,Specimen from small intestine obtained by segmental resection,Specimen,Specimen,SNOMED,Valid,Standard
+4287470,397334006,Specimen from left fallopian tube obtained by salpingectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4287490,397436009,Specimen obtained by lymphadenectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4287622,397457001,Specimen from thoracic mesothelium,Specimen,Specimen,SNOMED,Valid,Standard
+4287944,397245007,Specimen from ovary obtained by hysterectomy with right salpingo-oophorectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4288224,397438005,Specimen from lymph node obtained by staging laparotomy,Specimen,Specimen,SNOMED,Valid,Standard
+4288680,396357008,Specimen from skin obtained by elliptical re-excision,Specimen,Specimen,SNOMED,Valid,Standard
+4288681,396358003,Specimen from skin obtained by wide re-excision,Specimen,Specimen,SNOMED,Valid,Standard
+4288937,396476009,Specimen from liver obtained by right lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4293154,384746001,Specimen from lung obtained by wedge biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4293174,384820007,Specimen from prostate obtained by transurethral resection,Specimen,Specimen,SNOMED,Valid,Standard
+4294052,385338007,Specimen from anus obtained by transanal disk excision,Specimen,Specimen,SNOMED,Valid,Standard
+4294053,385339004,"Specimen from anus obtained by transanal disk excision, intact",Specimen,Specimen,SNOMED,Valid,Standard
+4297837,384819001,Specimen from prostate obtained by needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4298498,384744003,Lymph node from sentinel lymph node dissection and axillary dissection,Specimen,Specimen,SNOMED,Valid,Standard
+4298499,384747005,Specimen from lung obtained by needle biopsy using computed tomography guidance,Specimen,Specimen,SNOMED,Valid,Standard
+4299313,385340002,"Specimen from anus obtained by transanal disk excision, fragmented",Specimen,Specimen,SNOMED,Valid,Standard
+4302933,418564007,Pleural fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4305551,419695002,Environmental swab,Specimen,Specimen,SNOMED,Valid,Standard
+4310284,422991009,Specimen from appendix and right colon obtained by appendectomy and right hemicolectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4311285,423696009,Specimen from appendix and colon obtained by appendectomy and right colectomy,Specimen,Specimen,SNOMED,Valid,Standard
+4313765,423671006,Specimen from peritoneal tumor implant,Specimen,Specimen,SNOMED,Valid,Standard
+4324339,429832000,Biliary fluid specimen obtained by drainage,Specimen,Specimen,SNOMED,Valid,Standard
+4324620,430133009,Specimen from lip,Specimen,Specimen,SNOMED,Valid,Standard
+4325349,430214008,Specimen from lower limb,Specimen,Specimen,SNOMED,Valid,Standard
+4325352,430228002,Specimen from tunica of testis,Specimen,Specimen,SNOMED,Valid,Standard
+4325355,430250001,Specimen from peritoneum,Specimen,Specimen,SNOMED,Valid,Standard
+4325364,430304001,Specimen from unspecified body site,Specimen,Specimen,SNOMED,Valid,Standard
+4325366,430309006,Breast nipple discharge cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4325367,430312009,Cytologic material obtained from synovial fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4325521,430387006,"Combined specimen of cytologic material from endocervix, ectocervix, and vaginal fornix",Specimen,Specimen,SNOMED,Valid,Standard
+4325526,430408004,Cytologic material obtained from pleural fluid,Specimen,Specimen,SNOMED,Valid,Standard
+4326164,430131006,Specimen from seminal vesicle,Specimen,Specimen,SNOMED,Valid,Standard
+4326180,430234009,Specimen from spermatic cord,Specimen,Specimen,SNOMED,Valid,Standard
+4326181,430241003,Ear cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4326183,430244006,Specimen from pericardium,Specimen,Specimen,SNOMED,Valid,Standard
+4326185,430248009,Specimen from nasopharyngeal structure,Specimen,Specimen,SNOMED,Valid,Standard
+4326186,430249001,Specimen from tongue,Specimen,Specimen,SNOMED,Valid,Standard
+4326334,430310001,Sputum cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4326348,430389009,Amniotic fluid cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4326843,430970004,Core sample of tissue block,Specimen,Specimen,SNOMED,Valid,Standard
+4326970,431058008,Lip cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4328018,431235004,Specimen from trachea obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4328168,431405008,Specimen from ovary obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4328169,431413009,Specimen from tunica of testis obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4328572,430245007,Specimen from nasal fossae,Specimen,Specimen,SNOMED,Valid,Standard
+4328578,430268003,Specimen from bone,Specimen,Specimen,SNOMED,Valid,Standard
+4329389,431697001,Specimen from spinal cord obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4329648,431886004,Specimen from head and neck structure obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4330081,430855004,Touch preparation cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4330243,431404007,Specimen from bone obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4330245,431412004,Specimen from trunk obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4330654,431776009,Swab of surgical drain,Specimen,Specimen,SNOMED,Valid,Standard
+4330925,429836002,Specimen from maxillary sinus obtained by irrigation,Specimen,Specimen,SNOMED,Valid,Standard
+4331227,432139004,Specimen from brain obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331228,432144006,Specimen from mediastinum obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331381,432383002,Specimen from spleen obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331382,432385009,Specimen from sympathetic nerve ganglion obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331390,432419006,Specimen from joint obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331672,431196006,Tissue spot,Specimen,Specimen,SNOMED,Valid,Standard
+4331675,431205006,Specimen from epididymis obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331680,431232001,Specimen from eye region obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331796,431234000,Specimen from fetus obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4331823,431361003,Joint fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4331970,431889006,Specimen from upper limb obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332230,432057001,Specimen from seminal vesicle obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332231,432058006,Specimen from skeletal muscle obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332242,432097003,Specimen from artery obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332243,432099000,Specimen from bladder obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332251,432136006,Specimen from vulva obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332253,432141003,Specimen from parathyroid obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332254,432146008,Specimen from mesentery obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332374,430117006,Eye region cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4332381,430144001,Specimen from larynx,Specimen,Specimen,SNOMED,Valid,Standard
+4332512,430221008,Specimen from spinal cord,Specimen,Specimen,SNOMED,Valid,Standard
+4332513,430222001,Specimen from tonsil,Specimen,Specimen,SNOMED,Valid,Standard
+4332519,430236006,Specimen from nerve,Specimen,Specimen,SNOMED,Valid,Standard
+4332520,430238007,Specimen from nasal sinus,Specimen,Specimen,SNOMED,Valid,Standard
+4332521,430246008,Specimen from upper limb,Specimen,Specimen,SNOMED,Valid,Standard
+4332527,430297000,Cytologic material obtained from unspecified body site,Specimen,Specimen,SNOMED,Valid,Standard
+4332531,430318008,Urine cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4332635,430319000,Specimen from tooth,Specimen,Specimen,SNOMED,Valid,Standard
+4332644,430346005,Liquid based cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4332655,430386002,Spermatozoa cytologic material,Specimen,Specimen,SNOMED,Valid,Standard
+4332793,432607005,Specimen from mouth obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4332804,432657002,Ganglion cyst specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4333073,432910000,Specimen from ear obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333209,432980007,Specimen from epididymis obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333210,432981006,Specimen from eye obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333211,432986001,Specimen from tooth obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333613,431887008,Specimen from unspecified body site obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333886,432382007,Specimen from lymph node obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333887,432384008,Specimen from stomach obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4333893,432441006,Specimen from hydrocele of tunica vaginalis,Specimen,Specimen,SNOMED,Valid,Standard
+4334503,430856003,Tissue section,Specimen,Specimen,SNOMED,Valid,Standard
+4334627,430861001,Macroscopic tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+4334664,433118002,Specimen from retroperitoneum obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4334932,433326001,Specimen from mediastinum,Specimen,Specimen,SNOMED,Valid,Standard
+4335106,432059003,Specimen from uterus obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335107,432060008,Specimen from uterus obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335218,432098008,Specimen from bile duct obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335229,432142005,Specimen from penis obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335527,432436003,Specimen from hydrocele of spermatic cord,Specimen,Specimen,SNOMED,Valid,Standard
+4335533,432865002,Specimen from larynx obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335673,432985002,Specimen from tongue obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4335802,433116003,Specimen from liver obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+4336060,433308004,Specimen from spleen,Specimen,Specimen,SNOMED,Valid,Standard
+4336064,433322004,Specimen from mesentery,Specimen,Specimen,SNOMED,Valid,Standard
+35623137,765469005,Hysterectomy and left salpingo-oophorectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+35623138,765470006,Hysterectomy and right salpingo-oophorectomy sample,Specimen,Specimen,SNOMED,Valid,Standard
+36676678,773611006,Hemodialysis catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+36676679,773630006,Urinary catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+36713021,1.622E+16,Tunneled catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+36713736,718684005,Endocervical brush specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37016214,1.56505E+16,Colorectal junction neoplasm tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+37016215,1.56506E+16,Thyroid neoplasm tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+37016224,1.62104E+16,Specimen from lip obtained by wedge resection,Specimen,Specimen,SNOMED,Valid,Standard
+37016225,1.62108E+16,Desmoid tumor sample,Specimen,Specimen,SNOMED,Valid,Standard
+37016226,1.62109E+16,Brain neoplasm tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+37016227,1.6211E+16,Swab from lesion,Specimen,Specimen,SNOMED,Valid,Standard
+37016228,1.62117E+16,Excised bone sample,Specimen,Specimen,SNOMED,Valid,Standard
+37016229,1.62121E+16,Specimen from liver obtained by partial lobectomy,Specimen,Specimen,SNOMED,Valid,Standard
+37016230,1.62121E+16,Specimen from liver obtained by partial resection,Specimen,Specimen,SNOMED,Valid,Standard
+37016231,1.62122E+16,Specimen from urinary bladder obtained by transurethral cystectomy,Specimen,Specimen,SNOMED,Valid,Standard
+37016232,1.62123E+16,Autoclave ampule submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37016233,1.62139E+16,Tissue specimen from larynx obtained by total resection,Specimen,Specimen,SNOMED,Valid,Standard
+37016234,1.62198E+16,Pinworm paddle submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37016235,1.62218E+16,Specimen obtained by bronchoscopy,Specimen,Specimen,SNOMED,Valid,Standard
+37016236,1.62226E+16,Specimen from prostate obtained by subtotal prostatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+37111271,725946000,Reticulocyte specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115741,732211001,12 hour urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115746,732217002,8 hour urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115749,732220005,48 hour urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115754,732226004,48 hour stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115788,732293002,Salivary calculus specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37115790,732295009,Discharge specimen from penis,Specimen,Specimen,SNOMED,Valid,Standard
+37116299,732964006,Gastrostomy tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37116304,732972008,Fluid specimen from cyst of ovary,Specimen,Specimen,SNOMED,Valid,Standard
+37116306,732975005,Fluid specimen from epididymis,Specimen,Specimen,SNOMED,Valid,Standard
+37116307,732976006,Fluid specimen from external auditory canal,Specimen,Specimen,SNOMED,Valid,Standard
+37116371,733056005,Fluid specimen from ear,Specimen,Specimen,SNOMED,Valid,Standard
+37116403,733103005,Tissue specimen from scar,Specimen,Specimen,SNOMED,Valid,Standard
+37116404,733104004,Swab from buccal mucosa,Specimen,Specimen,SNOMED,Valid,Standard
+37116405,733105003,Cytologic material from lymph node of neck obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+37116673,733475007,Cytologic material from mass of neck obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+37116674,733476008,Cytologic material from neck obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+37116679,733482006,Second void urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37116681,733485008,Specimen from lesion of perianal region obtained by scraping,Specimen,Specimen,SNOMED,Valid,Standard
+37117835,725372003,Tissue specimen from aorta,Specimen,Specimen,SNOMED,Valid,Standard
+37117935,725957005,Formalin-fixed placenta tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37118456,732222002,72 hour urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37118648,733101007,Fluid specimen from perirenal region,Specimen,Specimen,SNOMED,Valid,Standard
+37118678,733484007,Specimen from lesion of penis obtained by scraping,Specimen,Specimen,SNOMED,Valid,Standard
+37119292,732227008,24 hour stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37206841,787149001,Unstained slide of tissue section,Specimen,Specimen,SNOMED,Valid,Standard
+37206842,787150001,Stained slide of tissue section,Specimen,Specimen,SNOMED,Valid,Standard
+37206843,787151002,Specimen in tissue fixative,Specimen,Specimen,SNOMED,Valid,Standard
+37206844,787152009,Specimen in non-fixative preservation fluid,Specimen,Specimen,SNOMED,Valid,Standard
+37303840,4.61911E+14,Oropharyngeal swab,Specimen,Specimen,SNOMED,Valid,Standard
+37303841,6.21E+11,Viral isolate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37303842,788707000,Plasma specimen or serum specimen or whole blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+37303843,788524009,Tissue specimen obtained by segmental excision,Specimen,Specimen,SNOMED,Valid,Standard
+40479189,441479001,Fresh tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40479555,441510007,Blood specimen with anticoagulant,Specimen,Specimen,SNOMED,Valid,Standard
+40479563,441518000,Lymphoblastoid cell line specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40479992,441620008,Oral fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40480027,441652008,Formalin-fixed paraffin-embedded tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40480050,441673008,Ribonucleic acid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40480073,441694006,Specimen from axillary lymph node obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480074,441695007,Specimen from parotid gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480236,444623009,Machine hemodialysate specimen obtained before mixing,Specimen,Specimen,SNOMED,Valid,Standard
+40480272,444656005,Drainage tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40480420,441709004,Specimen from sentinel lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+40480421,441710009,Specimen from testis obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480464,441749007,Specimen from submandibular gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480466,441750007,Specimen from abdominal cavity structure obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480512,441792002,Specimen from adrenal gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480589,443241002,Specimen from pineal gland,Specimen,Specimen,SNOMED,Valid,Standard
+40480733,444787003,Swab of endocervix,Specimen,Specimen,SNOMED,Valid,Standard
+40480853,441810001,Specimen from soft tissue obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480926,441876003,Specimen from sublingual gland obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480935,441884004,Specimen from prostate obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40480957,441903006,Specimen obtained by bronchial aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40480960,441906003,Specimen from pelvic structure obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40481098,444824001,Wall of abscess,Specimen,Specimen,SNOMED,Valid,Standard
+40481106,444831002,Machine hemodialysate specimen obtained after mixing,Specimen,Specimen,SNOMED,Valid,Standard
+40481107,444832009,Expressed breast milk specimen after breast cleansing,Specimen,Specimen,SNOMED,Valid,Standard
+40481143,444865001,Expressed breast milk specimen before breast cleansing,Specimen,Specimen,SNOMED,Valid,Standard
+40481476,443418008,Specimen from thoracic cavity,Specimen,Specimen,SNOMED,Valid,Standard
+40481551,444936006,Fluid specimen from subdural space,Specimen,Specimen,SNOMED,Valid,Standard
+40481552,444937002,Urine specimen from ureter,Specimen,Specimen,SNOMED,Valid,Standard
+40481562,444946008,Dialysis fluid specimen obtained before dialysis,Specimen,Specimen,SNOMED,Valid,Standard
+40481576,444959000,Peritoneal dialysis fluid specimen obtained before dialysis,Specimen,Specimen,SNOMED,Valid,Standard
+40481583,444965000,Fluid specimen from epidural space,Specimen,Specimen,SNOMED,Valid,Standard
+40481783,442043001,2 hour urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40481869,443458005,Specimen from male breast,Specimen,Specimen,SNOMED,Valid,Standard
+40481913,443498007,Specimen from cerebellum,Specimen,Specimen,SNOMED,Valid,Standard
+40482031,445069004,Peritoneal dialysis fluid specimen obtained after dialysis,Specimen,Specimen,SNOMED,Valid,Standard
+40482249,442166002,a.m. serum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40482257,442173007,Urine specimen from nephrostomy tube,Specimen,Specimen,SNOMED,Valid,Standard
+40482447,445160003,Swab of eye,Specimen,Specimen,SNOMED,Valid,Standard
+40482632,442219007,p.m. specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40482757,443654002,Specimen from abdominal cavity,Specimen,Specimen,SNOMED,Valid,Standard
+40482922,445295009,Blood specimen with EDTA,Specimen,Specimen,SNOMED,Valid,Standard
+40482924,445297001,Swab of internal nose,Specimen,Specimen,SNOMED,Valid,Standard
+40483327,445364004,Swab of axilla,Specimen,Specimen,SNOMED,Valid,Standard
+40483330,445367006,Swab of umbilicus,Specimen,Specimen,SNOMED,Valid,Standard
+40483332,445369009,Swab of endometrium,Specimen,Specimen,SNOMED,Valid,Standard
+40483336,445372002,Cerebrospinal fluid specimen from ventricle of brain,Specimen,Specimen,SNOMED,Valid,Standard
+40483348,445383006,Urine specimen obtained for Stamey test,Specimen,Specimen,SNOMED,Valid,Standard
+40483349,445384000,Hemodialysate specimen from hemodialysis machine using reverse osmosis system,Specimen,Specimen,SNOMED,Valid,Standard
+40483373,445405002,Specimen obtained by surgical procedure,Specimen,Specimen,SNOMED,Valid,Standard
+40483391,445421007,Fungal isolate specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40483525,442427000,p.m. serum specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40483633,442524009,a.m. specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40483757,445444005,Swab of groin,Specimen,Specimen,SNOMED,Valid,Standard
+40483760,445447003,Specimen from trachea obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40483837,445516007,Dialysis fluid specimen obtained after dialysis,Specimen,Specimen,SNOMED,Valid,Standard
+40483851,445529007,Hemodialysate specimen from hemodialysis machine using water distribution system,Specimen,Specimen,SNOMED,Valid,Standard
+40484492,442649003,Specimen from adipose tissue obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40486469,446128003,Fluid specimen from Bartholin gland cyst,Specimen,Specimen,SNOMED,Valid,Standard
+40486470,446129006,Bile specimen from common bile duct,Specimen,Specimen,SNOMED,Valid,Standard
+40486471,446130001,Urine specimen from bladder,Specimen,Specimen,SNOMED,Valid,Standard
+40486473,446131002,Blood specimen obtained for blood culture,Specimen,Specimen,SNOMED,Valid,Standard
+40486479,446137003,Pharmaceutical product submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40486922,446211008,Drainage fluid specimen obtained after surgical placement of drain,Specimen,Specimen,SNOMED,Valid,Standard
+40486923,446212001,Biological spore test strip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40486948,446235003,Specimen from conjunctiva obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+40486989,446272009,Blood specimen submitted in heparinized collection tube,Specimen,Specimen,SNOMED,Valid,Standard
+40486994,446277003,Urine specimen obtained from nephrostomy tube after percutaneous insertion,Specimen,Specimen,SNOMED,Valid,Standard
+40487045,447881000,Specimen from biliary system,Specimen,Specimen,SNOMED,Valid,Standard
+40487172,449446003,Specimen from gallbladder,Specimen,Specimen,SNOMED,Valid,Standard
+40487352,446299006,Specimen obtained by transbronchial aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40487353,446300003,Urine specimen from urethra,Specimen,Specimen,SNOMED,Valid,Standard
+40487357,446302006,Air sample,Specimen,Specimen,SNOMED,Valid,Standard
+40487359,446304007,Tissue specimen from harvested bone,Specimen,Specimen,SNOMED,Valid,Standard
+40487360,446305008,Specimen obtained by aspiration via tracheostomy,Specimen,Specimen,SNOMED,Valid,Standard
+40487361,446306009,Urine specimen obtained from urinary collection bag,Specimen,Specimen,SNOMED,Valid,Standard
+40487425,446364005,Specimen from donor corneal storage medium,Specimen,Specimen,SNOMED,Valid,Standard
+40487491,447955000,Specimen from rectum,Specimen,Specimen,SNOMED,Valid,Standard
+40488341,446561003,Body fluid specimen obtained via cholecytosomy tube,Specimen,Specimen,SNOMED,Valid,Standard
+40488342,446562005,Body fluid specimen obtained via sump drain,Specimen,Specimen,SNOMED,Valid,Standard
+40488358,446577002,Swab obtained during autopsy,Specimen,Specimen,SNOMED,Valid,Standard
+40488846,446674003,Specimen from abscess of liver,Specimen,Specimen,SNOMED,Valid,Standard
+40488847,446675002,Specimen from knee joint obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40488848,446676001,Expressed breast milk specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40488874,446700001,Prostatic fluid specimen obtained for Stamey test,Specimen,Specimen,SNOMED,Valid,Standard
+40489360,446774006,Specimen from abscess of brain,Specimen,Specimen,SNOMED,Valid,Standard
+40489806,446817004,Bile specimen from gallbladder,Specimen,Specimen,SNOMED,Valid,Standard
+40489828,446837000,Tissue specimen from amniotic membrane,Specimen,Specimen,SNOMED,Valid,Standard
+40489829,446838005,Specimen obtained by bronchial trap,Specimen,Specimen,SNOMED,Valid,Standard
+40489834,446842008,Tissue specimen from cervical lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+40489838,446846006,Urine specimen obtained via indwelling urinary catheter,Specimen,Specimen,SNOMED,Valid,Standard
+40489855,446861007,Cerebrospinal fluid specimen obtained via ventriculoperitoneal shunt,Specimen,Specimen,SNOMED,Valid,Standard
+40490307,446906004,Jejunal fluid specimen from jejunostomy,Specimen,Specimen,SNOMED,Valid,Standard
+40490308,446907008,Urine specimen obtained from kidney,Specimen,Specimen,SNOMED,Valid,Standard
+40490309,446908003,Fluid specimen from mucocele of lacrimal sac,Specimen,Specimen,SNOMED,Valid,Standard
+40490357,446951004,Specimen from granulation tissue,Specimen,Specimen,SNOMED,Valid,Standard
+40490358,446952006,Specimen from skin obtained by scraping,Specimen,Specimen,SNOMED,Valid,Standard
+40490380,446972001,Specimen from abscess obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40490916,447098004,Specimen from nail obtained by scraping,Specimen,Specimen,SNOMED,Valid,Standard
+40490923,447103002,Foreign body submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40490924,447104008,Urine specimen from urinary conduit,Specimen,Specimen,SNOMED,Valid,Standard
+40491350,447148003,Body substance specimen from ear,Specimen,Specimen,SNOMED,Valid,Standard
+40491357,447154002,Specimen from nose,Specimen,Specimen,SNOMED,Valid,Standard
+40491358,447155001,Tissue specimen from uterus obtained by curettage,Specimen,Specimen,SNOMED,Valid,Standard
+40491361,447158004,Bile specimen obtained by percutaneous transhepatic insertion of biliary drain,Specimen,Specimen,SNOMED,Valid,Standard
+40491528,448789008,Nucleic acid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40492273,445742005,Postcoital urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40492274,445743000,Postejaculation urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40492275,445744006,Fluid specimen from seroma,Specimen,Specimen,SNOMED,Valid,Standard
+40492276,445745007,Fluid specimen from subphrenic space,Specimen,Specimen,SNOMED,Valid,Standard
+40492328,447337004,Specimen from conjunctiva obtained by scraping,Specimen,Specimen,SNOMED,Valid,Standard
+40492330,447339001,Nasal smear specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40492333,447341000,Bile specimen obtained via biliary T-tube,Specimen,Specimen,SNOMED,Valid,Standard
+40492337,447345009,Bronchial fluid specimen obtained from bronchial trap,Specimen,Specimen,SNOMED,Valid,Standard
+40492348,447355008,Dialysis fluid specimen obtained after continuous ambulatory peritoneal dialysis,Specimen,Specimen,SNOMED,Valid,Standard
+40492350,447357000,Specimen from breast obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40492351,447358005,Specimen from endometrium obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40492352,447359002,Specimen from esophagus obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40492370,447375004,Body fluid specimen obtained via chest tube,Specimen,Specimen,SNOMED,Valid,Standard
+40492388,447391001,Specimen from pharynx obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40492389,447392008,Specimen from vagina obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+40492402,447403008,Tissue specimen from donor corneal rim,Specimen,Specimen,SNOMED,Valid,Standard
+40492406,447407009,Specimen from necrotic tissue,Specimen,Specimen,SNOMED,Valid,Standard
+40492863,447488002,Suprapubic urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+40493342,447589008,Urine specimen obtained by single catheterization of bladder,Specimen,Specimen,SNOMED,Valid,Standard
+42535833,734307008,Specimen from jejunostomy stoma,Specimen,Specimen,SNOMED,Valid,Standard
+42535841,734333000,Specimen from epidermoid cyst,Specimen,Specimen,SNOMED,Valid,Standard
+42535842,734334006,Specimen from sebaceous cyst,Specimen,Specimen,SNOMED,Valid,Standard
+42535843,734335007,Specimen from scar,Specimen,Specimen,SNOMED,Valid,Standard
+42535844,734336008,Specimen from aorta,Specimen,Specimen,SNOMED,Valid,Standard
+42535845,734338009,Arthropod material submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+42535846,734341000,Specimen from mass of posterior mediastinum,Specimen,Specimen,SNOMED,Valid,Standard
+42535847,734342007,Specimen from mass of anterior mediastinum,Specimen,Specimen,SNOMED,Valid,Standard
+42535848,734343002,Specimen from mass of breast,Specimen,Specimen,SNOMED,Valid,Standard
+42535868,734375004,Specimen from mass of retroperitoneum,Specimen,Specimen,SNOMED,Valid,Standard
+42535870,734377007,Specimen from mass of subcutaneous tissue,Specimen,Specimen,SNOMED,Valid,Standard
+42535872,734380008,Specimen from surgical wound,Specimen,Specimen,SNOMED,Valid,Standard
+42535873,734381007,Specimen from superficial wound,Specimen,Specimen,SNOMED,Valid,Standard
+42535893,734419001,Specimen from mass of axillary lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+42535894,734420007,Specimen from mass of inguinal lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+42535895,734421006,Specimen from mass of mediastinal lymph node,Specimen,Specimen,SNOMED,Valid,Standard
+42535896,734422004,Specimen from duodenal mucosa,Specimen,Specimen,SNOMED,Valid,Standard
+42535898,734425002,Specimen from ear obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+42535899,734426001,Specimen from jejunum obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+42535900,734427005,Specimen from duodenum obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+42535909,734442008,Specimen from calf of leg,Specimen,Specimen,SNOMED,Valid,Standard
+42535910,734443003,Urine specimen from ureter obtained by cystoscopy,Specimen,Specimen,SNOMED,Valid,Standard
+42536398,735197003,Specimen from right breast,Specimen,Specimen,SNOMED,Valid,Standard
+42536399,735198008,Specimen from left breast,Specimen,Specimen,SNOMED,Valid,Standard
+42536916,735950000,Swab of vascular catheter insertion site,Specimen,Specimen,SNOMED,Valid,Standard
+42537557,737016007,Tissue specimen from aneurysm obtained by surgical excision,Specimen,Specimen,SNOMED,Valid,Standard
+42537558,737017003,Joint loose body specimen,Specimen,Specimen,SNOMED,Valid,Standard
+42537788,737356002,Pooled platelet poor plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+42537789,737357006,Fetal blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+42537871,737535000,Blood smear specimen,Specimen,Specimen,SNOMED,Valid,Standard
+42538997,734379005,Specimen from periodontal tissue,Specimen,Specimen,SNOMED,Valid,Standard
+42539085,737087006,Specimen from control,Specimen,Specimen,SNOMED,Valid,Standard
+42539412,734337004,Specimen from mass of nasopharynx,Specimen,Specimen,SNOMED,Valid,Standard
+42539421,734417004,Specimen from mass of thoracic cavity,Specimen,Specimen,SNOMED,Valid,Standard
+42539680,737089009,Serum specimen from control,Specimen,Specimen,SNOMED,Valid,Standard
+42573142,3.54221E+14,Animal body parts for identification,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573143,6.71E+11,Tracheal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573533,1.31E+11,Cloacal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573701,1.71E+11,Embryo in shell,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573725,2.01E+11,Animal food sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573743,2.21E+11,Egg specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573960,3.0931E+13,Pooled cloacal/oropharyngeal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573961,3.0941E+13,Pooled specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42573962,31000009105,Whole organ from digestive system,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574060,3.21E+11,Meat sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574110,3.41E+11,Pork sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574154,3.60041E+14,Oropharyngeal fluid obtained by probang cup,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574155,3.59961E+14,Testicle processing fluid sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574156,3.59971E+14,Tail processing fluid sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574157,3.59981E+14,Testicle and tail processing fluid sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574207,41000009104,Necropsy sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574233,4.241E+12,Tonsil scraping,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574241,4.31E+11,Nest specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574285,4.61E+11,Rendering water sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574376,5.91E+11,Vaccine sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574415,5.61E+11,Specimen from udder,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574511,8.91E+11,Cell culture specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574514,9.01E+11,Allantoic fluid from inoculated egg,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42574521,5.71E+11,Tissue specimen from udder,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42575771,4.81E+11,Specimen from rumen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42575814,2.6271E+13,Swab of oropharynx and trachea,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42575815,3.2281E+13,Fecal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42584493,1.91E+11,Disinfectant sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42592695,2.72901E+14,Specimen from clitoris,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42593441,2.81E+11,Fluff specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42598293,3.31E+11,Beef sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599386,3.51E+11,Chicken sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599527,3.56561E+14,Tissue specimen from brain stem at obex,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599574,3.56621E+14,Tissue specimen from brain stem,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599683,3.58071E+14,Oropharyngeal swab including choanal cleft,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599887,3.61E+11,Turkey sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599952,3.71E+11,Hemolymph node,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42599970,3.91E+11,Intestinal contents specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42600022,4.01E+11,Bedding sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42600081,4.061E+12,Choanal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42600142,4.21E+11,Nasal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42600383,4.51E+11,Product of rendering,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42601708,6.31E+11,Yolk sac specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605980,3.57791E+14,Pooled tracheal/oropharyngeal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605981,51000009101,Whole body specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605982,91000009106,Carcass specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605983,9.11E+11,Pooled cloacal/tracheal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605984,9.21E+11,Pooled cloacal/pharyngeal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605985,1.01E+11,Carcass rinse sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605986,1.11E+11,Cecal tonsil specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605987,1.21E+11,Cheese sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605988,1.41E+11,Pesticide sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605989,1.51E+11,Crop sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605990,1.61E+11,Wash water,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605991,1.81E+11,Dipping solution sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605992,2.11E+11,Soil sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605993,2.31E+11,Egg shell sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605994,2.41E+11,Embryo specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605995,2.51E+11,Animal feed ingredient,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605996,2.61E+11,Fish meal sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605997,2.6241E+13,Swab of abscess contents,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605998,2.6251E+13,Smear of lung and air sac and spleen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42605999,2.71E+11,Feather specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606000,2.72921E+14,Specimen from clitoral fossa,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606001,2.72931E+14,Specimen from a clitoral sinus,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606002,2.72941E+14,Swab of clitoral sinus,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606003,2.72951E+14,Swab of clitoral fossa,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606004,2.9681E+13,Raw milk specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606005,2.9711E+13,Pasteurized milk specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606006,2.9721E+13,Gastrointestinal contents specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606007,3.01E+11,Tissue specimen from gallbladder,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606008,3.0431E+13,Diaphragm muscle specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606009,3.0811E+13,Dairy food specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606010,3.11E+11,Tissue specimen from gizzard,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606011,3.56571E+14,Tissue specimen from cerebellum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606012,3.56581E+14,Tissue specimen from cerebrum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606013,3.56631E+14,Tissue specimen from brain stem not at obex,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606014,3.56871E+14,Mesenteric lymph node tissue specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606015,3.56891E+14,Tissue specimen from nictitating membrane,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606016,3.56901E+14,Small intestinal tissue specimen including Peyer's patches,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606017,3.57081E+14,Lower respiratory swab sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606018,3.58101E+14,Animal forage specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606019,4.031E+12,Transtracheal lavage aspirate sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606020,4.071E+12,Tissue specimen from air sacs,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606021,4.251E+12,Retropharyngeal lymph node tissue sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606022,4.41E+11,Protein supplement sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606023,4.71E+11,Rumen contents sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606024,4.91E+11,Tissue specimen from rumen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606025,5.01E+11,Seed sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606026,5.11E+11,Wood shavings sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606027,5.31E+11,Tissue specimen from spinal cord,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606028,5.51E+11,Tissue specimen from spleen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606029,6.01E+11,Specimen from cloaca,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606030,61000009103,Biofilter sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606031,6.11E+11,Tissue specimen from vent of cloaca,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606032,6.21E+11,Viral isolate specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606033,6.51E+11,Oral epithelium,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606034,6.541E+12,Specimen from prepuce,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606035,6.551E+12,Preputial wash fluid,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606036,6.61E+11,Oropharyngeal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606037,6.81E+11,Specimen from abomasum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606038,6.91E+11,Tissue specimen from abomasum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606039,7.01E+11,Specimen from omasum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606040,71000009107,Bone meal sample,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606041,7.11E+11,Tissue specimen from omasum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606042,7.21E+11,Specimen from reticulum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606043,7.31E+11,Tissue specimen from reticulum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606044,7.81E+11,Specimen from vesicle,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606045,7.91E+11,Epithelial tissue sample from vesicle,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606046,8.011E+12,Tissue specimen from eyelid,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606047,8.021E+12,Bacterial isolate specimen,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606048,81000009109,Boot swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606049,8.11E+11,Tissue specimen from tonsil,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606050,8.21E+11,Tissue specimen from ileum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606051,8.31E+11,Tissue specimen from distal ileum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606052,8.41E+11,Tissue specimen from jejunum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606053,8.51E+11,Tissue specimen from duodenum,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606054,8.71E+11,Tissue scrapings,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606055,8.81E+11,Oroesophageal swab,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42606056,9.31E+11,Pooled tissue specimen from trachea and lung,Specimen,Specimen,SNOMED Veterinary,Valid,Standard
+42872877,450872001,Specimen from urinary bladder,Specimen,Specimen,SNOMED,Valid,Standard
+43021077,472861000,Swab from testicle,Specimen,Specimen,SNOMED,Valid,Standard
+43021078,472862007,Swab from lesion of skin,Specimen,Specimen,SNOMED,Valid,Standard
+43021079,472863002,Swab from lower leg,Specimen,Specimen,SNOMED,Valid,Standard
+43021080,472864008,Swab from lower limb,Specimen,Specimen,SNOMED,Valid,Standard
+43021081,472865009,Swab from toe,Specimen,Specimen,SNOMED,Valid,Standard
+43021082,472866005,Swab from tongue,Specimen,Specimen,SNOMED,Valid,Standard
+43021083,472867001,Swab from tonsil,Specimen,Specimen,SNOMED,Valid,Standard
+43021084,472868006,Swab from peritoneal cavity structure,Specimen,Specimen,SNOMED,Valid,Standard
+43021085,472869003,Swab from pericardial sac structure,Specimen,Specimen,SNOMED,Valid,Standard
+43021086,472870002,Swab from tracheostomy wound,Specimen,Specimen,SNOMED,Valid,Standard
+43021087,472871003,Swab from ulcer,Specimen,Specimen,SNOMED,Valid,Standard
+43021088,472872005,Swab from ultrasonic nebulizer,Specimen,Specimen,SNOMED,Valid,Standard
+43021089,472873000,Swab from urethral meatus,Specimen,Specimen,SNOMED,Valid,Standard
+43021090,472874006,Swab from uterus,Specimen,Specimen,SNOMED,Valid,Standard
+43021091,472875007,Swab from vesicle,Specimen,Specimen,SNOMED,Valid,Standard
+43021092,472876008,Swab from Bartholin cyst,Specimen,Specimen,SNOMED,Valid,Standard
+43021093,472877004,Swab from esophagus,Specimen,Specimen,SNOMED,Valid,Standard
+43021094,472878009,Swab from Bartholin gland,Specimen,Specimen,SNOMED,Valid,Standard
+43021095,472879001,Swab from placenta,Specimen,Specimen,SNOMED,Valid,Standard
+43021096,472880003,Swab from catheter,Specimen,Specimen,SNOMED,Valid,Standard
+43021097,472881004,Swab from pharynx,Specimen,Specimen,SNOMED,Valid,Standard
+43021098,472882006,Swab from superficial wound,Specimen,Specimen,SNOMED,Valid,Standard
+43021099,472883001,Swab from surgical wound,Specimen,Specimen,SNOMED,Valid,Standard
+43021100,472884007,Swab from deep wound,Specimen,Specimen,SNOMED,Valid,Standard
+43021101,472885008,Swab from pressure ulcer,Specimen,Specimen,SNOMED,Valid,Standard
+43021102,472886009,Swab from gastrostomy stoma,Specimen,Specimen,SNOMED,Valid,Standard
+43021103,472887000,Swab from labia,Specimen,Specimen,SNOMED,Valid,Standard
+43021104,472888005,Swab from larynx,Specimen,Specimen,SNOMED,Valid,Standard
+43021105,472889002,Swab from pelvis,Specimen,Specimen,SNOMED,Valid,Standard
+43021106,472890006,Swab from appendix,Specimen,Specimen,SNOMED,Valid,Standard
+43021107,472891005,Swab from lip,Specimen,Specimen,SNOMED,Valid,Standard
+43021108,472892003,Swab from digit of hand,Specimen,Specimen,SNOMED,Valid,Standard
+43021109,472893008,Swab from abscess of brain,Specimen,Specimen,SNOMED,Valid,Standard
+43021110,472894002,Swab from cornea,Specimen,Specimen,SNOMED,Valid,Standard
+43021111,472895001,Swab from buttock,Specimen,Specimen,SNOMED,Valid,Standard
+43021112,472896000,Swab from blister,Specimen,Specimen,SNOMED,Valid,Standard
+43021113,472897009,Swab from hip region,Specimen,Specimen,SNOMED,Valid,Standard
+43021114,472898004,Swab from hand,Specimen,Specimen,SNOMED,Valid,Standard
+43021115,472899007,Swab from vaginal introitus,Specimen,Specimen,SNOMED,Valid,Standard
+43021116,472900002,Swab from gingiva,Specimen,Specimen,SNOMED,Valid,Standard
+43021117,472901003,Swab from nasal sinus,Specimen,Specimen,SNOMED,Valid,Standard
+43021118,472902005,Swab from chest tube insertion site,Specimen,Specimen,SNOMED,Valid,Standard
+43021119,472903000,Swab from central venous catheter,Specimen,Specimen,SNOMED,Valid,Standard
+43021120,472904006,Swab from abdomen,Specimen,Specimen,SNOMED,Valid,Standard
+43021134,472918004,Substance specimen obtained from device,Specimen,Specimen,SNOMED,Valid,Standard
+43021135,472919007,Device submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021136,472920001,Umbilical catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021137,472921002,Umbilical catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021138,472922009,Intracranial catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021139,472923004,Peripheral vascular catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021140,472924005,Pulmonary artery flotation catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021141,472926007,Chest tube tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021142,472927003,Contact lens case submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021143,472928008,Umbilical artery catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021144,472929000,Central venous catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021145,472930005,Bottle submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021146,472931009,Arterial line tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021147,472933007,Shunt tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021148,472934001,Stent submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021149,472935000,Central venous catheter tip from subclavian vein submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021150,472936004,Tenckhoff catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021151,472937008,Double J stent submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021152,472939006,Tracheostomy tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021153,472940008,Intracranial ventricular catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021154,472941007,Intracranial ventricular catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021155,472942000,Ventriculoperitoneal shunt submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021156,472944004,Peritoneal catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021755,473399006,Swab from Tenckhoff catheter exit site,Specimen,Specimen,SNOMED,Valid,Standard
+43021756,473400004,Swab from tooth,Specimen,Specimen,SNOMED,Valid,Standard
+43021757,473401000,Cotton wool ball submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021758,473403002,Percutaneous nephrostomy tube tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021759,473404008,Rickham reservoir submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021760,473405009,Cerebrospinal fluid specimen obtained from Rickham reservoir,Specimen,Specimen,SNOMED,Valid,Standard
+43021761,473406005,Shunt submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021762,473407001,Peripherally inserted central catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021763,473408006,Umbilical artery catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021764,473409003,Central venous catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021765,473410008,Peripheral vascular catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021766,473411007,External ventricular drain tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021767,473412000,Endotracheal tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021768,473413005,Central venous catheter from internal jugular vein submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021769,473414004,Intracranial pressure catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021770,473415003,Intrauterine contraceptive device submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021771,473416002,Nephrostomy tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021772,473417006,Cardiac pacemaker lead submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021787,473432004,Settle culture plate submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021788,473433009,Protected specimen brush submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021956,472925006,Umbilical vein catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021957,472932002,Vascular catheter submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021958,472938003,Tracheal tube submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43021959,472943005,Heyer-Pudenz valve submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+43531141,608840004,Specimen from lower gastrointestinal tract,Specimen,Specimen,SNOMED,Valid,Standard
+43531143,608842007,Specimen from upper gastrointestinal tract,Specimen,Specimen,SNOMED,Valid,Standard
+43531153,608852006,Specimen from nervous system,Specimen,Specimen,SNOMED,Valid,Standard
+43531157,608856009,Specimen from perirenal tissue,Specimen,Specimen,SNOMED,Valid,Standard
+43531159,608858005,Specimen from periureteral tissue,Specimen,Specimen,SNOMED,Valid,Standard
+43531161,608860007,Specimen from perivesical tissue,Specimen,Specimen,SNOMED,Valid,Standard
+43531169,608868000,Specimen from endocrine gland,Specimen,Specimen,SNOMED,Valid,Standard
+43531171,608870009,Specimen from female genital tract,Specimen,Specimen,SNOMED,Valid,Standard
+43531265,608969007,Specimen from skin,Specimen,Specimen,SNOMED,Valid,Standard
+44783226,699283007,Mid-stream urine specimen obtained by single catheterization of bladder,Specimen,Specimen,SNOMED,Valid,Standard
+44783227,699284001,Early morning mid-stream urine specimen obtained by clean catch procedure,Specimen,Specimen,SNOMED,Valid,Standard
+44783228,699285000,Urine specimen obtained from bladder via cystoscopy,Specimen,Specimen,SNOMED,Valid,Standard
+44783229,699286004,Urine specimen obtained from kidney via aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+44783230,699287008,Urine specimen obtained via suprapubic indwelling urinary catheter,Specimen,Specimen,SNOMED,Valid,Standard
+44783803,697988001,Soft stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44783804,697989009,Anterior nares swab,Specimen,Specimen,SNOMED,Valid,Standard
+44783875,699868006,Suture material submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44783881,699874006,Tissue specimen from pericardium,Specimen,Specimen,SNOMED,Valid,Standard
+44784239,698276005,First stream urine sample,Specimen,Specimen,SNOMED,Valid,Standard
+44791429,2.85181E+14,Sentinel lymph node biopsy with locally excised tissue,Specimen,Specimen,SNOMED,Valid,Standard
+44791430,2.85191E+14,Specimen obtained by local excision,Specimen,Specimen,SNOMED,Valid,Standard
+44792504,3.62001E+14,Transplanted lung resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792517,3.62101E+14,Lung transplant biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792540,3.62291E+14,Liver wedge biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792541,3.62301E+14,Liver resection tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792550,3.62311E+14,Liver transplant biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792551,3.62321E+14,Biopsy targeted lesion sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792553,3.62361E+14,Kidney transplant tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792555,3.62401E+14,Hemicolectomy tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792556,3.62411E+14,Kidney resection tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792573,3.62481E+14,Hemorrhoid tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792590,3.60831E+14,Vagus nerve sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792596,3.60911E+14,Synovial joint crystals sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792597,3.60921E+14,Spermatocoele fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792598,3.60931E+14,Soft tissue resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792599,3.60951E+14,Sebaceous cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792602,3.62681E+14,Chippings sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792609,3.61011E+14,Prostate chippings sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792610,3.61021E+14,Peritoneal lavage sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792613,3.62811E+14,Products of ectopic pregnancy tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44792620,3.61111E+14,Resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792621,3.61121E+14,Pancreas resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792624,3.61191E+14,Nasal resection tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792628,3.62941E+14,Esophagogastrectomy tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44792937,3.64601E+14,Intervertebral disc sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792938,3.64611E+14,Tissue resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44792954,3.63121E+14,Oesophageal resection tissue specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44803279,3.60841E+14,Upper urinary tract washings sample,Specimen,Specimen,SNOMED,Valid,Standard
+44803280,3.60851E+14,Trachea resection sample,Specimen,Specimen,SNOMED,Valid,Standard
+44804274,3.60941E+14,Skull sample,Specimen,Specimen,SNOMED,Valid,Standard
+44806347,8.01181E+14,Brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+44806862,8.03281E+14,Breath sample,Specimen,Specimen,SNOMED,Valid,Standard
+44806863,8.03291E+14,Cell sample,Specimen,Specimen,SNOMED,Valid,Standard
+44806864,8.03301E+14,Device tip sample,Specimen,Specimen,SNOMED,Valid,Standard
+44807991,8.38801E+14,ETA - endotracheal aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+44808072,8.38911E+14,Plasma specimen with fluoride oxalate,Specimen,Specimen,SNOMED,Valid,Standard
+44808074,8.38941E+14,Plasma specimen with lithium heparin,Specimen,Specimen,SNOMED,Valid,Standard
+44808075,8.38961E+14,Whole blood specimen with edetic acid,Specimen,Specimen,SNOMED,Valid,Standard
+44808076,8.38971E+14,Whole blood specimen with heparin,Specimen,Specimen,SNOMED,Valid,Standard
+44808077,8.38981E+14,Whole blood specimen with fluoride oxalate,Specimen,Specimen,SNOMED,Valid,Standard
+44808078,8.38991E+14,Whole blood specimen with perchlorate,Specimen,Specimen,SNOMED,Valid,Standard
+44808098,8.39231E+14,Specimen obtained by cone biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808104,8.39311E+14,Specimen obtained by endoscopic biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808114,8.39461E+14,Specimen obtained by needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808184,8.39491E+14,Specimen obtained by punch biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808194,8.39631E+14,Specimen obtained by snip biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808811,8.42371E+14,Specimen obtained by aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+44808812,8.42391E+14,Clipping specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44808818,8.42461E+14,Semen specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44808819,8.42471E+14,Sterile defibrinated blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+44809481,3.61381E+14,Infusion line swab,Specimen,Specimen,SNOMED,Valid,Standard
+44809712,3.65041E+14,Sample from paediatric patient,Specimen,Specimen,SNOMED,Valid,Standard
+45765695,702701006,Specimen from cervix or vagina,Specimen,Specimen,SNOMED,Valid,Standard
+45766301,703430008,Arterial cord blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45766302,703431007,Venous cord blood specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45766303,703432000,Venous plasma specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45766337,703475006,Tissue specimen from nodule,Specimen,Specimen,SNOMED,Valid,Standard
+45766965,704243004,Animal head specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45767301,704663000,Parasitic worm specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45767596,705054005,Muscle specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45769403,708048008,Plasma specimen with citrate,Specimen,Specimen,SNOMED,Valid,Standard
+45769404,708049000,Plasma specimen with ethylenediamine tetraacetic acid,Specimen,Specimen,SNOMED,Valid,Standard
+45769455,708112008,Retrouterine pouch fluid aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+45769596,708285007,Tissue impression smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+45769626,708317005,Pooled specimen from vaginal introitus and rectal swab,Specimen,Specimen,SNOMED,Valid,Standard
+45771048,708111001,Untreated water specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45773007,708110000,Treated water specimen,Specimen,Specimen,SNOMED,Valid,Standard
+45773106,703691002,Spun cerebrospinal fluid,Specimen,Specimen,SNOMED,Valid,Standard
+46270169,1.62093E+16,Central nervous system cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270170,1.62093E+16,Eye discharge specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270171,1.62097E+16,Specimen from left lung obtained by blind bronchioloalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270172,1.62097E+16,Specimen from right lung obtained by blind bronchioloalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270173,1.62098E+16,Specimen from left lower lobe of lung obtained by bronchoalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270174,1.62098E+16,Specimen from left upper lobe of lung obtained by bronchoalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270175,1.62099E+16,Specimen from right lower lobe of lung obtained by bronchoalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270176,1.62102E+16,Body fluid specimen obtained via cystostomy tube,Specimen,Specimen,SNOMED,Valid,Standard
+46270177,1.62103E+16,Body fluid specimen obtained via Jackson-Pratt drain,Specimen,Specimen,SNOMED,Valid,Standard
+46270178,1.62103E+16,Gastric fluid specimen obtained by drainage,Specimen,Specimen,SNOMED,Valid,Standard
+46270179,1.62103E+16,Gastric fluid specimen obtained via gastrostomy tube,Specimen,Specimen,SNOMED,Valid,Standard
+46270180,1.62104E+16,Jejunal fluid specimen obtained by drainage,Specimen,Specimen,SNOMED,Valid,Standard
+46270181,1.62105E+16,Specimen from bone obtained by curettage,Specimen,Specimen,SNOMED,Valid,Standard
+46270182,1.62105E+16,Labia ulcer sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270183,1.62106E+16,Dental cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270184,1.62106E+16,Uterine cervix cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270185,1.62107E+16,Branchial cleft cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270186,1.62107E+16,Breast cyst sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270187,1.62109E+16,Cerebellar neoplasm sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270188,1.62109E+16,Endocervical polyp sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270189,1.6211E+16,Specimen from deep surgical wound,Specimen,Specimen,SNOMED,Valid,Standard
+46270190,1.62111E+16,Specimen from deep wound,Specimen,Specimen,SNOMED,Valid,Standard
+46270191,1.62111E+16,Hydrocele sample obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270192,1.62111E+16,Epidural lesion sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270193,1.62112E+16,Specimen from intra-abdominal abscess,Specimen,Specimen,SNOMED,Valid,Standard
+46270194,1.62113E+16,Extradural lesion sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270195,1.62113E+16,Specimen from axilla structure obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270196,1.62113E+16,Specimen obtained by cystoprostatectomy,Specimen,Specimen,SNOMED,Valid,Standard
+46270197,1.62114E+16,Specimen from joint cartilage obtained by shave excision,Specimen,Specimen,SNOMED,Valid,Standard
+46270198,1.62115E+16,Specimen from breast obtained by resection of superior margin,Specimen,Specimen,SNOMED,Valid,Standard
+46270199,1.62115E+16,Specimen from breast obtained by resection of lateral margin,Specimen,Specimen,SNOMED,Valid,Standard
+46270200,1.62115E+16,Specimen from breast obtained by resection of inferior margin,Specimen,Specimen,SNOMED,Valid,Standard
+46270201,1.62116E+16,Specimen from breast obtained by resection of anterior margin,Specimen,Specimen,SNOMED,Valid,Standard
+46270202,1.62116E+16,Specimen from breast obtained by resection of medial margin,Specimen,Specimen,SNOMED,Valid,Standard
+46270203,1.62117E+16,Specimen from breast with lymph node obtained by modified radical mastectomy,Specimen,Specimen,SNOMED,Valid,Standard
+46270204,1.62118E+16,Specimen from breast obtained by mastectomy with axillary contents,Specimen,Specimen,SNOMED,Valid,Standard
+46270205,1.62123E+16,Specimen from stomach obtained by hemigastrectomy,Specimen,Specimen,SNOMED,Valid,Standard
+46270206,1.62124E+16,Kidney brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270207,1.62124E+16,Specimen from right upper lobe of lung obtained by bronchial brushings procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270208,1.62125E+16,Specimen from left lower lobe of lung obtained by bronchial brushings procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270209,1.62125E+16,Specimen from left upper lobe of lung obtained by bronchial brushings procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270210,1.62125E+16,Specimen from right lower lobe of lung obtained by bronchial brushings procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270211,1.62126E+16,Specimen from right middle lobe of lung obtained by bronchial brushings procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270212,1.62127E+16,Gingiva biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270213,1.62127E+16,Specimen from ethmoid sinus obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270214,1.62128E+16,Specimen from eyelid obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270215,1.62129E+16,Specimen from corneal ulcer,Specimen,Specimen,SNOMED,Valid,Standard
+46270216,1.62129E+16,Specimen from cranium bone obtained by craniotomy,Specimen,Specimen,SNOMED,Valid,Standard
+46270217,1.6213E+16,Specimen from cartilage obtained by shave excision,Specimen,Specimen,SNOMED,Valid,Standard
+46270218,1.6213E+16,Specimen from bone obtained by core needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270219,1.62131E+16,Indwelling catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270220,1.62132E+16,Balloon catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270221,1.62132E+16,Endotracheal catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270222,1.62133E+16,Introducer catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270223,1.62133E+16,Rectosigmoid colon biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270224,1.62134E+16,Left colic flexure biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270225,1.62134E+16,Ascending colon biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270226,1.62135E+16,Right colic flexure biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270227,1.62135E+16,Cecum biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270228,1.62135E+16,Descending colon biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270229,1.62136E+16,Ileocecal valve biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270230,1.62137E+16,Duodenal ulcer sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270231,1.62137E+16,Common bile duct brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270232,1.62137E+16,Specimen from liver obtained by needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270233,1.62139E+16,Specimen from posterior wall of urinary bladder obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270234,1.6214E+16,Specimen from trigone of urinary bladder obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270235,1.62141E+16,Specimen from anterior wall of urinary bladder obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270236,1.62141E+16,Frozen tissue section sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270237,1.62142E+16,Genital fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270238,1.62142E+16,Pediculus sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270239,1.62143E+16,Specimen from right upper lobe of lung obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270240,1.62143E+16,Specimen from lingula obtained by transbronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270241,1.62144E+16,Specimen from lung obtained by needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270242,1.62144E+16,Specimen from left upper lobe of lung obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270243,1.62145E+16,Specimen from left lung obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270244,1.62145E+16,Specimen from right lung obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270245,1.62145E+16,Specimen from right middle lobe of lung obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270246,1.62146E+16,Specimen from left lower lobe of lung obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270247,1.62146E+16,Specimen from right lower lobe of lung obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270248,1.62147E+16,Specimen from lingula obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270249,1.62147E+16,Specimen obtained from breast by ultrasound guided needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270250,1.6215E+16,Specimen obtained from breast by stereotactically guided needle biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270251,1.62151E+16,Specimen from labia obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270252,1.62151E+16,Specimen from bronchus obtained by endobronchial biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270253,1.62151E+16,Endocervical smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270254,1.62152E+16,Specimen from abscess of Bartholin's gland,Specimen,Specimen,SNOMED,Valid,Standard
+46270255,1.62152E+16,Bartholin's gland fluid specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270256,1.62153E+16,Specimen from right upper lobe of lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270257,1.62153E+16,Specimen from left upper lobe of lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270258,1.62154E+16,Specimen from left lower lobe of lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270259,1.62155E+16,Specimen from right middle lobe of lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270260,1.62155E+16,Specimen from breast duct obtained by excision,Specimen,Specimen,SNOMED,Valid,Standard
+46270261,1.62155E+16,Specimen from left upper lobe of lung obtained by bronchial aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270262,1.62156E+16,Specimen from right middle lobe of lung obtained by bronchial aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270263,1.62156E+16,Specimen from right lower lobe of lung obtained by bronchial aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270264,1.62157E+16,Specimen from right upper lobe of lung obtained by bronchial aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270265,1.62157E+16,Endocardium biopsy sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270266,1.62158E+16,Specimen from inguinal lymph node obtained by fine needle aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270267,1.62158E+16,Specimen from groin obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270268,1.62159E+16,Specimen from brain obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270269,1.62159E+16,Specimen from cyst obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270270,1.6216E+16,Hilum of lung specimen obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270271,1.62161E+16,Specimen from branchial cleft cyst obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270272,1.62161E+16,Duodenal brushings sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270273,1.62161E+16,Specimen obtained from pouch of Douglas by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270274,1.62162E+16,Endocervical aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+46270275,1.62163E+16,Specimen from lung obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270276,1.62163E+16,Labia smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270277,1.62163E+16,Cerebrospinal fluid smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270278,1.62164E+16,Anal smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270279,1.62164E+16,Conjunctival smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270280,1.62165E+16,Colonic specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+46270281,1.62165E+16,Urinary bladder specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+46270282,1.62165E+16,Common bile duct specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+46270283,1.62166E+16,Esophageal specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+46270284,1.62166E+16,Aortic valve specimen obtained by lavage,Specimen,Specimen,SNOMED,Valid,Standard
+46270285,1.62209E+16,Pancreas cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270286,1.6221E+16,Specimen of fluid from cyst of kidney,Specimen,Specimen,SNOMED,Valid,Standard
+46270287,1.6221E+16,Vaginal discharge specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270288,1.62213E+16,Urine specimen obtained via straight catheter,Specimen,Specimen,SNOMED,Valid,Standard
+46270289,1.62214E+16,Urine specimen obtained from pediatric urine collection bag,Specimen,Specimen,SNOMED,Valid,Standard
+46270290,1.62215E+16,Voided urine specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270291,1.62219E+16,Specimen from soft tissue mass lesion obtained by fine needle aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46270292,1.62221E+16,"Skin sample obtained by excision, frozen section",Specimen,Specimen,SNOMED,Valid,Standard
+46270293,1.62223E+16,"Specimen from skin obtained by Mohs surgery, permanent section",Specimen,Specimen,SNOMED,Valid,Standard
+46270294,1.62228E+16,Uvula tissue specimen obtained by simple excision,Specimen,Specimen,SNOMED,Valid,Standard
+46270295,1.6223E+16,Specimen from parotid gland obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270296,1.62231E+16,Specimen of mucosa of nasal sinus obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270297,1.62233E+16,Peripherally inserted central venous catheter tip submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270298,1.62235E+16,Tissue specimen obtained by transtracheal biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270299,1.62235E+16,Liquid stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270300,1.62236E+16,Purged stool specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46270301,1.62237E+16,Specimen from ligated fallopian tube,Specimen,Specimen,SNOMED,Valid,Standard
+46270302,1.62237E+16,Specimen from perianal region obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270303,1.62239E+16,Vitreous humor specimen obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270304,1.6224E+16,Synovial fluid specimen obtained by fine needle aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46270305,1.62241E+16,Specimen from lymph node obtained by endotracheal aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270306,1.62241E+16,Specimen from mediastinal lymph node obtained by endotracheal aspiration biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46270307,1.62242E+16,Nasotracheal aspirate,Specimen,Specimen,SNOMED,Valid,Standard
+46270308,1.62243E+16,Papanicolaou smear sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270309,1.62243E+16,Renal washings,Specimen,Specimen,SNOMED,Valid,Standard
+46270310,1.62244E+16,Nasal lavage fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+46270316,1.62353E+16,Specimen from sentinel lymph node of breast,Specimen,Specimen,SNOMED,Valid,Standard
+46271007,709024005,Paint chip sample,Specimen,Specimen,SNOMED,Valid,Standard
+46271815,710069003,Tick specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46273224,712560001,Two hours specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46273457,1.62093E+16,Brain cyst fluid sample,Specimen,Specimen,SNOMED,Valid,Standard
+46273458,1.62099E+16,Specimen from right middle lobe of lung obtained by bronchoalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46273459,1.62105E+16,Specimen from endocervix obtained by curettage,Specimen,Specimen,SNOMED,Valid,Standard
+46273624,712562009,Twenty four hours specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46273994,712559006,Seventy minutes specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46274042,1.56507E+16,Paraffin embedded slide,Specimen,Specimen,SNOMED,Valid,Standard
+46274049,1.62099E+16,Specimen from right upper lobe of lung obtained by bronchoalveolar lavage procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46274050,1.62114E+16,Specimen from breast obtained by resection of posterior margin,Specimen,Specimen,SNOMED,Valid,Standard
+46274051,1.62121E+16,Excised breast ectopic tissue sample,Specimen,Specimen,SNOMED,Valid,Standard
+46274052,1.62131E+16,External shunt submitted as specimen,Specimen,Specimen,SNOMED,Valid,Standard
+46274053,1.62139E+16,Specimen from dome of urinary bladder obtained by biopsy,Specimen,Specimen,SNOMED,Valid,Standard
+46274054,1.62157E+16,Specimen from left lower lobe of lung obtained by bronchial aspiration procedure,Specimen,Specimen,SNOMED,Valid,Standard
+46274055,1.62162E+16,Specimen from liver obtained by aspiration,Specimen,Specimen,SNOMED,Valid,Standard
+46274056,1.62231E+16,Nasal sinus contents sample,Specimen,Specimen,SNOMED,Valid,Standard
+46274057,1.62238E+16,Specimen from diaphragm obtained by brushing,Specimen,Specimen,SNOMED,Valid,Standard
+46274132,1.62128E+16,Tissue specimen from donor cornea,Specimen,Specimen,SNOMED,Valid,Standard
+46274133,1.62153E+16,Specimen from right lower lobe of lung obtained by bronchial washing procedure,Specimen,Specimen,SNOMED,Valid,Standard

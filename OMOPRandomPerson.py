@@ -18,11 +18,6 @@ m1 = "Please enter the number of OMOP Person records you want to create: "
 m2 = "Random OMOP Person CSV generation complete!"
 
 
-# creating a random choosing function
-def choosing(id_list):
-    return random.choice(id_list)
-
-
 # the class that generate random values for all the fields required in PERSON table
 class OMOP_PatientRecord(rd.PatientRecord):
 
@@ -38,13 +33,13 @@ class OMOP_PatientRecord(rd.PatientRecord):
             for i in range(self.records):
                 writer.writerow({
                     "person_id": OMOP_PatientRecord.person_id,
-                    "gender_concept_id": choosing(gender_list),
+                    "gender_concept_id": random.choice(gender_list),
                     "year_of_birth": self.dob_time().year,
                     "month_of_birth": self.sdg_dob.month,
                     "day_of_birth": self.sdg_dob.day,
                     "birth_datetime": self.sdg_dob,
-                    "race_concept_id": choosing(race_list),
-                    "ethnicity_concept_id": choosing(ethnicity_list),
+                    "race_concept_id": random.choice(race_list),
+                    "ethnicity_concept_id": random.choice(ethnicity_list),
                 })
                 OMOP_PatientRecord.person_id += 1
             OMOPcsvFile.close()
