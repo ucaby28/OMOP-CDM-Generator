@@ -62,11 +62,19 @@ def generate():
     if Manager.dt == 0 and Manager.df == 0:
         rd.PatientRecord(rd.main(rd.m1, rd.m2), rd.PatientRecord.header_list).data_generate()
     elif Manager.dt == 0 and Manager.df == 1:
-        person.OMOP_PatientRecord(rd.main(person.m1, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
+        person.OMOP_PatientRecord(rd.main(person.m1, person.m2),
+                                  person.OMOP_PatientRecord.header_list).data_generate()
+        import OMOPRandomSpecimen as specimen
+        specimen.OMOP_PatientRecord(len(specimen.person_id_list),
+                                    specimen.OMOP_PatientRecord.header_list).data_generate()
     elif Manager.dt == 1 and Manager.df == 0:
         rb.PatientRecord_RB(rd.main(rb.m1, rb.m2), rb.PatientRecord_RB.header_list).data_generate()
     elif Manager.dt == 1 and Manager.df == 1:
-        person_rb.OMOP_PatientRecord(rd.main(person_rb.m1, person_rb.m2), person.OMOP_PatientRecord.header_list).data_generate()
+        person_rb.OMOP_PatientRecord(rd.main(person_rb.m1, person_rb.m2),
+                                     person.OMOP_PatientRecord.header_list).data_generate()
+        import OMOPSpecimen_RB as specimen_rb
+        specimen_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
+                                       specimen_rb.OMOP_PatientRecord.header_list).data_generate()
     sys.exit()
 
 

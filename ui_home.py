@@ -98,7 +98,7 @@ class Ui_MainWindow(object):
 
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
-        MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        MainWindow.setWindowTitle(_translate("MainWindow", "Synthetic Data Generator"))
         self.title_label.setText(_translate("MainWindow", "OMOP Common Data Model Generator"))
         self.des_label_2.setText(_translate("MainWindow", "Please select the type of data you want to generate"))
         self.Random_radioButton.setText(_translate("MainWindow", "Random data (Unbounded)"))

@@ -9,7 +9,7 @@ try:
     person_id_df = pd.read_csv(person_id_file)
     person_id_list = person_id_df['person_id']
 except FileNotFoundError:
-    person_id_list = [i for i in range(51)]
+    person_id_list = [i for i in range(100)]
 specimen_concept_file = 'config_files/specimen_concept_id.csv'
 specimen_concept_df = pd.read_csv(specimen_concept_file)
 specimen_concept_list = specimen_concept_df['Id']
