@@ -4,7 +4,7 @@ import RuleBased_normal as rb
 
 # messages to display at CLI
 m1 = "Please enter the number of OMOP Person records you want to create: "
-m2 = "Rule-based OMOP Person CSV generation complete!"
+m2 = "Rule-based OMOP Person, Specimen CSV tables generation complete!"
 
 
 # the class that generate rule-based values for all the fields required in PERSON table
@@ -32,3 +32,5 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
 
 if __name__ == "__main__":
     OMOP_PatientRecord(rd.main(m1, m2), person.OMOP_PatientRecord.header_list).data_generate()
+    import OMOPSpecimen_RB as specimen_rb
+    specimen_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list), specimen_rb.OMOP_PatientRecord.header_list).data_generate()

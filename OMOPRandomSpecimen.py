@@ -4,9 +4,12 @@ import pandas as pd
 import random
 
 # read CSV files for pre-stored IDs and store them into a list
-person_id_file = 'Random_OMOP_Person.csv'
-person_id_df = pd.read_csv(person_id_file)
-person_id_list = person_id_df['person_id']
+try:
+    person_id_file = 'Random_OMOP_Person.csv'
+    person_id_df = pd.read_csv(person_id_file)
+    person_id_list = person_id_df['person_id']
+except FileNotFoundError:
+    person_id_list = [i for i in range(51)]
 specimen_concept_file = 'config_files/specimen_concept_id.csv'
 specimen_concept_df = pd.read_csv(specimen_concept_file)
 specimen_concept_list = specimen_concept_df['Id']
@@ -44,4 +47,4 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(m1, m2), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(person_id_list), OMOP_PatientRecord.header_list).data_generate()
