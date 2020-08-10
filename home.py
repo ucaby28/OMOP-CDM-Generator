@@ -1,11 +1,14 @@
 from PyQt5 import QtWidgets
 from ui_home import Ui_MainWindow as home_window
 from ui_format import Ui_MainWindow as format_window
+from ui_config import Ui_MainWindow as config_window
 
 import Random as rd
 import RuleBased_normal as rb
 import OMOPRandomPerson as person
 import OMOPPerson_RB as person_rb
+
+import yaml
 
 
 class MainWindow(QtWidgets.QMainWindow, home_window):
@@ -18,13 +21,25 @@ class MainWindow(QtWidgets.QMainWindow, home_window):
         self.next_Button.clicked.connect(self.hide)
 
 
+class ConfigWindow(QtWidgets.QDialog, config_window):
+    def __init__(self, parent=None):
+        super(ConfigWindow, self).__init__(parent)
+        self.setupUi(self)
+        self.b2 = self.no_radioButton_2
+        self.b2.setChecked(True)
+        self.b2.toggled.connect(lambda: selected_type(self.b2))
+        self.next_Button.clicked.connect(lambda: config_file(self.path_lineEdit.text()))
+        self.next_Button.clicked.connect(self.hide)
+        self.back_pushButton.clicked.connect(self.hide)
+
+
 class FormatWindow(QtWidgets.QDialog, format_window):
     def __init__(self, parent=None):
         super(FormatWindow, self).__init__(parent)
         self.setupUi(self)
-        self.b2 = self.Random_radioButton
-        self.b2.setChecked(True)
-        self.b2.toggled.connect(lambda: selected_format(self.b2))
+        self.b3 = self.Random_radioButton
+        self.b3.setChecked(True)
+        self.b3.toggled.connect(lambda: selected_format(self.b3))
         self.next_Button.clicked.connect(self.hide)
         self.back_pushButton.clicked.connect(self.hide)
 
@@ -35,10 +50,13 @@ class Manager:
 
     def __init__(self):
         self.main = MainWindow()
+        self.config = ConfigWindow()
         self.format = FormatWindow()
 
-        self.main.next_Button.clicked.connect(self.format.show)
-        self.format.back_pushButton.clicked.connect(self.main.show)
+        self.main.next_Button.clicked.connect(self.config.show)
+        self.config.back_pushButton.clicked.connect(self.main.show)
+        self.config.next_Button.clicked.connect(self.format.show)
+        self.format.back_pushButton.clicked.connect(self.config.show)
         self.format.next_Button.clicked.connect(generate)
 
         self.main.show()
@@ -56,6 +74,20 @@ def selected_format(b):
         Manager.df = 0
     else:
         Manager.df = 1
+
+
+def config_file(path):
+    if path != '':
+        try:
+            with open(path, "r") as ymlfile:
+                cfg = yaml.safe_load(ymlfile)
+            if 'mysql' in cfg:
+                print('hello')
+            print(cfg)
+            print(cfg["mysql"])
+            print(cfg["other"])
+        except FileNotFoundError:
+            pass
 
 
 def generate():
