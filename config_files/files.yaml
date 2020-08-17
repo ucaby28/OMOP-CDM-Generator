@@ -9,3 +9,9 @@ other:
         - preprocessing.dot_reduction
         - preprocessing.connect_lines
     use_anonymous: yes
+age:
+    distribution: binomial
+    n:
+    p: 40
+records:
+

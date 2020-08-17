@@ -1,5 +1,5 @@
 import RuleBased_normal as rb
-import OMOPRandomSpecimen as specimen
+import OMOPSpecimen_RD as specimen
 import Random as rd
 import pandas as pd
 import random
@@ -19,13 +19,10 @@ m2 = "Rule-based OMOP Specimen CSV generation complete!"
 class OMOP_PatientRecord(rb.PatientRecord_RB):
     specimen_id = 1
 
-    # define the column names for each field according to the OMOP CDM
-    header_list = ["person_id", "specimen_id", "specimen_concept_id", "specimen_type_concept_id", "specimen_date"]
-
     def id(self):
         self.person_id = random.choice(person_id_list)
         self.person_age = int(rd.PatientRecord.this_year - person_year_of_birth_list[self.person_id - 1])
-        return self.person_id
+        return self.person_id, self.person_age
 
     # generating a Specimen table and output as a csv file
     def data_generate(self):
@@ -34,7 +31,7 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
             writer.writeheader()
             for i in range(self.records):
                 writer.writerow({
-                    "person_id": self.id(),
+                    "person_id": self.id()[0],
                     "specimen_id": OMOP_PatientRecord.specimen_id,
                     "specimen_concept_id": random.choice(specimen.specimen_concept_list),
                     "specimen_type_concept_id": random.choice(specimen.specimen_type_concept_list),
@@ -45,4 +42,4 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(person_id_list), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(person_id_list), specimen.OMOP_PatientRecord.header_list).data_generate()

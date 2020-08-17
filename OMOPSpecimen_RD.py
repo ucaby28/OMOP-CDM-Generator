@@ -1,4 +1,4 @@
-import OMOPRandomPerson as person
+import OMOPPerson_RD as person
 import Random as rd
 import pandas as pd
 import random
@@ -40,7 +40,7 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
                     "specimen_id": OMOP_PatientRecord.specimen_id,
                     "specimen_concept_id": random.choice(specimen_concept_list),
                     "specimen_type_concept_id": random.choice(specimen_type_concept_list),
-                    "specimen_date": rd.fake1.date(),
+                    "specimen_date": rd.fake1.date_time_ad().date(),
                 })
                 OMOP_PatientRecord.specimen_id += 1
             OMOPcsvFile.close()

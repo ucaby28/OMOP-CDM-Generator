@@ -1,14 +1,36 @@
-from PyQt5 import QtWidgets
+from PyQt5 import QtWidgets, QtGui
+from PyQt5.QtGui import QFontMetrics
+
 from ui_home import Ui_MainWindow as home_window
 from ui_format import Ui_MainWindow as format_window
 from ui_config import Ui_MainWindow as config_window
 
 import Random as rd
 import RuleBased_normal as rb
-import OMOPRandomPerson as person
+import OMOPPerson_RD as person
 import OMOPPerson_RB as person_rb
 
 import yaml
+import os
+
+
+class MessageWindow:
+    def error_window(self, item):
+        QMessageBox = QtWidgets.QMessageBox
+        msg = QtWidgets.QMessageBox()
+        msg.setWindowTitle('Error')
+        msg.setText(item)
+        msg.setIcon(QMessageBox.Warning)
+        msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
+        msg.buttonClicked.connect(self.popup_clicked)
+        msg.exec_()
+
+    def popup_clicked(self, b):
+        if b.text() == '&Yes':
+            FormatWindow().show()
+            ConfigWindow().hide()
+        elif b.text() == "&No":
+            ConfigWindow().setWindowOpacity(1.)
 
 
 class MainWindow(QtWidgets.QMainWindow, home_window):
@@ -25,12 +47,51 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
     def __init__(self, parent=None):
         super(ConfigWindow, self).__init__(parent)
         self.setupUi(self)
-        self.b2 = self.no_radioButton_2
-        self.b2.setChecked(True)
-        self.b2.toggled.connect(lambda: selected_type(self.b2))
-        self.next_Button.clicked.connect(lambda: config_file(self.path_lineEdit.text()))
-        self.next_Button.clicked.connect(self.hide)
+        self.uploadfile_pushButton.clicked.connect(self.upload_config_file)
+        self.next_Button.clicked.connect(lambda: self.load_file(self.checkBox))
         self.back_pushButton.clicked.connect(self.hide)
+
+    def upload_config_file(self):
+            self.file_name, _ = QtWidgets.QFileDialog.getOpenFileName(caption='Select File', directory=os.getcwd(),
+                                                                 filter='Config files (*.yaml *.yml)')
+
+            self.showpath_lineEdit.setText(self.file_name)
+            fontMetrics = QFontMetrics(QtGui.QFont())
+            textSize = fontMetrics.size(0, self.file_name)
+            textWidth = textSize.width() + 30
+            textHeight = textSize.height() + 30
+            self.showpath_lineEdit.resize(textWidth, textHeight)
+
+    def load_file(self, checkbox):
+        if not checkbox.isChecked():
+            try:
+                with open(self.file_name, "r") as ymlfile:
+                    cfg = yaml.safe_load(ymlfile)
+                    ymlfile.close()
+                list = [items for items in cfg]
+                if 'age' in list:
+                    try:
+                        self.dist = cfg['age']['distribution']
+                        if self.dist == 'normal':
+                            self.avg = int(cfg['age']['average'])
+                            self.sd = int(cfg['age']['sd'])
+                        elif self.dist == 'binomial':
+                            self.n = int(cfg['age']['n'])
+                            self.p = int(cfg['age']['p'])
+                        elif self.dist == 'poisson':
+                            self.lam = int(cfg['age']['lam'])
+                        print('success')
+                    except TypeError:
+                        error_window('Missing age parameter(s). Do you want to use the default settings instead?')
+                if 'records' in list:
+                    try:
+                        self.num_records = cfg['records']['size']
+                    except TypeError:
+                        pass
+            except AttributeError:
+                error_window('No file path was found. Do you want to use the default settings?')
+        else:
+            self.hide()
 
 
 class FormatWindow(QtWidgets.QDialog, format_window):
@@ -55,8 +116,8 @@ class Manager:
 
         self.main.next_Button.clicked.connect(self.config.show)
         self.config.back_pushButton.clicked.connect(self.main.show)
-        self.config.next_Button.clicked.connect(self.format.show)
-        self.format.back_pushButton.clicked.connect(self.config.show)
+        # self.config.next_Button.clicked.connect(self.format.show)
+        # self.format.back_pushButton.clicked.connect(self.config.show)
         self.format.next_Button.clicked.connect(generate)
 
         self.main.show()
@@ -76,27 +137,13 @@ def selected_format(b):
         Manager.df = 1
 
 
-def config_file(path):
-    if path != '':
-        try:
-            with open(path, "r") as ymlfile:
-                cfg = yaml.safe_load(ymlfile)
-            if 'mysql' in cfg:
-                print('hello')
-            print(cfg)
-            print(cfg["mysql"])
-            print(cfg["other"])
-        except FileNotFoundError:
-            pass
-
-
 def generate():
     if Manager.dt == 0 and Manager.df == 0:
         rd.PatientRecord(rd.main(rd.m1, rd.m2), rd.PatientRecord.header_list).data_generate()
     elif Manager.dt == 0 and Manager.df == 1:
         person.OMOP_PatientRecord(rd.main(person.m1, person.m2),
                                   person.OMOP_PatientRecord.header_list).data_generate()
-        import OMOPRandomSpecimen as specimen
+        import OMOPSpecimen_RD as specimen
         specimen.OMOP_PatientRecord(len(specimen.person_id_list),
                                     specimen.OMOP_PatientRecord.header_list).data_generate()
     elif Manager.dt == 1 and Manager.df == 0:
