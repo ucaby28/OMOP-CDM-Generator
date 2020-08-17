@@ -1,0 +1,1121 @@
+Id,Code,Name,Standard Class,Domain,Vocab,Validity,Concept
+763903,4.48E+14,Trauma intensive care unit,Location,Observation,SNOMED,Valid,Standard
+764616,4.74E+12,Single-level dwelling,Location,Observation,SNOMED,Valid,Standard
+764617,4.75E+12,Split-level dwelling,Location,Observation,SNOMED,Valid,Standard
+764619,4.76E+12,Multi-level dwelling,Location,Observation,SNOMED,Valid,Standard
+4008064,111059006,Swamp,Location,Observation,SNOMED,Valid,Standard
+4021520,225728007,Accident and Emergency department,Location,Observation,SNOMED,Valid,Standard
+4021521,225729004,Bathing station,Location,Observation,SNOMED,Valid,Standard
+4021522,225730009,Bed area,Location,Observation,SNOMED,Valid,Standard
+4021524,225737007,Morgue,Location,Observation,SNOMED,Valid,Standard
+4021632,225739005,Client's room,Location,Observation,SNOMED,Valid,Standard
+4021810,225734000,Holding room,Location,Observation,SNOMED,Valid,Standard
+4021812,225736003,Massage parlour,Location,Observation,SNOMED,Valid,Standard
+4021813,225738002,Operating theatre,Location,Observation,SNOMED,Valid,Standard
+4021814,225741006,Resuscitation room,Location,Observation,SNOMED,Valid,Standard
+4021815,225743009,Seclusion room,Location,Observation,SNOMED,Valid,Standard
+4021816,225744003,Side room,Location,Observation,SNOMED,Valid,Standard
+4023215,225731008,Chapel,Location,Observation,SNOMED,Valid,Standard
+4023216,225742004,Sea,Location,Observation,SNOMED,Valid,Standard
+4023217,225746001,Ward,Location,Observation,SNOMED,Valid,Standard
+4023218,225747005,X-ray department,Location,Observation,SNOMED,Valid,Standard
+4026057,225733006,Drinking bar,Location,Observation,SNOMED,Valid,Standard
+4026058,225745002,Stripped room,Location,Observation,SNOMED,Valid,Standard
+4047134,229766003,Staircase - location,Location,Observation,SNOMED,Valid,Standard
+4049447,15496002,Public swimming pool,Location,Observation,SNOMED,Valid,Standard
+4052152,160709000,Ground floor flat,Location,Observation,SNOMED,Valid,Standard
+4052329,161080002,Passive smoking risk,Location,Observation,SNOMED,Valid,Standard
+4052780,161116001,Pre-school,Location,Observation,SNOMED,Valid,Standard
+4052782,161119008,Primary school,Location,Observation,SNOMED,Valid,Standard
+4052783,161123000,Approved school,Location,Observation,SNOMED,Valid,Standard
+4052784,161124006,Boarding school,Location,Observation,SNOMED,Valid,Standard
+4053085,160710005,Lower floor flat,Location,Observation,SNOMED,Valid,Standard
+4053086,160711009,Upper floor flat,Location,Observation,SNOMED,Valid,Standard
+4059783,161120002,Secondary school,Location,Observation,SNOMED,Valid,Standard
+4071714,223363001,British Virgin island,Location,Observation,SNOMED,Valid,Standard
+4071716,223381003,Hierro,Location,Observation,SNOMED,Valid,Standard
+4071812,223388009,Lanzarote,Location,Observation,SNOMED,Valid,Standard
+4071813,223389001,Lesser Antilles island,Location,Observation,SNOMED,Valid,Standard
+4071814,223398003,Room of building,Location,Observation,SNOMED,Valid,Standard
+4071816,223405009,Outdoors area of home,Location,Observation,SNOMED,Valid,Standard
+4071832,223505006,Subcontinent,Location,Observation,SNOMED,Valid,Standard
+4071849,223697002,Caribbean country,Location,Observation,SNOMED,Valid,Standard
+4071851,223708005,St. Kitts and Nevis,Location,Observation,SNOMED,Valid,Standard
+4071852,223709002,St. Lucia,Location,Observation,SNOMED,Valid,Standard
+4071855,223725007,Part of country,Location,Observation,SNOMED,Valid,Standard
+4071967,223733008,Transvaal,Location,Observation,SNOMED,Valid,Standard
+4071970,223742001,Borneo,Location,Observation,SNOMED,Valid,Standard
+4071971,223744000,Java,Location,Observation,SNOMED,Valid,Standard
+4071972,223746003,Timor,Location,Observation,SNOMED,Valid,Standard
+4071973,223750005,Sumatera,Location,Observation,SNOMED,Valid,Standard
+4071974,223754001,Shikoku,Location,Observation,SNOMED,Valid,Standard
+4071977,223760001,Sarawak,Location,Observation,SNOMED,Valid,Standard
+4071983,223793005,Connaught county,Location,Observation,SNOMED,Valid,Standard
+4071985,223805003,Longford,Location,Observation,SNOMED,Valid,Standard
+4071987,223821008,Cos,Location,Observation,SNOMED,Valid,Standard
+4071988,223822001,Crete,Location,Observation,SNOMED,Valid,Standard
+4071989,223823006,Euboea,Location,Observation,SNOMED,Valid,Standard
+4071990,223831001,Lesbos,Location,Observation,SNOMED,Valid,Standard
+4071991,223838007,Isle d'Elba,Location,Observation,SNOMED,Valid,Standard
+4071994,223849001,Menorca,Location,Observation,SNOMED,Valid,Standard
+4071998,223855006,Corsica,Location,Observation,SNOMED,Valid,Standard
+4072000,223863007,English counties,Location,Observation,SNOMED,Valid,Standard
+4072001,223867008,Buckinghamshire,Location,Observation,SNOMED,Valid,Standard
+4072002,223868003,Cambridgeshire,Location,Observation,SNOMED,Valid,Standard
+4072007,223355002,Anegada,Location,Observation,SNOMED,Valid,Standard
+4072010,223378008,Garden greenhouse,Location,Observation,SNOMED,Valid,Standard
+4072015,223403002,St. Martin,Location,Observation,SNOMED,Valid,Standard
+4072016,223406005,Tahiti,Location,Observation,SNOMED,Valid,Standard
+4072443,223872004,Cumbria,Location,Observation,SNOMED,Valid,Standard
+4072444,223887009,Lancashire,Location,Observation,SNOMED,Valid,Standard
+4072445,223895008,Nottinghamshire,Location,Observation,SNOMED,Valid,Standard
+4072446,223896009,Oxfordshire,Location,Observation,SNOMED,Valid,Standard
+4072448,223913001,Isles of Scilly,Location,Observation,SNOMED,Valid,Standard
+4072449,223916009,Sheppey,Location,Observation,SNOMED,Valid,Standard
+4072450,223923005,County Fermanagh,Location,Observation,SNOMED,Valid,Standard
+4072451,223933002,Central region,Location,Observation,SNOMED,Valid,Standard
+4072453,223961008,Islay,Location,Observation,SNOMED,Valid,Standard
+4072454,223964000,Orkney,Location,Observation,SNOMED,Valid,Standard
+4072455,223972003,Gwynedd,Location,Observation,SNOMED,Valid,Standard
+4072456,223989006,Anglesey,Location,Observation,SNOMED,Valid,Standard
+4072459,224002007,Tutuila,Location,Observation,SNOMED,Valid,Standard
+4072460,224003002,Manua island,Location,Observation,SNOMED,Valid,Standard
+4072465,224017006,Newfoundland,Location,Observation,SNOMED,Valid,Standard
+4072466,224018001,Northwest Territories,Location,Observation,SNOMED,Valid,Standard
+4072468,224025008,District of Canadian province,Location,Observation,SNOMED,Valid,Standard
+4072469,224033009,Fort Smith region,Location,Observation,SNOMED,Valid,Standard
+4072470,224034003,Keewatin,Location,Observation,SNOMED,Valid,Standard
+4072473,224053008,Lanai,Location,Observation,SNOMED,Valid,Standard
+4072474,224054002,Maui,Location,Observation,SNOMED,Valid,Standard
+4072767,223732003,Orange Free State,Location,Observation,SNOMED,Valid,Standard
+4072768,223738004,Laccadive islands,Location,Observation,SNOMED,Valid,Standard
+4072769,223739007,Nicobar islands,Location,Observation,SNOMED,Valid,Standard
+4072771,223743006,Irian Jaya,Location,Observation,SNOMED,Valid,Standard
+4072772,223759006,Sabah,Location,Observation,SNOMED,Valid,Standard
+4072773,223763004,Cebu,Location,Observation,SNOMED,Valid,Standard
+4072774,223765006,Luzon,Location,Observation,SNOMED,Valid,Standard
+4072775,223770004,Palawan,Location,Observation,SNOMED,Valid,Standard
+4072776,223771000,Panay,Location,Observation,SNOMED,Valid,Standard
+4072870,223772007,Samar,Location,Observation,SNOMED,Valid,Standard
+4072878,223787002,South Island,Location,Observation,SNOMED,Valid,Standard
+4072881,223792000,Clare,Location,Observation,SNOMED,Valid,Standard
+4072882,223794004,Cork - county,Location,Observation,SNOMED,Valid,Standard
+4072884,223797006,Galway,Location,Observation,SNOMED,Valid,Standard
+4072885,223799009,Kildare,Location,Observation,SNOMED,Valid,Standard
+4072886,223802000,Leinster,Location,Observation,SNOMED,Valid,Standard
+4072887,223812007,Roscommon,Location,Observation,SNOMED,Valid,Standard
+4072888,223814008,Tipperary,Location,Observation,SNOMED,Valid,Standard
+4072889,223816005,Westmeath,Location,Observation,SNOMED,Valid,Standard
+4072890,223825004,Cephalonia,Location,Observation,SNOMED,Valid,Standard
+4072892,223827007,Paxos,Location,Observation,SNOMED,Valid,Standard
+4072893,223828002,Lefkada,Location,Observation,SNOMED,Valid,Standard
+4072894,223830000,Lemnos,Location,Observation,SNOMED,Valid,Standard
+4072895,223834009,Skiros,Location,Observation,SNOMED,Valid,Standard
+4072896,223839004,Sardinia,Location,Observation,SNOMED,Valid,Standard
+4072897,223848009,Mallorca,Location,Observation,SNOMED,Valid,Standard
+4072901,223865000,Bedfordshire,Location,Observation,SNOMED,Valid,Standard
+4072903,223873009,Derbyshire,Location,Observation,SNOMED,Valid,Standard
+4072904,223879008,Gloucestershire,Location,Observation,SNOMED,Valid,Standard
+4072906,223889007,Lincolnshire,Location,Observation,SNOMED,Valid,Standard
+4072908,223892006,North Yorkshire,Location,Observation,SNOMED,Valid,Standard
+4072909,223894007,Northumberland,Location,Observation,SNOMED,Valid,Standard
+4072910,223901006,Suffolk,Location,Observation,SNOMED,Valid,Standard
+4072911,223920008,County Armagh,Location,Observation,SNOMED,Valid,Standard
+4072912,223921007,County Belfast,Location,Observation,SNOMED,Valid,Standard
+4072913,223924004,County Londonderry,Location,Observation,SNOMED,Valid,Standard
+4072915,223931000,Regions of Scotland,Location,Observation,SNOMED,Valid,Standard
+4072916,223935009,Fife,Location,Observation,SNOMED,Valid,Standard
+4072917,223936005,Grampian,Location,Observation,SNOMED,Valid,Standard
+4072919,223940001,Strathclyde,Location,Observation,SNOMED,Valid,Standard
+4072920,223959004,Scottish island,Location,Observation,SNOMED,Valid,Standard
+4072921,223962001,Kintyre,Location,Observation,SNOMED,Valid,Standard
+4072922,223966003,Skye,Location,Observation,SNOMED,Valid,Standard
+4072923,223967007,Regions of Wales,Location,Observation,SNOMED,Valid,Standard
+4072924,223968002,Welsh counties,Location,Observation,SNOMED,Valid,Standard
+4072925,223970006,Dyfed,Location,Observation,SNOMED,Valid,Standard
+4072926,223971005,Gwent,Location,Observation,SNOMED,Valid,Standard
+4073017,223975001,South Glamorgan,Location,Observation,SNOMED,Valid,Standard
+4073018,223976000,West Glamorgan,Location,Observation,SNOMED,Valid,Standard
+4073021,223995007,Bahaman island,Location,Observation,SNOMED,Valid,Standard
+4073024,224005009,St. Croix,Location,Observation,SNOMED,Valid,Standard
+4073026,224010008,Wake island,Location,Observation,SNOMED,Valid,Standard
+4073032,223354003,Alderney,Location,Observation,SNOMED,Valid,Standard
+4073037,223396004,Raiatea,Location,Observation,SNOMED,Valid,Standard
+4073038,223400004,St. Barthelemy,Location,Observation,SNOMED,Valid,Standard
+4073039,223409003,Virgin Gorda,Location,Observation,SNOMED,Valid,Standard
+4073312,224632003,Mixed sex boarding school,Location,Observation,SNOMED,Valid,Standard
+4073313,224633008,Apartment building,Location,Observation,SNOMED,Valid,Standard
+4073314,224638004,Apartment converted from house basement,Location,Observation,SNOMED,Valid,Standard
+4073315,224641008,Castle,Location,Observation,SNOMED,Valid,Standard
+4073316,224644000,Semi-detached house,Location,Observation,SNOMED,Valid,Standard
+4073317,224647007,Mews house,Location,Observation,SNOMED,Valid,Standard
+4073318,224655000,Prefab,Location,Observation,SNOMED,Valid,Standard
+4073319,224656004,Chalet bungalow,Location,Observation,SNOMED,Valid,Standard
+4073320,224658003,Semi-detached bungalow,Location,Observation,SNOMED,Valid,Standard
+4073321,224660001,Mews bungalow,Location,Observation,SNOMED,Valid,Standard
+4073322,224669000,Waterborne dwelling,Location,Observation,SNOMED,Valid,Standard
+4073323,224672007,Narrow boat,Location,Observation,SNOMED,Valid,Standard
+4073326,224696002,Lounge-diner room,Location,Observation,SNOMED,Valid,Standard
+4073327,224700005,Bedroom,Location,Observation,SNOMED,Valid,Standard
+4073329,224021004,Prince Edward island,Location,Observation,SNOMED,Valid,Standard
+4073330,224024007,Yukon Territory,Location,Observation,SNOMED,Valid,Standard
+4073331,224027000,Newfoundland island,Location,Observation,SNOMED,Valid,Standard
+4073332,224031006,Banks island,Location,Observation,SNOMED,Valid,Standard
+4073333,224032004,Ellesmere island,Location,Observation,SNOMED,Valid,Standard
+4073731,223497007,Geographical continent,Location,Observation,SNOMED,Valid,Standard
+4073742,223529004,Zaire,Location,Observation,SNOMED,Valid,Standard
+4073746,223561000,Ivory Coast,Location,Observation,SNOMED,Valid,Standard
+4073757,223745004,Lesser Sunda island,Location,Observation,SNOMED,Valid,Standard
+4073759,223748002,Sumba,Location,Observation,SNOMED,Valid,Standard
+4073869,223755000,Kyushu,Location,Observation,SNOMED,Valid,Standard
+4073872,223762009,Bohol,Location,Observation,SNOMED,Valid,Standard
+4073873,223768008,Mindoro,Location,Observation,SNOMED,Valid,Standard
+4073876,223791007,Cavan,Location,Observation,SNOMED,Valid,Standard
+4073877,223795003,Donegal,Location,Observation,SNOMED,Valid,Standard
+4073878,223798001,Kerry,Location,Observation,SNOMED,Valid,Standard
+4073879,223803005,Leitrim,Location,Observation,SNOMED,Valid,Standard
+4073880,223806002,Louth,Location,Observation,SNOMED,Valid,Standard
+4073881,223809009,Monaghan,Location,Observation,SNOMED,Valid,Standard
+4073882,223811000,Offaly,Location,Observation,SNOMED,Valid,Standard
+4073885,223817001,Wexford,Location,Observation,SNOMED,Valid,Standard
+4073887,223824000,Ionian island,Location,Observation,SNOMED,Valid,Standard
+4073888,223829005,Zante,Location,Observation,SNOMED,Valid,Standard
+4073891,223857003,Devil's island,Location,Observation,SNOMED,Valid,Standard
+4073892,223874003,Devonshire,Location,Observation,SNOMED,Valid,Standard
+4073893,223877005,East Sussex,Location,Observation,SNOMED,Valid,Standard
+4073895,223880006,Greater London,Location,Observation,SNOMED,Valid,Standard
+4073896,223883008,Hereford and Worcester,Location,Observation,SNOMED,Valid,Standard
+4073897,223884002,Hertfordshire,Location,Observation,SNOMED,Valid,Standard
+4073898,223885001,Humberside,Location,Observation,SNOMED,Valid,Standard
+4073901,223904003,West Yorkshire,Location,Observation,SNOMED,Valid,Standard
+4073902,223906001,Warwickshire,Location,Observation,SNOMED,Valid,Standard
+4073903,223908000,Wiltshire,Location,Observation,SNOMED,Valid,Standard
+4073904,223911004,English islands,Location,Observation,SNOMED,Valid,Standard
+4073907,223915008,Tresco,Location,Observation,SNOMED,Valid,Standard
+4073909,223919002,County Antrim,Location,Observation,SNOMED,Valid,Standard
+4073910,223925003,County Tyrone,Location,Observation,SNOMED,Valid,Standard
+4073911,223939003,Lothian,Location,Observation,SNOMED,Valid,Standard
+4073912,223941002,Tayside,Location,Observation,SNOMED,Valid,Standard
+4073913,223963006,Mull,Location,Observation,SNOMED,Valid,Standard
+4073914,223965004,Shetland,Location,Observation,SNOMED,Valid,Standard
+4073915,223969005,Clwyd,Location,Observation,SNOMED,Valid,Standard
+4073916,223973008,Mid Glamorgan,Location,Observation,SNOMED,Valid,Standard
+4073917,223974002,Powys,Location,Observation,SNOMED,Valid,Standard
+4073918,223988003,Welsh island,Location,Observation,SNOMED,Valid,Standard
+4073919,223993000,East Falkland,Location,Observation,SNOMED,Valid,Standard
+4074185,224887004,Hospital waiting room,Location,Observation,SNOMED,Valid,Standard
+4074186,224888009,Health education room,Location,Observation,SNOMED,Valid,Standard
+4074190,224906007,Third floor,Location,Observation,SNOMED,Valid,Standard
+4074194,224925005,Countryside,Location,Observation,SNOMED,Valid,Standard
+4074195,224926006,Inner city,Location,Observation,SNOMED,Valid,Standard
+4074196,224931008,Between top and bottom of staircase,Location,Observation,SNOMED,Valid,Standard
+4074197,224933006,Unlicensed residential camp site,Location,Observation,SNOMED,Valid,Standard
+4074483,224631005,Girls boarding school,Location,Observation,SNOMED,Valid,Standard
+4074484,224634002,Apartment within converted house,Location,Observation,SNOMED,Valid,Standard
+4074592,224636000,Apartment converted from house ground floor,Location,Observation,SNOMED,Valid,Standard
+4074593,224639007,Tenement,Location,Observation,SNOMED,Valid,Standard
+4074594,224640009,High-rise building,Location,Observation,SNOMED,Valid,Standard
+4074595,224642001,Mansion,Location,Observation,SNOMED,Valid,Standard
+4074596,224645004,Link-detached house,Location,Observation,SNOMED,Valid,Standard
+4074597,224646003,Terraced house,Location,Observation,SNOMED,Valid,Standard
+4074598,224649005,House converted from barn or mill,Location,Observation,SNOMED,Valid,Standard
+4074599,224651009,Windmill,Location,Observation,SNOMED,Valid,Standard
+4074600,224657008,Detached bungalow,Location,Observation,SNOMED,Valid,Standard
+4074601,224664005,Bed-sitting room,Location,Observation,SNOMED,Valid,Standard
+4074602,224666007,Bus converted to mobile home,Location,Observation,SNOMED,Valid,Standard
+4074603,224674008,Motel,Location,Observation,SNOMED,Valid,Standard
+4074606,224690008,Reception room,Location,Observation,SNOMED,Valid,Standard
+4074607,224693005,Separate eating room,Location,Observation,SNOMED,Valid,Standard
+4074610,224901002,General floor level,Location,Observation,SNOMED,Valid,Standard
+4074611,224904005,First floor,Location,Observation,SNOMED,Valid,Standard
+4074612,224913007,Tenth floor,Location,Observation,SNOMED,Valid,Standard
+4074614,224922008,Basement floor,Location,Observation,SNOMED,Valid,Standard
+4074615,224923003,Bottom of staircase,Location,Observation,SNOMED,Valid,Standard
+4074617,224928007,Regional secure unit,Location,Observation,SNOMED,Valid,Standard
+4074618,224932001,Top of staircase,Location,Observation,SNOMED,Valid,Standard
+4074630,223994006,West Falkland,Location,Observation,SNOMED,Valid,Standard
+4074631,223996008,Turks island,Location,Observation,SNOMED,Valid,Standard
+4074632,223997004,Caicos island,Location,Observation,SNOMED,Valid,Standard
+4074633,224006005,St. John,Location,Observation,SNOMED,Valid,Standard
+4074634,224013005,Alberta,Location,Observation,SNOMED,Valid,Standard
+4074635,224014004,British Columbia,Location,Observation,SNOMED,Valid,Standard
+4074636,224015003,Manitoba,Location,Observation,SNOMED,Valid,Standard
+4074637,224028005,Labrador,Location,Observation,SNOMED,Valid,Standard
+4074638,224029002,District of Northwest Territories,Location,Observation,SNOMED,Valid,Standard
+4074641,224052003,Kauai,Location,Observation,SNOMED,Valid,Standard
+4074642,224055001,Molokai,Location,Observation,SNOMED,Valid,Standard
+4074643,224056000,Oahu,Location,Observation,SNOMED,Valid,Standard
+4075056,223362006,Bora-Bora,Location,Observation,SNOMED,Valid,Standard
+4075057,223377003,Gran Canaria,Location,Observation,SNOMED,Valid,Standard
+4075058,223384006,Isle of Wight,Location,Observation,SNOMED,Valid,Standard
+4075060,223387004,La Palma,Location,Observation,SNOMED,Valid,Standard
+4075061,223392002,Moorea,Location,Observation,SNOMED,Valid,Standard
+4075064,223399006,Sark,Location,Observation,SNOMED,Valid,Standard
+4075065,223401000,St. Eustatius,Location,Observation,SNOMED,Valid,Standard
+4075066,223402007,St. Maarten,Location,Observation,SNOMED,Valid,Standard
+4075067,223407001,Tenerife,Location,Observation,SNOMED,Valid,Standard
+4075194,223496003,Geographical and/or political region of the world,Location,Observation,SNOMED,Valid,Standard
+4075520,224643006,Detached house,Location,Observation,SNOMED,Valid,Standard
+4075521,224652002,Water driven mill,Location,Observation,SNOMED,Valid,Standard
+4075522,224653007,Cottage,Location,Observation,SNOMED,Valid,Standard
+4075523,224654001,Bungalow,Location,Observation,SNOMED,Valid,Standard
+4075524,224662009,Flat over shop,Location,Observation,SNOMED,Valid,Standard
+4075525,224663004,Single room,Location,Observation,SNOMED,Valid,Standard
+4075526,224665006,Fixed-site mobile home,Location,Observation,SNOMED,Valid,Standard
+4075527,224668008,Vehicle converted to mobile home,Location,Observation,SNOMED,Valid,Standard
+4075534,224697006,Recreation room,Location,Observation,SNOMED,Valid,Standard
+4075535,224698001,Workshop,Location,Observation,SNOMED,Valid,Standard
+4075629,224701009,Kitchen,Location,Observation,SNOMED,Valid,Standard
+4075631,224709006,Location inside building,Location,Observation,SNOMED,Valid,Standard
+4075632,224710001,Upstairs,Location,Observation,SNOMED,Valid,Standard
+4075633,223684004,Yugoslavia,Location,Observation,SNOMED,Valid,Standard
+4075643,223710007,St. Vincent and the Grenadines,Location,Observation,SNOMED,Valid,Standard
+4075650,223730006,Cape Province,Location,Observation,SNOMED,Valid,Standard
+4075651,223737009,Andaman islands,Location,Observation,SNOMED,Valid,Standard
+4075653,223749005,Sulawesi,Location,Observation,SNOMED,Valid,Standard
+4075654,223752002,Honshu,Location,Observation,SNOMED,Valid,Standard
+4075655,223753007,Hokkaido,Location,Observation,SNOMED,Valid,Standard
+4075656,223764005,Leyte,Location,Observation,SNOMED,Valid,Standard
+4075658,223767003,Mindanao,Location,Observation,SNOMED,Valid,Standard
+4075659,223769000,Negros,Location,Observation,SNOMED,Valid,Standard
+4075660,223785005,North Island,Location,Observation,SNOMED,Valid,Standard
+4075661,223801007,Laois,Location,Observation,SNOMED,Valid,Standard
+4075663,223807006,Mayo,Location,Observation,SNOMED,Valid,Standard
+4075664,223808001,Meath,Location,Observation,SNOMED,Valid,Standard
+4075666,223818006,Wicklow,Location,Observation,SNOMED,Valid,Standard
+4075667,223832008,Rhodes,Location,Observation,SNOMED,Valid,Standard
+4075668,223833003,Skiathos,Location,Observation,SNOMED,Valid,Standard
+4075669,223835005,Thasos,Location,Observation,SNOMED,Valid,Standard
+4075672,223842005,Azores,Location,Observation,SNOMED,Valid,Standard
+4075673,223843000,Madeira,Location,Observation,SNOMED,Valid,Standard
+4075674,223845007,Balearic islands,Location,Observation,SNOMED,Valid,Standard
+4075675,223846008,Formentera,Location,Observation,SNOMED,Valid,Standard
+4075677,223858008,Isles du Salut,Location,Observation,SNOMED,Valid,Standard
+4075678,223861009,Great Britain,Location,Observation,SNOMED,Valid,Standard
+4075679,223862002,Regions of England,Location,Observation,SNOMED,Valid,Standard
+4075681,223866004,Berkshire,Location,Observation,SNOMED,Valid,Standard
+4075682,223875002,Dorsetshire,Location,Observation,SNOMED,Valid,Standard
+4075684,223881005,Greater Manchester,Location,Observation,SNOMED,Valid,Standard
+4075685,223882003,Hampshire,Location,Observation,SNOMED,Valid,Standard
+4075686,223888004,Leicestershire,Location,Observation,SNOMED,Valid,Standard
+4075687,223890003,Merseyside,Location,Observation,SNOMED,Valid,Standard
+4075688,223893001,Northamptonshire,Location,Observation,SNOMED,Valid,Standard
+4075689,223897000,Shropshire,Location,Observation,SNOMED,Valid,Standard
+4075786,223899002,South Yorkshire,Location,Observation,SNOMED,Valid,Standard
+4075787,223900007,Staffordshire,Location,Observation,SNOMED,Valid,Standard
+4075788,223903009,West Sussex,Location,Observation,SNOMED,Valid,Standard
+4075789,223905002,Tyne and Wear,Location,Observation,SNOMED,Valid,Standard
+4075790,223907005,West Midlands,Location,Observation,SNOMED,Valid,Standard
+4075792,223922000,County Down,Location,Observation,SNOMED,Valid,Standard
+4075794,223932007,Border region,Location,Observation,SNOMED,Valid,Standard
+4075795,223934008,Dumfries and Galloway,Location,Observation,SNOMED,Valid,Standard
+4075797,223942009,Western Isles,Location,Observation,SNOMED,Valid,Standard
+4075798,223960009,Arran,Location,Observation,SNOMED,Valid,Standard
+4075803,224019009,Nova Scotia,Location,Observation,SNOMED,Valid,Standard
+4075804,224022006,Quebec,Location,Observation,SNOMED,Valid,Standard
+4075805,224023001,Saskatchewan,Location,Observation,SNOMED,Valid,Standard
+4075806,224026009,District of Newfoundland province,Location,Observation,SNOMED,Valid,Standard
+4075807,224030007,Baffin island,Location,Observation,SNOMED,Valid,Standard
+4075808,224035002,Kitikmeot,Location,Observation,SNOMED,Valid,Standard
+4075810,224889001,Toilet on hospital premises,Location,Observation,SNOMED,Valid,Standard
+4075813,224902009,Ground floor,Location,Observation,SNOMED,Valid,Standard
+4075814,224903004,Upper floor,Location,Observation,SNOMED,Valid,Standard
+4075815,224907003,Fourth floor,Location,Observation,SNOMED,Valid,Standard
+4075816,224911009,Eighth floor,Location,Observation,SNOMED,Valid,Standard
+4075817,224914001,Eleventh floor and above of building,Location,Observation,SNOMED,Valid,Standard
+4075819,224927002,Medium secure unit,Location,Observation,SNOMED,Valid,Standard
+4075821,224934000,Derelict land,Location,Observation,SNOMED,Valid,Standard
+4076089,224047008,District of Columbia,Location,Observation,SNOMED,Valid,Standard
+4076496,224630006,Boys boarding school,Location,Observation,SNOMED,Valid,Standard
+4076497,224635001,Apartment converted from house upper floor,Location,Observation,SNOMED,Valid,Standard
+4076499,224648002,Private annex,Location,Observation,SNOMED,Valid,Standard
+4076500,224650005,Mill,Location,Observation,SNOMED,Valid,Standard
+4076501,224659006,Terraced bungalow,Location,Observation,SNOMED,Valid,Standard
+4076502,224661002,Maisonette,Location,Observation,SNOMED,Valid,Standard
+4076503,224667003,Truck converted to mobile home,Location,Observation,SNOMED,Valid,Standard
+4076504,224670004,Houseboat,Location,Observation,SNOMED,Valid,Standard
+4076512,224691007,Lounge,Location,Observation,SNOMED,Valid,Standard
+4076513,224692000,Sitting room,Location,Observation,SNOMED,Valid,Standard
+4076514,224694004,Breakfast room,Location,Observation,SNOMED,Valid,Standard
+4076515,224695003,Dining room,Location,Observation,SNOMED,Valid,Standard
+4076516,224699009,Study,Location,Observation,SNOMED,Valid,Standard
+4076517,224707008,Cellar,Location,Observation,SNOMED,Valid,Standard
+4076518,224708003,Outbuilding to home,Location,Observation,SNOMED,Valid,Standard
+4076615,224711002,Downstairs,Location,Observation,SNOMED,Valid,Standard
+4076617,224890005,Hospital reception area,Location,Observation,SNOMED,Valid,Standard
+4076621,224905006,Second floor,Location,Observation,SNOMED,Valid,Standard
+4076622,224908008,Fifth floor,Location,Observation,SNOMED,Valid,Standard
+4076623,224909000,Sixth floor,Location,Observation,SNOMED,Valid,Standard
+4076624,224910005,Seventh floor,Location,Observation,SNOMED,Valid,Standard
+4076625,224912002,Ninth floor,Location,Observation,SNOMED,Valid,Standard
+4077972,276339004,Environment,Location,Observation,SNOMED,Valid,Standard
+4082251,182719007,Antigen-free surroundings,Location,Observation,SNOMED,Valid,Standard
+4093479,18710005,Underwater habitat,Location,Observation,SNOMED,Valid,Standard
+4094681,262514009,Urban road,Location,Observation,SNOMED,Valid,Standard
+4095138,262504000,Chairside,Location,Observation,SNOMED,Valid,Standard
+4105390,257558003,Apartment attached to business premises,Location,Observation,SNOMED,Valid,Standard
+4105391,257559006,Automatic railway level crossing with half-barriers,Location,Observation,SNOMED,Valid,Standard
+4105392,257560001,Railway level crossing without gates or barriers,Location,Observation,SNOMED,Valid,Standard
+4105393,257564005,Apartment,Location,Observation,SNOMED,Valid,Standard
+4105394,257570004,Basketball court,Location,Observation,SNOMED,Valid,Standard
+4105395,257571000,Building under construction,Location,Observation,SNOMED,Valid,Standard
+4105396,257588007,Coastal sea,Location,Observation,SNOMED,Valid,Standard
+4105397,257595003,Derelict factory,Location,Observation,SNOMED,Valid,Standard
+4105398,257598001,Dock - marine,Location,Observation,SNOMED,Valid,Standard
+4105399,257600007,Dock premises,Location,Observation,SNOMED,Valid,Standard
+4105400,257602004,Dry dock,Location,Observation,SNOMED,Valid,Standard
+4105401,257603009,Educational establishment,Location,Observation,SNOMED,Valid,Standard
+4105402,257606001,Factory building,Location,Observation,SNOMED,Valid,Standard
+4105403,257607005,Factory loading platform,Location,Observation,SNOMED,Valid,Standard
+4105404,257608000,Factory premises,Location,Observation,SNOMED,Valid,Standard
+4105405,257614007,Flood water,Location,Observation,SNOMED,Valid,Standard
+4105406,257616009,Forest,Location,Observation,SNOMED,Valid,Standard
+4105410,257650000,Office block,Location,Observation,SNOMED,Valid,Standard
+4105411,257651001,Office building,Location,Observation,SNOMED,Valid,Standard
+4105412,257655005,Parking place,Location,Observation,SNOMED,Valid,Standard
+4105413,257657002,Recreational facility,Location,Observation,SNOMED,Valid,Standard
+4105414,257663006,Prairie,Location,Observation,SNOMED,Valid,Standard
+4105491,257678004,Public utility,Location,Observation,SNOMED,Valid,Standard
+4105492,257683007,Railway line,Location,Observation,SNOMED,Valid,Standard
+4105493,257684001,Railway running on roadway,Location,Observation,SNOMED,Valid,Standard
+4105495,257691003,Road junction,Location,Observation,SNOMED,Valid,Standard
+4105496,257692005,Rooming house,Location,Observation,SNOMED,Valid,Standard
+4105497,257695007,Rural minor road,Location,Observation,SNOMED,Valid,Standard
+4105498,257699001,School playground,Location,Observation,SNOMED,Valid,Standard
+4105499,257700000,Seaside resort,Location,Observation,SNOMED,Valid,Standard
+4105500,257706006,Stadium,Location,Observation,SNOMED,Valid,Standard
+4105501,257707002,Storage garage,Location,Observation,SNOMED,Valid,Standard
+4105502,257712001,Swimming pool,Location,Observation,SNOMED,Valid,Standard
+4105503,257714000,Tented camp,Location,Observation,SNOMED,Valid,Standard
+4107278,257566007,Automatic railway level crossing with gates,Location,Observation,SNOMED,Valid,Standard
+4107279,257567003,Badminton court,Location,Observation,SNOMED,Valid,Standard
+4107280,257573002,Boarding house,Location,Observation,SNOMED,Valid,Standard
+4107281,257574008,Brothel,Location,Observation,SNOMED,Valid,Standard
+4107282,257575009,Bus station,Location,Observation,SNOMED,Valid,Standard
+4107283,257577001,Canal,Location,Observation,SNOMED,Valid,Standard
+4107284,257579003,Car park,Location,Observation,SNOMED,Valid,Standard
+4107286,257581001,Casino,Location,Observation,SNOMED,Valid,Standard
+4107288,257586006,Clubhouse,Location,Observation,SNOMED,Valid,Standard
+4107290,257593005,Cricket ground,Location,Observation,SNOMED,Valid,Standard
+4107291,257599009,Dock or harbor,Location,Observation,SNOMED,Valid,Standard
+4107293,257601006,Dockyard,Location,Observation,SNOMED,Valid,Standard
+4107294,257618005,Golf course,Location,Observation,SNOMED,Valid,Standard
+4107296,257633002,Industrial yard,Location,Observation,SNOMED,Valid,Standard
+4107297,257638006,Lodging house,Location,Observation,SNOMED,Valid,Standard
+4107298,257644005,Mountain,Location,Observation,SNOMED,Valid,Standard
+4107299,257645006,Mountain resort,Location,Observation,SNOMED,Valid,Standard
+4107300,257646007,Music hall,Location,Observation,SNOMED,Valid,Standard
+4107301,257647003,Nightclub,Location,Observation,SNOMED,Valid,Standard
+4107303,257654009,Opera house,Location,Observation,SNOMED,Valid,Standard
+4107304,257658007,Entertainment establishment,Location,Observation,SNOMED,Valid,Standard
+4107305,257661008,Police station,Location,Observation,SNOMED,Valid,Standard
+4107306,257667007,Domestic garage,Location,Observation,SNOMED,Valid,Standard
+4107307,257668002,Domestic garden,Location,Observation,SNOMED,Valid,Standard
+4107308,257671005,Private swimming pool,Location,Observation,SNOMED,Valid,Standard
+4107309,257672003,Private track,Location,Observation,SNOMED,Valid,Standard
+4107310,257674002,Public building,Location,Observation,SNOMED,Valid,Standard
+4107311,257679007,Racecourse,Location,Observation,SNOMED,Valid,Standard
+4107312,257680005,Radio broadcasting station,Location,Observation,SNOMED,Valid,Standard
+4107313,257693000,Traffic circle,Location,Observation,SNOMED,Valid,Standard
+4107314,257694006,Rural main road,Location,Observation,SNOMED,Valid,Standard
+4107315,257702008,Skating rink,Location,Observation,SNOMED,Valid,Standard
+4107316,257708007,Store loading platform,Location,Observation,SNOMED,Valid,Standard
+4107317,257710009,Street,Location,Observation,SNOMED,Valid,Standard
+4107515,284354002,Police premises,Location,Observation,SNOMED,Valid,Standard
+4107644,284435001,Footpath,Location,Observation,SNOMED,Valid,Standard
+4107645,284438004,Trade and service environment,Location,Observation,SNOMED,Valid,Standard
+4107646,284440009,Market,Location,Observation,SNOMED,Valid,Standard
+4107647,284443006,Service area premises,Location,Observation,SNOMED,Valid,Standard
+4107648,284444000,House converted to multiple dwellings,Location,Observation,SNOMED,Valid,Standard
+4107650,284450005,Residential camp,Location,Observation,SNOMED,Valid,Standard
+4107651,284451009,Residential travel trailer park,Location,Observation,SNOMED,Valid,Standard
+4107652,284455000,Location within secure unit,Location,Observation,SNOMED,Valid,Standard
+4107673,284543008,Road T junction,Location,Observation,SNOMED,Valid,Standard
+4107675,284564007,Arctic environment,Location,Observation,SNOMED,Valid,Standard
+4107676,284565008,Desert environment,Location,Observation,SNOMED,Valid,Standard
+4107760,284589001,Park,Location,Observation,SNOMED,Valid,Standard
+4107868,284658009,Synagogue,Location,Observation,SNOMED,Valid,Standard
+4107889,284750009,Tobacconists,Location,Observation,SNOMED,Valid,Standard
+4108011,284751008,Launderette,Location,Observation,SNOMED,Valid,Standard
+4108015,284762008,Underground railway station,Location,Observation,SNOMED,Valid,Standard
+4108016,284767002,Dry ski slope,Location,Observation,SNOMED,Valid,Standard
+4108017,284768007,Roller skating rink,Location,Observation,SNOMED,Valid,Standard
+4108018,284771004,Back yard,Location,Observation,SNOMED,Valid,Standard
+4108500,284353008,Offshore installation,Location,Observation,SNOMED,Valid,Standard
+4108635,284434002,Bridle path,Location,Observation,SNOMED,Valid,Standard
+4108909,285063001,Domestic front garden,Location,Observation,SNOMED,Valid,Standard
+4108910,285069002,Moorland,Location,Observation,SNOMED,Valid,Standard
+4108911,285080002,Athletics field,Location,Observation,SNOMED,Valid,Standard
+4108916,285118000,Radioactive environment,Location,Observation,SNOMED,Valid,Standard
+4108917,285124006,Freezing environment,Location,Observation,SNOMED,Valid,Standard
+4108918,285125007,Warm environment,Location,Observation,SNOMED,Valid,Standard
+4108920,285134002,Dangerous environment,Location,Observation,SNOMED,Valid,Standard
+4108921,285135001,Unhappy environment,Location,Observation,SNOMED,Valid,Standard
+4108928,285148002,Attic,Location,Observation,SNOMED,Valid,Standard
+4108929,285155000,Railway embankment,Location,Observation,SNOMED,Valid,Standard
+4109238,284349006,Location within home premises,Location,Observation,SNOMED,Valid,Standard
+4109239,284351005,School grounds,Location,Observation,SNOMED,Valid,Standard
+4109356,284418000,Garden shed,Location,Observation,SNOMED,Valid,Standard
+4109359,284432003,Urban minor road,Location,Observation,SNOMED,Valid,Standard
+4109360,284441008,Shopping center,Location,Observation,SNOMED,Valid,Standard
+4109361,284442001,Gas station,Location,Observation,SNOMED,Valid,Standard
+4109387,284563001,Hamlet,Location,Observation,SNOMED,Valid,Standard
+4109388,284567000,High altitude environment,Location,Observation,SNOMED,Valid,Standard
+4109502,284590005,Safari park,Location,Observation,SNOMED,Valid,Standard
+4109526,284657004,Mosque,Location,Observation,SNOMED,Valid,Standard
+4109527,284659001,Temple - place of worship,Location,Observation,SNOMED,Valid,Standard
+4109662,284436000,Pedestrian overpass,Location,Observation,SNOMED,Valid,Standard
+4109663,284437009,Farm track,Location,Observation,SNOMED,Valid,Standard
+4109680,284534004,Hallway,Location,Observation,SNOMED,Valid,Standard
+4109683,284544002,Crossroads,Location,Observation,SNOMED,Valid,Standard
+4109687,284557005,Rugby field,Location,Observation,SNOMED,Valid,Standard
+4109690,284566009,Temperate environment,Location,Observation,SNOMED,Valid,Standard
+4109826,284653000,Military training ground,Location,Observation,SNOMED,Valid,Standard
+4109847,284745003,Clothes shop,Location,Observation,SNOMED,Valid,Standard
+4109848,284748001,Pharmacy - shop,Location,Observation,SNOMED,Valid,Standard
+4109849,284749009,Newsagents shop,Location,Observation,SNOMED,Valid,Standard
+4109852,284766006,Public telephone kiosk,Location,Observation,SNOMED,Valid,Standard
+4109854,284772006,Front yard,Location,Observation,SNOMED,Valid,Standard
+4110761,285070001,Agricultural field,Location,Observation,SNOMED,Valid,Standard
+4110762,285075006,Snooker hall,Location,Observation,SNOMED,Valid,Standard
+4110763,285078008,Polo field,Location,Observation,SNOMED,Valid,Standard
+4110764,285083000,Circus,Location,Observation,SNOMED,Valid,Standard
+4110765,285084006,Day nursery,Location,Observation,SNOMED,Valid,Standard
+4110766,285092002,Railway terminus,Location,Observation,SNOMED,Valid,Standard
+4110767,285094001,Road bridge,Location,Observation,SNOMED,Valid,Standard
+4110768,285098003,Valley,Location,Observation,SNOMED,Valid,Standard
+4110769,285100003,Refuse site,Location,Observation,SNOMED,Valid,Standard
+4110770,285112004,Railway pedestrian crossing,Location,Observation,SNOMED,Valid,Standard
+4110773,285117005,Noisy environment,Location,Observation,SNOMED,Valid,Standard
+4110775,285129001,Aquatic environment,Location,Observation,SNOMED,Valid,Standard
+4110778,285139007,Low risk environment,Location,Observation,SNOMED,Valid,Standard
+4111053,285068005,Pot-hole,Location,Observation,SNOMED,Valid,Standard
+4111056,285074005,Motor sports venue,Location,Observation,SNOMED,Valid,Standard
+4111057,285076007,Youth club,Location,Observation,SNOMED,Valid,Standard
+4111058,285082005,Bowling alley,Location,Observation,SNOMED,Valid,Standard
+4111059,285085007,Railway line location,Location,Observation,SNOMED,Valid,Standard
+4111060,285087004,Railway bridge,Location,Observation,SNOMED,Valid,Standard
+4111061,285090005,Overhead electrified railway line,Location,Observation,SNOMED,Valid,Standard
+4111062,285091009,Third rail electrified line,Location,Observation,SNOMED,Valid,Standard
+4111063,285093007,Underground railway line,Location,Observation,SNOMED,Valid,Standard
+4111064,285095000,Road tunnel,Location,Observation,SNOMED,Valid,Standard
+4111065,285101004,Landfill site,Location,Observation,SNOMED,Valid,Standard
+4111066,285102006,Multi-storey car park,Location,Observation,SNOMED,Valid,Standard
+4111069,285111006,Railway sidings,Location,Observation,SNOMED,Valid,Standard
+4111070,285120002,Humid environment,Location,Observation,SNOMED,Valid,Standard
+4111071,285121003,Toxic environment,Location,Observation,SNOMED,Valid,Standard
+4111072,285122005,Hot environment,Location,Observation,SNOMED,Valid,Standard
+4111074,285140009,At risk environment,Location,Observation,SNOMED,Valid,Standard
+4111075,285141008,Work environment,Location,Observation,SNOMED,Valid,Standard
+4111079,285160001,Sand dunes,Location,Observation,SNOMED,Valid,Standard
+4111199,285201006,Hospital environment,Location,Observation,SNOMED,Valid,Standard
+4111200,285202004,Community environment,Location,Observation,SNOMED,Valid,Standard
+4111659,284452002,Derelict site,Location,Observation,SNOMED,Valid,Standard
+4111660,284453007,Church,Location,Observation,SNOMED,Valid,Standard
+4113003,284533005,General indoors area of building,Location,Observation,SNOMED,Valid,Standard
+4113007,284548004,Hospital department,Location,Observation,SNOMED,Valid,Standard
+4113010,284555002,Zoo - place,Location,Observation,SNOMED,Valid,Standard
+4113011,284556001,Private tennis court,Location,Observation,SNOMED,Valid,Standard
+4113012,284558000,Power station,Location,Observation,SNOMED,Valid,Standard
+4113013,284559008,Boating marina,Location,Observation,SNOMED,Valid,Standard
+4113028,284654006,Military airfield,Location,Observation,SNOMED,Valid,Standard
+4113029,284656008,Military installation - non-residential,Location,Observation,SNOMED,Valid,Standard
+4113155,284746002,Shoe shop,Location,Observation,SNOMED,Valid,Standard
+4113156,284747006,Department store,Location,Observation,SNOMED,Valid,Standard
+4113161,284765005,Public lavatory,Location,Observation,SNOMED,Valid,Standard
+4114866,285061004,Military weapons installation,Location,Observation,SNOMED,Valid,Standard
+4114867,285062006,Ski resort,Location,Observation,SNOMED,Valid,Standard
+4114868,285064007,Domestic back garden,Location,Observation,SNOMED,Valid,Standard
+4114870,285067000,Cave,Location,Observation,SNOMED,Valid,Standard
+4114871,285073004,Archery range,Location,Observation,SNOMED,Valid,Standard
+4114872,285077003,Scout and guide hut,Location,Observation,SNOMED,Valid,Standard
+4114873,285079000,Boxing ring,Location,Observation,SNOMED,Valid,Standard
+4114874,285081003,Cycle track,Location,Observation,SNOMED,Valid,Standard
+4114875,285086008,Railway junction,Location,Observation,SNOMED,Valid,Standard
+4114876,285088009,Railway tunnel,Location,Observation,SNOMED,Valid,Standard
+4114877,285089001,Electrified railway line,Location,Observation,SNOMED,Valid,Standard
+4114878,285096004,Waterfall,Location,Observation,SNOMED,Valid,Standard
+4114879,285097008,Mudflats,Location,Observation,SNOMED,Valid,Standard
+4114880,285099006,Gorge,Location,Observation,SNOMED,Valid,Standard
+4114881,285103001,School playing field,Location,Observation,SNOMED,Valid,Standard
+4114885,285123000,Cold environment,Location,Observation,SNOMED,Valid,Standard
+4114886,285126008,Corrosive environment,Location,Observation,SNOMED,Valid,Standard
+4114887,285127004,Polluted environment,Location,Observation,SNOMED,Valid,Standard
+4114888,285128009,Personal environment,Location,Observation,SNOMED,Valid,Standard
+4114893,285154001,Railway cutting,Location,Observation,SNOMED,Valid,Standard
+4117148,257725009,Urban residential,Location,Observation,SNOMED,Valid,Standard
+4117490,257727001,Warehouse,Location,Observation,SNOMED,Valid,Standard
+4117506,257724008,Urban main road,Location,Observation,SNOMED,Valid,Standard
+4117954,257721000,Transport facility,Location,Observation,SNOMED,Valid,Standard
+4117955,257722007,Unpaved road,Location,Observation,SNOMED,Valid,Standard
+4117956,257723002,Urban,Location,Observation,SNOMED,Valid,Standard
+4119038,262102007,Riding school,Location,Observation,SNOMED,Valid,Standard
+4119716,257557008,Place,Location,Observation,SNOMED,Valid,Standard
+4119717,257561002,Further education establishment,Location,Observation,SNOMED,Valid,Standard
+4119718,257562009,Airport,Location,Observation,SNOMED,Valid,Standard
+4119834,257568008,Bank,Location,Observation,SNOMED,Valid,Standard
+4119835,257569000,Baseball field,Location,Observation,SNOMED,Valid,Standard
+4119837,257578006,Canal lock,Location,Observation,SNOMED,Valid,Standard
+4119838,257583003,Cinema,Location,Observation,SNOMED,Valid,Standard
+4119841,257589004,Coastal water,Location,Observation,SNOMED,Valid,Standard
+4119842,257591007,Commodity market,Location,Observation,SNOMED,Valid,Standard
+4119843,257594004,Dance hall,Location,Observation,SNOMED,Valid,Standard
+4119844,257596002,Derelict house,Location,Observation,SNOMED,Valid,Standard
+4119845,257605002,Factory,Location,Observation,SNOMED,Valid,Standard
+4119846,257610003,Farm building,Location,Observation,SNOMED,Valid,Standard
+4119847,257613001,Fives court,Location,Observation,SNOMED,Valid,Standard
+4119848,257619002,Gravel pit,Location,Observation,SNOMED,Valid,Standard
+4119849,257620008,Gymnasium,Location,Observation,SNOMED,Valid,Standard
+4119851,257621007,Harbor,Location,Observation,SNOMED,Valid,Standard
+4119852,257624004,Hill,Location,Observation,SNOMED,Valid,Standard
+4119853,257625003,Field hockey field,Location,Observation,SNOMED,Valid,Standard
+4119855,257635009,Lake resort,Location,Observation,SNOMED,Valid,Standard
+4119856,257636005,Vacation resort,Location,Observation,SNOMED,Valid,Standard
+4119857,257639003,Manned railway level crossing with gates,Location,Observation,SNOMED,Valid,Standard
+4119858,257640001,Mine or quarry,Location,Observation,SNOMED,Valid,Standard
+4119860,257662001,Post office,Location,Observation,SNOMED,Valid,Standard
+4119861,257664000,Private club,Location,Observation,SNOMED,Valid,Standard
+4119862,257670006,Private house,Location,Observation,SNOMED,Valid,Standard
+4119863,257681009,Railway level crossing,Location,Observation,SNOMED,Valid,Standard
+4119864,257685000,Railway station,Location,Observation,SNOMED,Valid,Standard
+4119865,257686004,Railway yard,Location,Observation,SNOMED,Valid,Standard
+4119867,257696008,Rural road,Location,Observation,SNOMED,Valid,Standard
+4119868,257697004,Sand pit,Location,Observation,SNOMED,Valid,Standard
+4119869,257709004,Stream,Location,Observation,SNOMED,Valid,Standard
+4119870,257711008,Sylvatic,Location,Observation,SNOMED,Valid,Standard
+4119871,257713006,Tennis court,Location,Observation,SNOMED,Valid,Standard
+4119872,257715004,Theatre,Location,Observation,SNOMED,Valid,Standard
+4119873,257718002,Tidal waterway,Location,Observation,SNOMED,Valid,Standard
+4121698,257563004,Amusement park,Location,Observation,SNOMED,Valid,Standard
+4121699,257565006,Apartment in apartment building,Location,Observation,SNOMED,Valid,Standard
+4121700,257572007,Beach,Location,Observation,SNOMED,Valid,Standard
+4121701,257576005,Cafe,Location,Observation,SNOMED,Valid,Standard
+4121702,257580000,RV park,Location,Observation,SNOMED,Valid,Standard
+4121703,257584009,Cliff,Location,Observation,SNOMED,Valid,Standard
+4121704,257590008,Commercial garage,Location,Observation,SNOMED,Valid,Standard
+4121705,257592000,Courthouse,Location,Observation,SNOMED,Valid,Standard
+4121706,257597006,Desert,Location,Observation,SNOMED,Valid,Standard
+4121707,257604003,Enclosed harbor,Location,Observation,SNOMED,Valid,Standard
+4121708,257609008,Farm,Location,Observation,SNOMED,Valid,Standard
+4121710,257611004,Farm house,Location,Observation,SNOMED,Valid,Standard
+4121711,257612006,Farm land,Location,Observation,SNOMED,Valid,Standard
+4121712,257617000,Games court,Location,Observation,SNOMED,Valid,Standard
+4121713,257626002,Vacation camp,Location,Observation,SNOMED,Valid,Standard
+4121714,257629009,Hotel,Location,Observation,SNOMED,Valid,Standard
+4121715,257630004,House,Location,Observation,SNOMED,Valid,Standard
+4121716,257631000,Industrial plant,Location,Observation,SNOMED,Valid,Standard
+4121717,257632007,Industrial premises,Location,Observation,SNOMED,Valid,Standard
+4121718,257634008,Inland water,Location,Observation,SNOMED,Valid,Standard
+4121719,257641002,Mobile home,Location,Observation,SNOMED,Valid,Standard
+4121720,257642009,Freeway roadway,Location,Observation,SNOMED,Valid,Standard
+4121721,257643004,Freeway access ramp,Location,Observation,SNOMED,Valid,Standard
+4121722,257649000,Office,Location,Observation,SNOMED,Valid,Standard
+4121724,257653003,Open sea,Location,Observation,SNOMED,Valid,Standard
+4121725,257659004,Place of worship,Location,Observation,SNOMED,Valid,Standard
+4121726,257660009,Police cell,Location,Observation,SNOMED,Valid,Standard
+4121727,257665004,Domestic driveway,Location,Observation,SNOMED,Valid,Standard
+4121728,257673008,Domestic walkway,Location,Observation,SNOMED,Valid,Standard
+4121729,257675001,Public hall,Location,Observation,SNOMED,Valid,Standard
+4121730,257676000,Public house,Location,Observation,SNOMED,Valid,Standard
+4121731,257677009,Public park,Location,Observation,SNOMED,Valid,Standard
+4121733,257689006,Restaurant,Location,Observation,SNOMED,Valid,Standard
+4121734,257690002,Rifle range,Location,Observation,SNOMED,Valid,Standard
+4121735,257698009,School,Location,Observation,SNOMED,Valid,Standard
+4121736,257701001,Shop,Location,Observation,SNOMED,Valid,Standard
+4121737,257703003,Sports center,Location,Observation,SNOMED,Valid,Standard
+4121738,257704009,Sports ground,Location,Observation,SNOMED,Valid,Standard
+4121739,257705005,Squash court,Location,Observation,SNOMED,Valid,Standard
+4121740,257716003,Tidal estuary,Location,Observation,SNOMED,Valid,Standard
+4121741,257719005,Track,Location,Observation,SNOMED,Valid,Standard
+4123207,288559001,Ecological environment,Location,Observation,SNOMED,Valid,Standard
+4123208,288560006,Island,Location,Observation,SNOMED,Valid,Standard
+4123209,288562003,Secure unit,Location,Observation,SNOMED,Valid,Standard
+4123544,288520005,City environment,Location,Observation,SNOMED,Valid,Standard
+4127349,288461007,Children's playpark,Location,Observation,SNOMED,Valid,Standard
+4127361,288500009,Geographical environment,Location,Observation,SNOMED,Valid,Standard
+4127364,288521009,Town environment,Location,Observation,SNOMED,Valid,Standard
+4127372,288553000,Highway environment,Location,Observation,SNOMED,Valid,Standard
+4129943,261770009,Domestic,Location,Observation,SNOMED,Valid,Standard
+4130879,264368004,Military establishment,Location,Observation,SNOMED,Valid,Standard
+4130881,264370008,Museum,Location,Observation,SNOMED,Valid,Standard
+4131033,264373005,Public meeting hall,Location,Observation,SNOMED,Valid,Standard
+4131505,264379009,Sports stadium,Location,Observation,SNOMED,Valid,Standard
+4132160,2664007,Above ground residential swimming pool,Location,Observation,SNOMED,Valid,Standard
+4134563,398161000,Postoperative anesthesia care unit,Location,Observation,SNOMED,Valid,Standard
+4134848,397983003,Preoperative holding area,Location,Observation,SNOMED,Valid,Standard
+4135110,261904005,Laboratory,Location,Observation,SNOMED,Valid,Standard
+4137181,263907006,Tropical environment,Location,Observation,SNOMED,Valid,Standard
+4138143,264347000,Woods,Location,Observation,SNOMED,Valid,Standard
+4139496,264353000,Fairground,Location,Observation,SNOMED,Valid,Standard
+4139502,264362003,Home,Location,Observation,SNOMED,Valid,Standard
+4140136,426439001,Burns intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4141340,264308002,Government building,Location,Observation,SNOMED,Valid,Standard
+4141470,264351003,Concert hall,Location,Observation,SNOMED,Valid,Standard
+4141473,264365001,Industrial storage tank,Location,Observation,SNOMED,Valid,Standard
+4141474,264366000,Library,Location,Observation,SNOMED,Valid,Standard
+4147084,309901009,Anesthetic department,Location,Observation,SNOMED,Valid,Standard
+4147085,309902002,Clinical oncology department,Location,Observation,SNOMED,Valid,Standard
+4147086,309903007,Radiotherapy department,Location,Observation,SNOMED,Valid,Standard
+4147087,309911002,Respiratory intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4147088,309917003,Thoracic medicine department,Location,Observation,SNOMED,Valid,Standard
+4147089,309924002,Diabetic department,Location,Observation,SNOMED,Valid,Standard
+4147090,309926000,Gastroenterology department,Location,Observation,SNOMED,Valid,Standard
+4147091,309927009,General medical department,Location,Observation,SNOMED,Valid,Standard
+4147092,309934006,Infectious diseases department,Location,Observation,SNOMED,Valid,Standard
+4147093,309939001,Palliative care department,Location,Observation,SNOMED,Valid,Standard
+4147094,309941000,Rheumatology department,Location,Observation,SNOMED,Valid,Standard
+4147095,309947001,Pediatric neurology department,Location,Observation,SNOMED,Valid,Standard
+4147096,309948006,Pediatric oncology department,Location,Observation,SNOMED,Valid,Standard
+4147097,309951004,Blood transfusion department,Location,Observation,SNOMED,Valid,Standard
+4147099,309956009,Medical microbiology department,Location,Observation,SNOMED,Valid,Standard
+4147100,309957000,Neuropathology department,Location,Observation,SNOMED,Valid,Standard
+4147101,309959002,Child and adolescent psychiatry department,Location,Observation,SNOMED,Valid,Standard
+4147102,309960007,Forensic psychiatry department,Location,Observation,SNOMED,Valid,Standard
+4147103,309962004,Mental handicap psychiatry department,Location,Observation,SNOMED,Valid,Standard
+4147104,309965002,Occupational health department,Location,Observation,SNOMED,Valid,Standard
+4147105,309972001,Dental surgery department,Location,Observation,SNOMED,Valid,Standard
+4147106,309976003,Pediatric dentistry department,Location,Observation,SNOMED,Valid,Standard
+4147107,309977007,Restorative dentistry department,Location,Observation,SNOMED,Valid,Standard
+4147108,309982000,Upper gastrointestinal surgery department,Location,Observation,SNOMED,Valid,Standard
+4147109,309985003,Hand surgery department,Location,Observation,SNOMED,Valid,Standard
+4147110,309986002,Hepatobiliary surgical department,Location,Observation,SNOMED,Valid,Standard
+4147111,309993003,Surgical transplant department,Location,Observation,SNOMED,Valid,Standard
+4147112,309998007,Day ward,Location,Observation,SNOMED,Valid,Standard
+4147551,310203004,Pediatric Accident and Emergency department,Location,Observation,SNOMED,Valid,Standard
+4148494,309906004,Burns unit,Location,Observation,SNOMED,Valid,Standard
+4148495,309908003,Metabolic intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4148496,309909006,Neurological intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4148497,309910001,Pediatric intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4148498,309918008,Respiratory medicine department,Location,Observation,SNOMED,Valid,Standard
+4148499,309919000,Clinical immunology department,Location,Observation,SNOMED,Valid,Standard
+4148500,309925001,Endocrinology department,Location,Observation,SNOMED,Valid,Standard
+4148501,309928004,Genetics department,Location,Observation,SNOMED,Valid,Standard
+4148502,309929007,Clinical genetics department,Location,Observation,SNOMED,Valid,Standard
+4148503,309930002,Clinical cytogenetics department,Location,Observation,SNOMED,Valid,Standard
+4148504,309932005,Genitourinary medicine department,Location,Observation,SNOMED,Valid,Standard
+4148505,309933000,Care of the elderly department,Location,Observation,SNOMED,Valid,Standard
+4148506,309950003,Pathology department,Location,Observation,SNOMED,Valid,Standard
+4148507,309953001,General pathology department,Location,Observation,SNOMED,Valid,Standard
+4148508,309963009,Rehabilitation psychiatry department,Location,Observation,SNOMED,Valid,Standard
+4148509,309966001,Stroke unit,Location,Observation,SNOMED,Valid,Standard
+4148510,309968000,Breast surgery department,Location,Observation,SNOMED,Valid,Standard
+4148511,309971008,Cardiac surgery department,Location,Observation,SNOMED,Valid,Standard
+4148512,309973006,General dental surgery department,Location,Observation,SNOMED,Valid,Standard
+4148513,309980008,Gastrointestinal surgery department,Location,Observation,SNOMED,Valid,Standard
+4148514,309981007,General gastrointestinal surgery department,Location,Observation,SNOMED,Valid,Standard
+4148515,309987006,Neurosurgical department,Location,Observation,SNOMED,Valid,Standard
+4148516,309988001,Ophthalmology department,Location,Observation,SNOMED,Valid,Standard
+4148517,309994009,Trauma surgery department,Location,Observation,SNOMED,Valid,Standard
+4148518,309997002,Young disabled unit,Location,Observation,SNOMED,Valid,Standard
+4148807,310204005,Ophthalmology Accident and Emergency department,Location,Observation,SNOMED,Valid,Standard
+4148839,310464005,Physiotherapy department,Location,Observation,SNOMED,Valid,Standard
+4148981,309904001,Intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4148982,309912009,Medical department,Location,Observation,SNOMED,Valid,Standard
+4148983,309920006,Clinical neurophysiology department,Location,Observation,SNOMED,Valid,Standard
+4148984,309938009,Nuclear medicine department,Location,Observation,SNOMED,Valid,Standard
+4148985,309942007,Obstetrics and gynecology department,Location,Observation,SNOMED,Valid,Standard
+4148986,309944008,Obstetrics department,Location,Observation,SNOMED,Valid,Standard
+4148987,309952006,Chemical pathology department,Location,Observation,SNOMED,Valid,Standard
+4148988,309969008,Cardiothoracic surgery department,Location,Observation,SNOMED,Valid,Standard
+4148989,309970009,Thoracic surgery department,Location,Observation,SNOMED,Valid,Standard
+4148990,309974000,Oral surgery department,Location,Observation,SNOMED,Valid,Standard
+4148991,309978002,"Ear, nose and throat department",Location,Observation,SNOMED,Valid,Standard
+4148992,309979005,Endocrine surgery department,Location,Observation,SNOMED,Valid,Standard
+4148993,309984004,General surgical department,Location,Observation,SNOMED,Valid,Standard
+4148994,309990000,Pancreatic surgery department,Location,Observation,SNOMED,Valid,Standard
+4148995,309995005,Urology department,Location,Observation,SNOMED,Valid,Standard
+4149942,309905000,Adult intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4149943,309907008,Cardiac intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4149944,309913004,Clinical allergy department,Location,Observation,SNOMED,Valid,Standard
+4149945,309914005,Audiology department,Location,Observation,SNOMED,Valid,Standard
+4149946,309915006,Cardiology department,Location,Observation,SNOMED,Valid,Standard
+4149947,309916007,Chest medicine department,Location,Observation,SNOMED,Valid,Standard
+4149948,309921005,Clinical pharmacology department,Location,Observation,SNOMED,Valid,Standard
+4149949,309922003,Clinical physiology department,Location,Observation,SNOMED,Valid,Standard
+4150066,309923008,Dermatology department,Location,Observation,SNOMED,Valid,Standard
+4150067,309931003,Clinical molecular genetics department,Location,Observation,SNOMED,Valid,Standard
+4150068,309935007,Medical ophthalmology department,Location,Observation,SNOMED,Valid,Standard
+4150069,309936008,Nephrology department,Location,Observation,SNOMED,Valid,Standard
+4150070,309937004,Neurology department,Location,Observation,SNOMED,Valid,Standard
+4150071,309940004,Rehabilitation department,Location,Observation,SNOMED,Valid,Standard
+4150072,309943002,Gynecology department,Location,Observation,SNOMED,Valid,Standard
+4150073,309945009,Pediatric department,Location,Observation,SNOMED,Valid,Standard
+4150074,309946005,Special care baby unit,Location,Observation,SNOMED,Valid,Standard
+4150075,309949003,Pain management department,Location,Observation,SNOMED,Valid,Standard
+4150076,309954007,Hematology department,Location,Observation,SNOMED,Valid,Standard
+4150077,309958005,Psychiatry department,Location,Observation,SNOMED,Valid,Standard
+4150078,309961006,Psychogeriatric department,Location,Observation,SNOMED,Valid,Standard
+4150079,309964003,Radiology department,Location,Observation,SNOMED,Valid,Standard
+4150080,309967005,Surgical department,Location,Observation,SNOMED,Valid,Standard
+4150081,309975004,Orthodontics department,Location,Observation,SNOMED,Valid,Standard
+4150082,309983005,Colorectal surgery department,Location,Observation,SNOMED,Valid,Standard
+4150083,309989009,Orthopedic department,Location,Observation,SNOMED,Valid,Standard
+4150084,309991001,Pediatric surgical department,Location,Observation,SNOMED,Valid,Standard
+4150085,309992008,Plastic surgery department,Location,Observation,SNOMED,Valid,Standard
+4150086,309996006,Vascular surgery department,Location,Observation,SNOMED,Valid,Standard
+4152535,269687000,"Place of occurrence of accident or poisoning, squash court",Location,Observation,SNOMED,Valid,Standard
+4153096,284178002,Stone quarry,Location,Observation,SNOMED,Valid,Standard
+4154196,272500005,Wooded area,Location,Observation,SNOMED,Valid,Standard
+4154197,272509006,Freeway,Location,Observation,SNOMED,Valid,Standard
+4154726,284176003,Geographical terrestrial feature,Location,Observation,SNOMED,Valid,Standard
+4155842,284177007,Coal mine,Location,Observation,SNOMED,Valid,Standard
+4156497,272502002,Commercial premises,Location,Observation,SNOMED,Valid,Standard
+4156498,272503007,Office premises,Location,Observation,SNOMED,Valid,Standard
+4156499,272506004,Garage,Location,Observation,SNOMED,Valid,Standard
+4157694,272498009,Geographical feature,Location,Observation,SNOMED,Valid,Standard
+4157695,272505000,Industrial site,Location,Observation,SNOMED,Valid,Standard
+4157696,272511002,Municipal and civic establishment,Location,Observation,SNOMED,Valid,Standard
+4160026,398156002,Medical or surgical floor,Location,Observation,SNOMED,Valid,Standard
+4160140,427695007,Newborn nursery unit,Location,Observation,SNOMED,Valid,Standard
+4161694,398070004,State,Location,Observation,SNOMED,Valid,Standard
+4163342,2928009,Overhead construction site,Location,Observation,SNOMED,Valid,Standard
+4164200,272497004,Residential environment,Location,Observation,SNOMED,Valid,Standard
+4164201,272499001,Geographical waterform feature,Location,Observation,SNOMED,Valid,Standard
+4164202,272501009,Sports facility,Location,Observation,SNOMED,Valid,Standard
+4164203,272504001,Agricultural site,Location,Observation,SNOMED,Valid,Standard
+4164204,272510001,Road,Location,Observation,SNOMED,Valid,Standard
+4166938,274409007,Special care unit,Location,Observation,SNOMED,Valid,Standard
+4170089,418028002,Surgical stepdown unit,Location,Observation,SNOMED,Valid,Standard
+4171621,276052003,Public facilities,Location,Observation,SNOMED,Valid,Standard
+4172320,420223003,Pediatric medicine department,Location,Observation,SNOMED,Valid,Standard
+4185445,413964002,Delivery suite,Location,Observation,SNOMED,Valid,Standard
+4185921,414483006,Indoor football arena,Location,Observation,SNOMED,Valid,Standard
+4185922,414484000,Indoor soccer court,Location,Observation,SNOMED,Valid,Standard
+4185923,414485004,Induction room,Location,Observation,SNOMED,Valid,Standard
+4187066,414011009,Dirt road,Location,Observation,SNOMED,Valid,Standard
+4188030,414294007,Freeway off-ramp,Location,Observation,SNOMED,Valid,Standard
+4188302,414566000,Lacrosse field,Location,Observation,SNOMED,Valid,Standard
+4190382,414367005,Gravel road,Location,Observation,SNOMED,Valid,Standard
+4190652,415143003,PACU Phase 2,Location,Observation,SNOMED,Valid,Standard
+4198861,51633007,Multistage scaffolding site,Location,Observation,SNOMED,Valid,Standard
+4204822,308916002,Environment or geographical location,Location,Observation,SNOMED,Valid,Standard
+4205540,308760005,Drainage ditch,Location,Observation,SNOMED,Valid,Standard
+4206402,439767004,British Overseas Territories,Location,Observation,SNOMED,Valid,Standard
+4206861,311762001,Mainstream school,Location,Observation,SNOMED,Valid,Standard
+4207294,440654001,Inpatient environment,Location,Observation,SNOMED,Valid,Standard
+4209353,440655000,Outpatient environment,Location,Observation,SNOMED,Valid,Standard
+4209535,311763006,Playgroup,Location,Observation,SNOMED,Valid,Standard
+4212891,414040007,Divided highway,Location,Observation,SNOMED,Valid,Standard
+4213110,414295008,Freeway on-ramp,Location,Observation,SNOMED,Valid,Standard
+4216145,415142008,PACU Phase 1,Location,Observation,SNOMED,Valid,Standard
+4217561,415540007,Soccer field,Location,Observation,SNOMED,Valid,Standard
+4220543,82898005,Residential in ground swimming pool,Location,Observation,SNOMED,Valid,Standard
+4221352,420531007,River,Location,Observation,SNOMED,Valid,Standard
+4222853,421541004,Tidal river,Location,Observation,SNOMED,Valid,Standard
+4223912,420280003,Obstetrical stepdown unit,Location,Observation,SNOMED,Valid,Standard
+4224257,421084007,Lake,Location,Observation,SNOMED,Valid,Standard
+4224423,421268003,Non-tidal river,Location,Observation,SNOMED,Valid,Standard
+4225016,420763003,Pond,Location,Observation,SNOMED,Valid,Standard
+4225486,421676007,District of Canadian territory,Location,Observation,SNOMED,Valid,Standard
+4225556,404821007,Psychiatric intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4226137,405606005,Labor and delivery unit,Location,Observation,SNOMED,Valid,Standard
+4227663,422204001,Geographic part of Nunavut,Location,Observation,SNOMED,Valid,Standard
+4227982,421349003,Inuvik region of Northwest Territories,Location,Observation,SNOMED,Valid,Standard
+4228269,421646000,Nunavut,Location,Observation,SNOMED,Valid,Standard
+4231410,405269005,Neonatal intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4239521,69297003,Pool,Location,Observation,SNOMED,Valid,Standard
+4248098,409545004,Hot zone,Location,Observation,SNOMED,Valid,Standard
+4249695,409685000,Hospital decontamination room,Location,Observation,SNOMED,Valid,Standard
+4256121,409547007,Cold zone,Location,Observation,SNOMED,Valid,Standard
+4260071,409546003,Warm zone,Location,Observation,SNOMED,Valid,Standard
+4260201,409688003,Hospital isolation room,Location,Observation,SNOMED,Valid,Standard
+4262298,397771005,High dependency unit,Location,Observation,SNOMED,Valid,Standard
+4262391,46232004,Logging and forestry site,Location,Observation,SNOMED,Valid,Standard
+4265590,397784001,Other location within hospital premises,Location,Observation,SNOMED,Valid,Standard
+4281224,66992004,Overhead and gantry crane site,Location,Observation,SNOMED,Valid,Standard
+4302071,418518002,Dialysis unit,Location,Observation,SNOMED,Valid,Standard
+4302513,419390002,Medical stepdown unit,Location,Observation,SNOMED,Valid,Standard
+4303272,418649002,Cardiac stepdown unit,Location,Observation,SNOMED,Valid,Standard
+4305366,418433008,Surgical intensive care unit,Location,Observation,SNOMED,Valid,Standard
+4305525,419590001,Stepdown unit,Location,Observation,SNOMED,Valid,Standard
+4305680,419955002,Residential institution,Location,Observation,SNOMED,Valid,Standard
+4306818,422798006,Telemetry unit,Location,Observation,SNOMED,Valid,Standard
+4309513,85169002,Tunnel construction,Location,Observation,SNOMED,Valid,Standard
+4309747,216316007,"Place of occurrence of accident or poisoning, farm house",Location,Observation,SNOMED,Valid,Standard
+4309748,216317003,"Place of occurrence of accident or poisoning, home premises",Location,Observation,SNOMED,Valid,Standard
+4309749,216326000,"Place of occurrence of accident or poisoning, private swimming pool",Location,Observation,SNOMED,Valid,Standard
+4309750,216334006,"Place of occurrence of accident or poisoning, gravel pit",Location,Observation,SNOMED,Valid,Standard
+4309751,216336008,"Place of occurrence of accident or poisoning, tunnel under construction",Location,Observation,SNOMED,Valid,Standard
+4309752,216343002,"Place of occurrence of accident or poisoning, factory building",Location,Observation,SNOMED,Valid,Standard
+4309753,216345009,"Place of occurrence of accident or poisoning, garage, place of work",Location,Observation,SNOMED,Valid,Standard
+4309754,216346005,"Place of occurrence of accident or poisoning, industrial yard",Location,Observation,SNOMED,Valid,Standard
+4309755,216347001,"Place of occurrence of accident or poisoning, factory loading platform",Location,Observation,SNOMED,Valid,Standard
+4309756,216356009,"Place of occurrence of accident or poisoning, amusement park",Location,Observation,SNOMED,Valid,Standard
+4309757,216359002,"Place of occurrence of accident or poisoning, beach resort",Location,Observation,SNOMED,Valid,Standard
+4309758,216372001,"Place of occurrence of accident or poisoning, public park",Location,Observation,SNOMED,Valid,Standard
+4309759,216380008,"Place of occurrence of accident or poisoning, sports center",Location,Observation,SNOMED,Valid,Standard
+4309760,216382000,"Place of occurrence of accident or poisoning, public swimming pool",Location,Observation,SNOMED,Valid,Standard
+4309761,216384004,"Place of occurrence of accident or poisoning, vacation resort",Location,Observation,SNOMED,Valid,Standard
+4309762,216387006,"Place of occurrence of accident or poisoning, street",Location,Observation,SNOMED,Valid,Standard
+4309763,216394009,"Place of occurrence of accident or poisoning, casino",Location,Observation,SNOMED,Valid,Standard
+4309764,216401005,"Place of occurrence of accident or poisoning, hotel",Location,Observation,SNOMED,Valid,Standard
+4310061,216403008,"Place of occurrence of accident or poisoning, movie house",Location,Observation,SNOMED,Valid,Standard
+4310062,216408004,"Place of occurrence of accident or poisoning, opera house",Location,Observation,SNOMED,Valid,Standard
+4310063,216412005,"Place of occurrence of accident or poisoning, restaurant",Location,Observation,SNOMED,Valid,Standard
+4310064,216417004,"Place of occurrence of accident or poisoning, bus station",Location,Observation,SNOMED,Valid,Standard
+4310065,216419001,"Place of occurrence of accident or poisoning, store",Location,Observation,SNOMED,Valid,Standard
+4310067,216442008,"Place of occurrence of accident or poisoning, hill",Location,Observation,SNOMED,Valid,Standard
+4310069,216444009,"Place of occurrence of accident or poisoning, mountain",Location,Observation,SNOMED,Valid,Standard
+4310070,216457001,"Place of occurrence of accident or poisoning, trailer court",Location,Observation,SNOMED,Valid,Standard
+4310926,216318008,"Place of occurrence of accident or poisoning, residential house",Location,Observation,SNOMED,Valid,Standard
+4310927,216321005,"Place of occurrence of accident or poisoning, private garage",Location,Observation,SNOMED,Valid,Standard
+4310928,216323008,"Place of occurrence of accident or poisoning, private home",Location,Observation,SNOMED,Valid,Standard
+4310930,216329007,"Place of occurrence of accident or poisoning, farm",Location,Observation,SNOMED,Valid,Standard
+4310932,216335007,"Place of occurrence of accident or poisoning, sand pit",Location,Observation,SNOMED,Valid,Standard
+4310933,216342007,"Place of occurrence of accident or poisoning, dry dock",Location,Observation,SNOMED,Valid,Standard
+4311060,216344008,"Place of occurrence of accident or poisoning, factory premises",Location,Observation,SNOMED,Valid,Standard
+4311061,216352006,"Place of occurrence of accident or poisoning, warehouse",Location,Observation,SNOMED,Valid,Standard
+4311062,216362004,"Place of occurrence of accident or poisoning, football field",Location,Observation,SNOMED,Valid,Standard
+4311063,216365002,"Place of occurrence of accident or poisoning, hockey field",Location,Observation,SNOMED,Valid,Standard
+4311065,216377007,"Place of occurrence of accident or poisoning, seashore resort",Location,Observation,SNOMED,Valid,Standard
+4311066,216379005,"Place of occurrence of accident or poisoning, sports ground",Location,Observation,SNOMED,Valid,Standard
+4311067,216381007,"Place of occurrence of accident or poisoning, stadium",Location,Observation,SNOMED,Valid,Standard
+4311068,216390000,"Place of occurrence of accident or poisoning, public building",Location,Observation,SNOMED,Valid,Standard
+4311069,216392008,"Place of occurrence of accident or poisoning, bank",Location,Observation,SNOMED,Valid,Standard
+4311070,216398007,"Place of occurrence of accident or poisoning, courthouse",Location,Observation,SNOMED,Valid,Standard
+4311071,216402003,"Place of occurrence of accident or poisoning, commodity market",Location,Observation,SNOMED,Valid,Standard
+4311072,216404002,"Place of occurrence of accident or poisoning, music hall",Location,Observation,SNOMED,Valid,Standard
+4311073,216405001,"Place of occurrence of accident or poisoning, nightclub",Location,Observation,SNOMED,Valid,Standard
+4311074,216410002,"Place of occurrence of accident or poisoning, public hall",Location,Observation,SNOMED,Valid,Standard
+4311075,216414006,"Place of occurrence of accident or poisoning, public school",Location,Observation,SNOMED,Valid,Standard
+4311076,216418009,"Place of occurrence of accident or poisoning, railway station",Location,Observation,SNOMED,Valid,Standard
+4311077,216422004,"Place of occurrence of accident or poisoning, residential institution",Location,Observation,SNOMED,Valid,Standard
+4311078,216424003,"Place of occurrence of accident or poisoning, dormitory",Location,Observation,SNOMED,Valid,Standard
+4311079,216425002,"Place of occurrence of accident or poisoning, hospital",Location,Observation,SNOMED,Valid,Standard
+4311083,216448007,"Place of occurrence of accident or poisoning, prairie",Location,Observation,SNOMED,Valid,Standard
+4311213,216450004,"Place of occurrence of accident or poisoning, railway line",Location,Observation,SNOMED,Valid,Standard
+4311214,216452007,"Place of occurrence of accident or poisoning, river",Location,Observation,SNOMED,Valid,Standard
+4311215,216455009,"Place of occurrence of accident or poisoning, stream",Location,Observation,SNOMED,Valid,Standard
+4311216,216456005,"Place of occurrence of accident or poisoning, swamp",Location,Observation,SNOMED,Valid,Standard
+4312838,216324002,"Place of occurrence of accident or poisoning, private walk",Location,Observation,SNOMED,Valid,Standard
+4312839,216327009,"Place of occurrence of accident or poisoning, yard of home",Location,Observation,SNOMED,Valid,Standard
+4312840,216330002,"Place of occurrence of accident or poisoning, farm building",Location,Observation,SNOMED,Valid,Standard
+4312841,216331003,"Place of occurrence of accident or poisoning, farm land",Location,Observation,SNOMED,Valid,Standard
+4312843,216340004,"Place of occurrence of accident or poisoning, building under construction",Location,Observation,SNOMED,Valid,Standard
+4312844,216349003,"Place of occurrence of accident or poisoning, industrial plant",Location,Observation,SNOMED,Valid,Standard
+4312845,216350003,"Place of occurrence of accident or poisoning, railway yard",Location,Observation,SNOMED,Valid,Standard
+4312846,216355008,"Place of occurrence of accident or poisoning, place for recreation and sport",Location,Observation,SNOMED,Valid,Standard
+4312847,216363009,"Place of occurrence of accident or poisoning, golf course",Location,Observation,SNOMED,Valid,Standard
+4312848,216364003,"Place of occurrence of accident or poisoning, gymnasium",Location,Observation,SNOMED,Valid,Standard
+4312849,216370009,"Place of occurrence of accident or poisoning, school playground",Location,Observation,SNOMED,Valid,Standard
+4312850,216373006,"Place of occurrence of accident or poisoning, racecourse",Location,Observation,SNOMED,Valid,Standard
+4312964,216375004,"Place of occurrence of accident or poisoning, riding school",Location,Observation,SNOMED,Valid,Standard
+4312965,216388001,"Place of occurrence of accident or poisoning, highway",Location,Observation,SNOMED,Valid,Standard
+4312966,216391001,"Place of occurrence of accident or poisoning, airport",Location,Observation,SNOMED,Valid,Standard
+4312967,216399004,"Place of occurrence of accident or poisoning, dance hall",Location,Observation,SNOMED,Valid,Standard
+4312968,216407009,"Place of occurrence of accident or poisoning, office building",Location,Observation,SNOMED,Valid,Standard
+4312969,216409007,"Place of occurrence of accident or poisoning, post office",Location,Observation,SNOMED,Valid,Standard
+4312970,216420007,"Place of occurrence of accident or poisoning, theatre",Location,Observation,SNOMED,Valid,Standard
+4312972,216427005,"Place of occurrence of accident or poisoning, old people's home",Location,Observation,SNOMED,Valid,Standard
+4312973,216428000,"Place of occurrence of accident or poisoning, orphanage",Location,Observation,SNOMED,Valid,Standard
+4312974,216429008,"Place of occurrence of accident or poisoning, prison",Location,Observation,SNOMED,Valid,Standard
+4312977,216436009,"Place of occurrence of accident or poisoning, derelict house",Location,Observation,SNOMED,Valid,Standard
+4312978,216437000,"Place of occurrence of accident or poisoning, desert",Location,Observation,SNOMED,Valid,Standard
+4312979,216445005,"Place of occurrence of accident or poisoning, parking lot",Location,Observation,SNOMED,Valid,Standard
+4312980,216446006,"Place of occurrence of accident or poisoning, parking place",Location,Observation,SNOMED,Valid,Standard
+4312981,216447002,"Place of occurrence of accident or poisoning, natural pond or pool",Location,Observation,SNOMED,Valid,Standard
+4312982,216451000,"Place of occurrence of accident or poisoning, reservoir",Location,Observation,SNOMED,Valid,Standard
+4312983,216453002,"Place of occurrence of accident or poisoning, sea",Location,Observation,SNOMED,Valid,Standard
+4312985,216458006,"Place of occurrence of accident or poisoning, wood",Location,Observation,SNOMED,Valid,Standard
+4314870,216312009,Place of occurrence of accident or poisoning,Location,Observation,SNOMED,Valid,Standard
+4314871,216313004,"Place of occurrence of accident or poisoning, home",Location,Observation,SNOMED,Valid,Standard
+4314872,216314005,"Place of occurrence of accident or poisoning, apartment",Location,Observation,SNOMED,Valid,Standard
+4314873,216315006,"Place of occurrence of accident or poisoning, boarding house",Location,Observation,SNOMED,Valid,Standard
+4314985,216319000,"Place of occurrence of accident or poisoning, noninstitutional place of residence",Location,Observation,SNOMED,Valid,Standard
+4314986,216320006,"Place of occurrence of accident or poisoning, private driveway",Location,Observation,SNOMED,Valid,Standard
+4314987,216322003,"Place of occurrence of accident or poisoning, private garden",Location,Observation,SNOMED,Valid,Standard
+4314989,216333000,"Place of occurrence of accident or poisoning, mine or quarry",Location,Observation,SNOMED,Valid,Standard
+4314991,216339001,"Place of occurrence of accident or poisoning, industrial place and premises",Location,Observation,SNOMED,Valid,Standard
+4314992,216341000,"Place of occurrence of accident or poisoning, dockyard",Location,Observation,SNOMED,Valid,Standard
+4314993,216348006,"Place of occurrence of accident or poisoning, store loading platform",Location,Observation,SNOMED,Valid,Standard
+4314995,216351004,"Place of occurrence of accident or poisoning, shop, place of work",Location,Observation,SNOMED,Valid,Standard
+4314996,216353001,"Place of occurrence of accident or poisoning, workhouse",Location,Observation,SNOMED,Valid,Standard
+4314998,216357000,"Place of occurrence of accident or poisoning, baseball field",Location,Observation,SNOMED,Valid,Standard
+4314999,216358005,"Place of occurrence of accident or poisoning, basketball court",Location,Observation,SNOMED,Valid,Standard
+4315000,216360007,"Place of occurrence of accident or poisoning, cricket ground",Location,Observation,SNOMED,Valid,Standard
+4315001,216366001,"Place of occurrence of accident or poisoning, vacation camp",Location,Observation,SNOMED,Valid,Standard
+4315002,216367005,"Place of occurrence of accident or poisoning, ice palace",Location,Observation,SNOMED,Valid,Standard
+4315003,216368000,"Place of occurrence of accident or poisoning, lake resort",Location,Observation,SNOMED,Valid,Standard
+4315004,216369008,"Place of occurrence of accident or poisoning, mountain resort",Location,Observation,SNOMED,Valid,Standard
+4315005,216376003,"Place of occurrence of accident or poisoning, rifle range",Location,Observation,SNOMED,Valid,Standard
+4315006,216378002,"Place of occurrence of accident or poisoning, skating rink",Location,Observation,SNOMED,Valid,Standard
+4315007,216383005,"Place of occurrence of accident or poisoning, tennis court",Location,Observation,SNOMED,Valid,Standard
+4315085,216386002,"Place of occurrence of accident or poisoning, street and highway",Location,Observation,SNOMED,Valid,Standard
+4315087,216393003,"Place of occurrence of accident or poisoning, cafe",Location,Observation,SNOMED,Valid,Standard
+4315088,216395005,"Place of occurrence of accident or poisoning, church",Location,Observation,SNOMED,Valid,Standard
+4315089,216397002,"Place of occurrence of accident or poisoning, clubhouse",Location,Observation,SNOMED,Valid,Standard
+4315090,216400006,"Place of occurrence of accident or poisoning, garage, for car storage",Location,Observation,SNOMED,Valid,Standard
+4315091,216406000,"Place of occurrence of accident or poisoning, office",Location,Observation,SNOMED,Valid,Standard
+4315092,216411003,"Place of occurrence of accident or poisoning, radio broadcasting station",Location,Observation,SNOMED,Valid,Standard
+4315093,216413000,"Place of occurrence of accident or poisoning, state school",Location,Observation,SNOMED,Valid,Standard
+4315094,216415007,"Place of occurrence of accident or poisoning, private school",Location,Observation,SNOMED,Valid,Standard
+4315095,216416008,"Place of occurrence of accident or poisoning, shop, commercial",Location,Observation,SNOMED,Valid,Standard
+4315096,216423009,"Place of occurrence of accident or poisoning, children's home",Location,Observation,SNOMED,Valid,Standard
+4315098,216430003,"Place of occurrence of accident or poisoning, reform school",Location,Observation,SNOMED,Valid,Standard
+4315099,216438005,"Place of occurrence of accident or poisoning, dock",Location,Observation,SNOMED,Valid,Standard
+4315100,216440000,"Place of occurrence of accident or poisoning, forest",Location,Observation,SNOMED,Valid,Standard
+4315101,216441001,"Place of occurrence of accident or poisoning, harbor",Location,Observation,SNOMED,Valid,Standard
+4319287,223367000,Channel islands,Location,Observation,SNOMED,Valid,Standard
+4320168,223664003,England,Location,Observation,SNOMED,Valid,Standard
+4320313,223629007,Tuvala,Location,Observation,SNOMED,Valid,Standard
+4320317,223647001,Belorussia,Location,Observation,SNOMED,Valid,Standard
+4320320,223654007,Moldavia,Location,Observation,SNOMED,Valid,Standard
+4327816,75414001,Construction site,Location,Observation,SNOMED,Valid,Standard
+4329166,223359008,Bathroom,Location,Observation,SNOMED,Valid,Standard
+4329168,223364007,Building with multiple dwellings,Location,Observation,SNOMED,Valid,Standard
+4329169,223369002,Country,Location,Observation,SNOMED,Valid,Standard
+4329170,223374005,Fuerteventura,Location,Observation,SNOMED,Valid,Standard
+4329172,223376007,Gomera,Location,Observation,SNOMED,Valid,Standard
+4329578,223580003,Far east country,Location,Observation,SNOMED,Valid,Standard
+4329579,223586009,Brunei,Location,Observation,SNOMED,Valid,Standard
+4329580,223587000,Burma,Location,Observation,SNOMED,Valid,Standard
+4329583,223590006,Laos,Location,Observation,SNOMED,Valid,Standard
+4329605,223683005,Wales,Location,Observation,SNOMED,Valid,Standard
+4329860,223365008,Canary islands,Location,Observation,SNOMED,Valid,Standard
+4330005,224705000,En suite shower room,Location,Observation,SNOMED,Valid,Standard
+4330006,224713004,Area at back of house,Location,Observation,SNOMED,Valid,Standard
+4330007,224717003,Circulation areas in building,Location,Observation,SNOMED,Valid,Standard
+4330008,224723008,Angled corridor,Location,Observation,SNOMED,Valid,Standard
+4330021,224768000,Domestic flower garden,Location,Observation,SNOMED,Valid,Standard
+4330022,224770009,Domestic mixed garden,Location,Observation,SNOMED,Valid,Standard
+4330023,224772001,Allotment,Location,Observation,SNOMED,Valid,Standard
+4330026,224782000,Clean environment,Location,Observation,SNOMED,Valid,Standard
+4330027,224787006,Emotional environment,Location,Observation,SNOMED,Valid,Standard
+4330028,224789009,Chaotic environment,Location,Observation,SNOMED,Valid,Standard
+4330029,224791001,Stimulating environment,Location,Observation,SNOMED,Valid,Standard
+4330141,224812001,City suburbs,Location,Observation,SNOMED,Valid,Standard
+4330142,224814000,Isolated environment,Location,Observation,SNOMED,Valid,Standard
+4330143,224817007,Coastal environment,Location,Observation,SNOMED,Valid,Standard
+4330144,224820004,Manned pedestrian road crossing,Location,Observation,SNOMED,Valid,Standard
+4330145,224821000,Pedestrian road crossing controlled by lights,Location,Observation,SNOMED,Valid,Standard
+4330150,224834004,Supermarket,Location,Observation,SNOMED,Valid,Standard
+4330159,224704001,Shower room,Location,Observation,SNOMED,Valid,Standard
+4330161,224712009,Area at front of house,Location,Observation,SNOMED,Valid,Standard
+4330162,224716007,Area at side of house,Location,Observation,SNOMED,Valid,Standard
+4330164,224721005,Straight corridor,Location,Observation,SNOMED,Valid,Standard
+4330179,224778002,Least restrictive environment,Location,Observation,SNOMED,Valid,Standard
+4330180,224780008,Safe environment,Location,Observation,SNOMED,Valid,Standard
+4330181,224781007,Sterile environment,Location,Observation,SNOMED,Valid,Standard
+4330182,224783005,Dirty environment,Location,Observation,SNOMED,Valid,Standard
+4330183,224785003,Sheltered environment,Location,Observation,SNOMED,Valid,Standard
+4330184,224786002,Open air environment,Location,Observation,SNOMED,Valid,Standard
+4330185,224790000,Peaceful environment,Location,Observation,SNOMED,Valid,Standard
+4330186,224799004,Unfamiliar environment,Location,Observation,SNOMED,Valid,Standard
+4330188,224807002,Urban environment,Location,Observation,SNOMED,Valid,Standard
+4330284,224813006,Secluded environment,Location,Observation,SNOMED,Valid,Standard
+4330285,224819005,Pedestrian underpass,Location,Observation,SNOMED,Valid,Standard
+4330288,224829003,Sidewalk,Location,Observation,SNOMED,Valid,Standard
+4330291,224838001,Baker's shop,Location,Observation,SNOMED,Valid,Standard
+4330292,224843008,Fish shop,Location,Observation,SNOMED,Valid,Standard
+4330293,224844002,Off license,Location,Observation,SNOMED,Valid,Standard
+4330294,224848004,Nursery school,Location,Observation,SNOMED,Valid,Standard
+4330295,224849007,Nursery class within a school,Location,Observation,SNOMED,Valid,Standard
+4330296,224856001,Upper school,Location,Observation,SNOMED,Valid,Standard
+4330297,224859008,Convent school,Location,Observation,SNOMED,Valid,Standard
+4330299,224865008,Tertiary college,Location,Observation,SNOMED,Valid,Standard
+4330300,224867000,Further education college,Location,Observation,SNOMED,Valid,Standard
+4330301,224874005,Adult training center,Location,Observation,SNOMED,Valid,Standard
+4330302,224875006,Industrial therapy center,Location,Observation,SNOMED,Valid,Standard
+4330434,223661006,Bosnia - Herzegovnia,Location,Observation,SNOMED,Valid,Standard
+4330439,223678002,Scotland,Location,Observation,SNOMED,Valid,Standard
+4330456,224842003,Butcher's shop,Location,Observation,SNOMED,Valid,Standard
+4330457,224847009,Leisure center,Location,Observation,SNOMED,Valid,Standard
+4330458,224853009,City technology school,Location,Observation,SNOMED,Valid,Standard
+4330459,224854003,Comprehensive school,Location,Observation,SNOMED,Valid,Standard
+4330460,224862006,Rudolf Steiner school,Location,Observation,SNOMED,Valid,Standard
+4330461,224868005,Technical college,Location,Observation,SNOMED,Valid,Standard
+4330463,224873004,Training center,Location,Observation,SNOMED,Valid,Standard
+4330700,224715006,House extension,Location,Observation,SNOMED,Valid,Standard
+4330701,224718008,Landing,Location,Observation,SNOMED,Valid,Standard
+4330702,224719000,Half-landing,Location,Observation,SNOMED,Valid,Standard
+4330703,224720006,Corridor,Location,Observation,SNOMED,Valid,Standard
+4330714,224769008,Domestic vegetable garden,Location,Observation,SNOMED,Valid,Standard
+4330715,224771008,Garden lawn,Location,Observation,SNOMED,Valid,Standard
+4330717,224777007,Physical environment,Location,Observation,SNOMED,Valid,Standard
+4330718,224779005,High risk environment,Location,Observation,SNOMED,Valid,Standard
+4330720,224792008,Impersonal environment,Location,Observation,SNOMED,Valid,Standard
+4330721,224793003,Caring environment,Location,Observation,SNOMED,Valid,Standard
+4330722,224795005,Challenging environment,Location,Observation,SNOMED,Valid,Standard
+4330723,224796006,Unchallenging environment,Location,Observation,SNOMED,Valid,Standard
+4330724,224797002,Happy environment,Location,Observation,SNOMED,Valid,Standard
+4330725,224798007,Familiar environment,Location,Observation,SNOMED,Valid,Standard
+4330726,224800000,Alien environment,Location,Observation,SNOMED,Valid,Standard
+4330727,224801001,Friendly environment,Location,Observation,SNOMED,Valid,Standard
+4330728,224802008,Unfriendly environment,Location,Observation,SNOMED,Valid,Standard
+4330729,224803003,Natural environment,Location,Observation,SNOMED,Valid,Standard
+4330730,224805005,Semi-rural environment,Location,Observation,SNOMED,Valid,Standard
+4330731,224808007,Town in rural environment,Location,Observation,SNOMED,Valid,Standard
+4330732,224809004,Housing estate,Location,Observation,SNOMED,Valid,Standard
+4330733,224810009,Inner city environment,Location,Observation,SNOMED,Valid,Standard
+4330737,224835003,Food shop,Location,Observation,SNOMED,Valid,Standard
+4330738,224840006,Greengrocer's shop,Location,Observation,SNOMED,Valid,Standard
+4330836,224850007,Infants school,Location,Observation,SNOMED,Valid,Standard
+4330837,224852004,Preparatory school,Location,Observation,SNOMED,Valid,Standard
+4330838,224855002,Middle school,Location,Observation,SNOMED,Valid,Standard
+4330839,224857005,Grammar school,Location,Observation,SNOMED,Valid,Standard
+4330840,224858000,Public school,Location,Observation,SNOMED,Valid,Standard
+4330841,224861004,Montessori school,Location,Observation,SNOMED,Valid,Standard
+4330842,224863001,Special needs school,Location,Observation,SNOMED,Valid,Standard
+4330843,224864007,College,Location,Observation,SNOMED,Valid,Standard
+4330844,224866009,Sixth form college,Location,Observation,SNOMED,Valid,Standard
+4330848,22414007,Demolition and removal site,Location,Observation,SNOMED,Valid,Standard
+4330990,224869002,Adult education college,Location,Observation,SNOMED,Valid,Standard
+4330993,224884006,Location within hospital premises,Location,Observation,SNOMED,Valid,Standard
+4331012,224703007,En suite bathroom,Location,Observation,SNOMED,Valid,Standard
+4331013,224706004,Separate toilet room,Location,Observation,SNOMED,Valid,Standard
+4331014,224714005,House annex,Location,Observation,SNOMED,Valid,Standard
+4331015,224722003,Curved corridor,Location,Observation,SNOMED,Valid,Standard
+4331016,224725001,External domestic passageway,Location,Observation,SNOMED,Valid,Standard
+4331029,224784004,Damp environment,Location,Observation,SNOMED,Valid,Standard
+4331030,224794009,Uncaring environment,Location,Observation,SNOMED,Valid,Standard
+4331032,224804009,Rural environment,Location,Observation,SNOMED,Valid,Standard
+4331033,224806006,Village environment,Location,Observation,SNOMED,Valid,Standard
+4331034,224811008,Inner city urban regeneration area,Location,Observation,SNOMED,Valid,Standard
+4331035,224815004,Industrial environment,Location,Observation,SNOMED,Valid,Standard
+4331036,224816003,Farming environment,Location,Observation,SNOMED,Valid,Standard
+4331139,224818002,Pedestrian road crossing,Location,Observation,SNOMED,Valid,Standard
+4331140,224822007,Marked crosswalk,Location,Observation,SNOMED,Valid,Standard
+4331143,224837006,Fast food shop,Location,Observation,SNOMED,Valid,Standard
+4331144,224839009,Grocer's shop,Location,Observation,SNOMED,Valid,Standard
+4331146,224841005,Fruit shop,Location,Observation,SNOMED,Valid,Standard
+4331147,224845001,Betting shop,Location,Observation,SNOMED,Valid,Standard
+4331148,224846000,Social club,Location,Observation,SNOMED,Valid,Standard
+4331150,224851006,Junior school,Location,Observation,SNOMED,Valid,Standard
+4331151,224860003,Specialist school,Location,Observation,SNOMED,Valid,Standard
+4331152,224870001,Community college,Location,Observation,SNOMED,Valid,Standard
+4331153,224872009,Polytechnic,Location,Observation,SNOMED,Valid,Standard
+4331154,224876007,Social education center,Location,Observation,SNOMED,Valid,Standard
+4331155,224885007,Hospital consulting room,Location,Observation,SNOMED,Valid,Standard
+4331156,224886008,Treatment room,Location,Observation,SNOMED,Valid,Standard
+36717537,722171005,Diagnostic institution,Location,Observation,SNOMED,Valid,Standard
+37208797,1.11E+15,Bereavement care room,Location,Observation,SNOMED,Valid,Standard
+37208798,1.11E+15,Bereavement suite,Location,Observation,SNOMED,Valid,Standard
+37312110,789741000,Outpatient dialysis treatment facility,Location,Observation,SNOMED,Valid,Standard
+40479596,441548002,Tropical medicine department,Location,Observation,SNOMED,Valid,Standard
+40480038,441662001,Diagnostic imaging department,Location,Observation,SNOMED,Valid,Standard
+40481343,441950002,Histopathology department,Location,Observation,SNOMED,Valid,Standard
+40481392,441994008,Medical intensive care unit,Location,Observation,SNOMED,Valid,Standard
+40481460,443403007,Apartment building with elevator access,Location,Observation,SNOMED,Valid,Standard
+40481508,443447001,Apartment building without elevator access,Location,Observation,SNOMED,Valid,Standard
+40490438,448535008,Outpatient freestanding dialysis treatment facility,Location,Observation,SNOMED,Valid,Standard
+42573202,3.57E+14,Non-farming environment,Location,Observation,SNOMED Veterinary,Valid,Standard
+44783861,699854004,Funeral home,Location,Observation,SNOMED,Valid,Standard
+44792036,3.2E+14,IT system,Location,Observation,SNOMED,Valid,Standard
+44792384,3.25E+14,After school club,Location,Observation,SNOMED,Valid,Standard
+44792385,3.26E+14,Breakfast club,Location,Observation,SNOMED,Valid,Standard
+44802939,5.06E+14,Specialist treatment area,Location,Observation,SNOMED,Valid,Standard
+44803642,7.16E+14,General practitioner computer system,Location,Observation,SNOMED,Valid,Standard
+44804866,7.6E+14,"Place of occurrence of accident or poisoning, canal",Location,Observation,SNOMED,Valid,Standard
+44804867,7.6E+14,"Place of occurrence of accident or poisoning, recreational vehicle site",Location,Observation,SNOMED,Valid,Standard
+44806778,8.14E+14,Social environment,Location,Observation,SNOMED,Valid,Standard
+44811997,9.1E+14,Hospice community lodge,Location,Observation,SNOMED,Valid,Standard
+44813295,7.6E+14,"Place of occurrence of accident or poisoning, playground",Location,Observation,SNOMED,Valid,Standard
+45765697,702703009,Outdoor public site,Location,Observation,SNOMED,Valid,Standard
+45765698,702704003,Indoor public site,Location,Observation,SNOMED,Valid,Standard
+45765699,702705002,Mobile clinic,Location,Observation,SNOMED,Valid,Standard
+45765836,702869004,Incident site,Location,Observation,SNOMED,Valid,Standard
+45768451,706884005,"Place of occurrence of accident or poisoning, water's edge",Location,Observation,SNOMED,Valid,Standard
+45768509,706956001,"Place of occurrence of accident or poisoning, public place",Location,Observation,SNOMED,Valid,Standard
+45768510,706957005,"Place of occurrence of accident or poisoning, healthcare facility",Location,Observation,SNOMED,Valid,Standard
+45770445,9.29E+14,Part III accommodation,Location,Observation,SNOMED,Valid,Standard
+45770539,9.31E+14,Ward on National Health Service hospital site,Location,Observation,SNOMED,Valid,Standard

@@ -3,9 +3,10 @@ import Random as rd
 import pandas as pd
 
 # read CSV files for pre-stored IDs and store them into a list
-location_id_file = 'config_files/measurement_concept_id.csv'
+location_id_file = 'config_files/location_id.csv'
 location_id_df = pd.read_csv(location_id_file)
 location_id_list = location_id_df['Id']
+location_city_list = [c for c in location_id_df['Name']]
 
 # messages to display at CLI
 m1 = "Please enter the number of OMOP Location records you want to create: "

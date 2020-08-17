@@ -1,0 +1,16 @@
+Id,Code,Name,Standard Class,Domain,Vocab,Validity,Concept
+32445,OMOP4822309,NLP derived,Observation Type,Type Concept,Observation Type,Valid,Standard
+32467,OMOP4822308,Inferred from claim,Observation Type,Type Concept,Observation Type,Valid,Standard
+581413,OMOP4822322,Observation from Measurement,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000276,OMOP4822310,Problem list from EHR,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000277,OMOP4822311,Lab observation numeric result,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000278,OMOP4822312,Lab observation text,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000279,OMOP4822313,Lab observation concept code result,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000280,OMOP4822314,Observation recorded from EHR,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000281,OMOP4822315,Observation recorded from EHR with text result,Observation Type,Type Concept,Observation Type,Valid,Standard
+38000282,OMOP4822316,Chief complaint,Observation Type,Type Concept,Observation Type,Valid,Standard
+43542355,OMOP4822317,Referral Record,Observation Type,Type Concept,Observation Type,Valid,Standard
+44786633,OMOP4822318,HRA Observation Numeric Result,Observation Type,Type Concept,Observation Type,Valid,Standard
+44786634,OMOP4822319,HRA Observation Text,Observation Type,Type Concept,Observation Type,Valid,Standard
+44814721,OMOP4822320,Patient reported,Observation Type,Type Concept,Observation Type,Valid,Standard
+45905771,OMOP4822321,Observation Recorded from a Survey,Observation Type,Type Concept,Observation Type,Valid,Standard

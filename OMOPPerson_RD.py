@@ -15,11 +15,10 @@ ethnicity_list = ethnicity_df['Id']
 location_file = 'config_files/location_id.csv'
 location_df = pd.read_csv(location_file)
 location_list = location_df['Id']
-location_city_list = location_df['Name']
 
 # messages to display at CLI
 m1 = "Please enter the number of OMOP Person records you want to create: "
-m2 = "Random OMOP Person, Specimen, Measurement, Observation CSV tables generation complete!"
+m2 = "Random OMOP Person, Specimen, Measurement, Observation, Location CSV tables generation complete!"
 
 
 # the class that generate random values for all the fields required in PERSON table
@@ -63,3 +62,8 @@ if __name__ == "__main__":
 
     observation.OMOP_PatientRecord(len(specimen.person_id_list),
                                    observation.OMOP_PatientRecord.header_list).data_generate()
+    import OMOPLocation_RD as location
+
+    location.OMOP_PatientRecord(len(location.location_id_list),
+                                location.OMOP_PatientRecord.header_list).data_generate()
+

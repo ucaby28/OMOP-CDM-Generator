@@ -25,6 +25,7 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
                     "birth_datetime": self.dob_RB,
                     "race_concept_id": person.random.choice(person.race_list),
                     "ethnicity_concept_id": person.random.choice(person.ethnicity_list),
+                    "location_id": person.random.choice(person.location_list)
                 })
                 OMOP_PatientRecord.person_id += 1
             OMOPcsvFile.close()
