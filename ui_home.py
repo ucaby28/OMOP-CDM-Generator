@@ -4,7 +4,7 @@ from PyQt5 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1200, 450)
+        MainWindow.resize(1300, 450)
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.formLayout = QtWidgets.QFormLayout(self.centralwidget)
@@ -100,7 +100,7 @@ class Ui_MainWindow(object):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "Synthetic Data Generator"))
         self.title_label.setText(_translate("MainWindow", "OMOP Common Data Model Generator"))
-        self.des_label_2.setText(_translate("MainWindow", "Please select the type of data you want to generate"))
-        self.Random_radioButton.setText(_translate("MainWindow", "Random data (Unbounded)"))
-        self.OMOP_radioButton_2.setText(_translate("MainWindow", "Rule_based (Bounded with Normal Distribution)"))
+        self.des_label_2.setText(_translate("MainWindow", "Please select the data format you want to use"))
+        self.Random_radioButton.setText(_translate("MainWindow", "Random data format (non-OMOP)"))
+        self.OMOP_radioButton_2.setText(_translate("MainWindow", "OMOP CDM"))
         self.next_Button.setText(_translate("MainWindow", "Next"))

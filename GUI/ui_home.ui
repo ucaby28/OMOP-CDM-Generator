@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>796</width>
-    <height>405</height>
+    <width>722</width>
+    <height>399</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -108,7 +108,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Please select the type of data you want to generate</string>
+           <string>Please select the data format</string>
           </property>
          </widget>
         </item>
@@ -163,7 +163,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Random data (Unbounded)</string>
+           <string>Random data format (non-OMOP)</string>
           </property>
          </widget>
         </item>
@@ -218,7 +218,7 @@
            </font>
           </property>
           <property name="text">
-           <string>Rule_based (Bounded)</string>
+           <string>OMOP CDM</string>
           </property>
          </widget>
         </item>
@@ -281,6 +281,13 @@
            </size>
           </property>
          </spacer>
+        </item>
+        <item>
+         <widget class="QPushButton" name="back_Button">
+          <property name="text">
+           <string>Back</string>
+          </property>
+         </widget>
         </item>
         <item>
          <widget class="QPushButton" name="next_Button">
