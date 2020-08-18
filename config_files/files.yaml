@@ -11,7 +11,7 @@ other:
     use_anonymous: yes
 age:
     distribution: binomial
-    n:
-    p: 40
+    n: 50
+    p: 0.8
 records:
 

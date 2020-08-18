@@ -11,7 +11,7 @@ m2 = "Rule-based OMOP Person, Specimen, Measurement, Observation, and Location C
 class OMOP_PatientRecord(rb.PatientRecord_RB):
 
     # generating a PERSON table and output as a csv file
-    def data_generate(self):
+    def data_generate(self, b, c, d):
         with open("Rule-based_OMOP_Person.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
@@ -19,7 +19,7 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
                 writer.writerow({
                     "person_id": OMOP_PatientRecord.person_id,
                     "gender_concept_id": person.random.choice(person.gender_list),
-                    "year_of_birth": self.dob_time().year,
+                    "year_of_birth": self.dob_time(b, c, d).year,
                     "month_of_birth": self.dob_RB.month,
                     "day_of_birth": self.dob_RB.day,
                     "birth_datetime": self.dob_RB,
@@ -32,7 +32,8 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(m1, m2), person.OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(rd.main(m1, m2), person.OMOP_PatientRecord.header_list).data_generate(40, 20, 'Normal '
+                                                                                                     'distribution')
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 
