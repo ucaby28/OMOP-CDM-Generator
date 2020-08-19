@@ -25,7 +25,7 @@ def phone_num():
 def main(msg1, msg2):
     # the user can customize the number of rows to generate
     while True:
-        num_records = input(msg1)
+        num_records = msg1
         try:
             # checking whether the entered number is valid and return the valid input
             if int(num_records) > 0:

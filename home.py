@@ -1,5 +1,6 @@
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtGui import QFontMetrics
+from PyQt5.QtWidgets import QMessageBox
 
 from ui_home import Ui_MainWindow as home_window
 from ui_config import Ui_Dialog as config_window
@@ -17,21 +18,34 @@ import os
 
 
 class MessageWindow:
-    def error_window(self, item):
-        QMessageBox = QtWidgets.QMessageBox
-        msg = QtWidgets.QMessageBox()
-        msg.setWindowTitle('Error')
-        msg.setText(item)
-        msg.setIcon(QMessageBox.Information)
-        msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No)
-        msg.buttonClicked.connect(self.popup_clicked)
-        msg.exec_()
 
-    def popup_clicked(self, b):
-        if b.text() == '&Yes':
+    def msg_setup(self, title, message):
+        self.msg = QMessageBox()
+        self.msg.setWindowTitle(title)
+        self.msg.setText(message)
+
+    def info_window(self, title, item):
+        self.msg_setup(title, item + 'Do you want to continue to rule customisation? \n \n (Click Ignore to use '
+                                     'the default parameters instead.)')
+        self.msg.setIcon(QMessageBox.Information)
+        self.msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No | QMessageBox.Ignore)
+        self.msg.buttonClicked.connect(self.popup_clicked)
+        self.msg.exec_()
+
+    def error_window(self, title, item):
+        self.msg_setup(title, item)
+        self.msg.setIcon(QMessageBox.Warning)
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.buttonClicked.connect(Manager().age.show)
+        self.msg.exec_()
+
+    def popup_clicked(self, btn):
+        if btn.text() == '&Yes':
             Manager().age.show()
-        elif b.text() == "&No":
+        elif btn.text() == "&No":
             Manager().config.show()
+        elif btn.text() == "Ignore":
+            gen().generate()
 
 
 class MainWindow(QtWidgets.QMainWindow, home_window):
@@ -55,9 +69,9 @@ class RuleWindow(QtWidgets.QDialog, rule_window):
         self.next_Button.clicked.connect(lambda: self.check_rule(self.b1))
         self.back_Button.clicked.connect(self.hide)
 
-    def check_rule(self, b):
-        if b.isChecked():
-            generate(40, 20, 'normal')
+    def check_rule(self, btn):
+        if btn.isChecked():
+            gen().generate()
         else:
             Manager().config.show()
 
@@ -92,36 +106,35 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                 if 'age' in list:
                     try:
                         self.check_age_para()
-                    except TypeError:
-                        MessageWindow().error_window('Missing distribution parameter(s). Do you want to skip to rule '
-                                                     'customisation?')
-                    finally:
-                        generate(self.b, self.c, self.dist)
-                # if 'records' in list:
-                #     try:
-                #         self.num_records = cfg['records']['size']
-                #     except TypeError:
-                #         pass
+                    except Exception:
+                        gen.b = 40
+                        gen.c = 20
+                        gen.d = 'normal'
+                        MessageWindow().info_window('Notice', 'Missing distribution parameter(s).')
+                if 'records' in list:
+                    try:
+                        gen.row = self.cfg['records']['size']
+                    except Exception:
+                        gen.row = 100
+                        MessageWindow().info_window('Notice', 'Missing records parameter.')
             except Exception:
-                MessageWindow().error_window('No file path was found. Do you want to skip to rule '
-                                             'customisation?')
+                MessageWindow().info_window('Notice', 'No file path was found.')
         else:
             Manager().age.show()
 
     def check_age_para(self):
-        self.dist = self.cfg['age']['distribution']
-        if self.dist == 'normal':
-            if (self.cfg['age']['average'] and self.cfg['age']['sd']) > 0:
-                self.b = self.cfg['age']['average']
-                self.c = self.cfg['age']['sd']
-        elif self.dist == 'binomial':
-            if 1 > self.cfg['age']['p'] > 0 and self.cfg['age']['n'] > 0:
-                self.b = int(self.cfg['age']['n'])
-                self.c = self.cfg['age']['p']
-        elif self.dist == 'poisson':
+        gen.d = self.cfg['age']['distribution']
+        if gen.d == 'normal':
+            if (self.cfg['age']['average'] > 0 and self.cfg['age']['sd']) > 0:
+                gen.b = self.cfg['age']['average']
+                gen.c = self.cfg['age']['sd']
+        elif gen.d == 'binomial':
+            if 1 >= self.cfg['age']['p'] >= 0 and self.cfg['age']['n'] >= 0:
+                gen.b = int(self.cfg['age']['n'])
+                gen.c = self.cfg['age']['p']
+        elif gen.d == 'poisson':
             if self.cfg['age']['lam'] > 0:
-                self.b = self.cfg['age']['lam']
-                self.c = None
+                gen.b = self.cfg['age']['lam']
 
 
 class AgeWindow(QtWidgets.QDialog, age_window):
@@ -134,41 +147,74 @@ class AgeWindow(QtWidgets.QDialog, age_window):
         self.back_Button.clicked.connect(self.hide)
 
     def check_rule(self, b):
-        if b.isChecked():
-            print('here')
-            # Manager().csv.show()
+        if not b.isChecked():
+            self.get_para()
         else:
-            pass
+            Manager().csvW.show()
 
     def change_text(self):
-        t = str(self.comboBox.currentText())
-        if t.strip() == 'Normal distribution':
+        self.t = str(self.comboBox.currentText())
+        if self.t.strip() == 'Normal distribution':
             self.para_label.setText('Mean:')
             self.para_label_2.setHidden(False)
             self.sd_lineEdit_2.setHidden(False)
             self.para_label_2.setText('Standard deviation:')
-        elif t.strip() == 'Binomial distribution':
-            self.para_label.setText('Probability (p):')
+            gen.d = 'normal'
+        elif self.t.strip() == 'Binomial distribution':
+            self.para_label.setText('Probability (1 >= p >= 0):')
             self.para_label_2.setHidden(False)
             self.sd_lineEdit_2.setHidden(False)
             self.para_label_2.setText('Size (n):')
-        elif t.strip() == 'Poisson distribution':
+            gen.d = 'binomial'
+        elif self.t.strip() == 'Poisson distribution':
             self.para_label.setText('Lambda (lam):')
             self.para_label_2.setHidden(True)
             self.sd_lineEdit_2.setHidden(True)
+            gen.d = 'poisson'
+
+    def get_para(self):
+        self.change_text()
+        b = self.mean_lineEdit.text()
+        try:
+            if self.t.strip() != 'Poisson distribution':
+                c = self.sd_lineEdit_2.text()
+                if self.validate_para(b, c):
+                    gen.b = b
+                    gen.c = c
+                    Manager().csvW.show()
+                else:
+                    MessageWindow().error_window('Error', 'Please enter valid number(s).')
+            elif self.t.strip() == 'Poisson distribution' and float(b) > 0:
+                gen.b = b
+                Manager().csvW.show()
+        except Exception:
+            MessageWindow().error_window('Error', 'Please enter valid number(s).')
+
+    def validate_para(self, b, c):
+        try:
+            if self.t.strip() == 'Normal distribution':
+                if float(b) > 0 and float(c) > 0:
+                    return True
+                else:
+                    return False
+            elif self.t.strip() == 'Binomial distribution':
+                if 1 >= float(b) >= 0:
+                    float(c)
+                    return True
+                else:
+                    return False
+        except Exception:
+            return False
 
 
 class CSVWindow(QtWidgets.QDialog, csv_window):
     def __init__(self, parent=None):
         super(CSVWindow, self).__init__(parent)
         self.setupUi(self)
-        self.change_text()
-
         self.next_Button.clicked.connect(self.hide)
+        self.next_Button.clicked.connect(lambda: self.check_rule(self.default_checkBox))
         self.back_Button.clicked.connect(self.hide)
-
-    def change_text(self):
-        if Manager.df == 0:
+        if Manager.df == 1:
             self.person_label.setHidden(False)
             self.person_lineEdit_2.setHidden(False)
             self.measurement_label.setHidden(False)
@@ -178,10 +224,14 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
         else:
             self.person_label.setHidden(True)
             self.person_lineEdit_2.setHidden(True)
+            self.specimen_label_2.setText('Number of Rows to Generate:')
             self.measurement_label.setHidden(True)
             self.measurement_lineEdit.setHidden(True)
             self.observation_label_2.setHidden(True)
             self.observation__lineEdit_2.setHidden(True)
+
+    def check_rule(self, checkbox):
+        pass
 
 
 class Manager:
@@ -193,14 +243,13 @@ class Manager:
         self.rule = RuleWindow()
         self.config = ConfigWindow()
         self.age = AgeWindow()
-        self.csv = CSVWindow()
+        self.csvW = CSVWindow()
 
         self.main.next_Button.clicked.connect(self.rule.show)
         self.rule.back_Button.clicked.connect(self.main.show)
         self.config.back_Button.clicked.connect(self.rule.show)
         self.age.back_Button.clicked.connect(self.config.show)
-        self.age.next_Button.clicked.connect(self.csv.show)
-        self.csv.back_Button.clicked.connect(self.age.show)
+        self.csvW.back_Button.clicked.connect(self.age.show)
 
 
 def selected_type(b):
@@ -217,20 +266,27 @@ def selected_format(b):
         Manager.df = 1
 
 
-def generate(b, c, d):
-    if Manager.dt == 0 and Manager.df == 0:
-        rd.PatientRecord(rd.main(rd.m1, rd.m2), rd.PatientRecord.header_list).data_generate()
-    elif Manager.dt == 0 and Manager.df == 1:
-        OMOP_RD()
-    elif Manager.dt == 1 and Manager.df == 0:
-        rb.PatientRecord_RB(rd.main(rb.m1, rb.m2), rb.PatientRecord_RB.header_list).data_generate(b, c, d)
-    elif Manager.dt == 1 and Manager.df == 1:
-        OMOP_RB()
-    sys.exit()
+class gen:
+    b = 40
+    c = 20
+    d = 'normal'
+    row = 100
+
+    def generate(self):
+        if Manager.dt == 0 and Manager.df == 0:
+            rd.PatientRecord(rd.main(gen.row, rd.m2), rd.PatientRecord.header_list).data_generate()
+        elif Manager.dt == 0 and Manager.df == 1:
+            OMOP_RD(gen.row)
+        elif Manager.dt == 1 and Manager.df == 0:
+            rb.PatientRecord_RB(rd.main(gen.row, rb.m2), rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c,
+                                                                                                        gen.d)
+        elif Manager.dt == 1 and Manager.df == 1:
+            OMOP_RB(gen.row)
+        sys.exit()
 
 
-def OMOP_RD():
-    person.OMOP_PatientRecord(rd.main(person.m1, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
+def OMOP_RD(row):
+    person.OMOP_PatientRecord(rd.main(row, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
     import OMOPSpecimen_RD as specimen
 
     specimen.OMOP_PatientRecord(len(specimen.person_id_list),
@@ -249,9 +305,9 @@ def OMOP_RD():
                                 location.OMOP_PatientRecord.header_list).data_generate()
 
 
-def OMOP_RB():
-    person_rb.OMOP_PatientRecord(rd.main(person_rb.m1, person_rb.m2),
-                                 person.OMOP_PatientRecord.header_list).data_generate()
+def OMOP_RB(row):
+    person_rb.OMOP_PatientRecord(rd.main(row, person_rb.m2),
+                                 person.OMOP_PatientRecord.header_list).data_generate(gen.b, gen.c, gen.d)
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 
