@@ -3,7 +3,6 @@ import Random as rd
 import RuleBased_normal as rb
 
 # messages to display at CLI
-m1 = "Please enter the number of OMOP Person records you want to create: "
 m2 = "Rule-based OMOP Person, Specimen, Measurement, Observation, and Location CSV tables generation complete!"
 
 
@@ -32,8 +31,7 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(m1, m2), person.OMOP_PatientRecord.header_list).data_generate(40, 20, 'Normal '
-                                                                                                     'distribution')
+    OMOP_PatientRecord(rd.main(100, m2), person.OMOP_PatientRecord.header_list).data_generate(40, 20, 'normal')
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 

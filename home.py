@@ -231,6 +231,12 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
             self.observation__lineEdit_2.setHidden(True)
 
     def check_rule(self, checkbox):
+        if not checkbox.isChecked():
+            self.get_para()
+        else:
+            gen().generate()
+
+    def get_para(self):
         pass
 
 
