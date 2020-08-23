@@ -227,6 +227,7 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
         self.next_Button.clicked.connect(self.hide)
         self.next_Button.clicked.connect(lambda: self.check_rule(self.default_checkBox))
         self.back_Button.clicked.connect(self.hide)
+        self.back_Button.clicked.connect(self.back_window)
         if Manager.df == 1:
             self.person_label.setHidden(False)
             self.person_lineEdit_2.setHidden(False)
@@ -242,6 +243,12 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
             self.measurement_lineEdit.setHidden(True)
             self.observation_label_2.setHidden(True)
             self.observation__lineEdit_2.setHidden(True)
+
+    def back_window(self):
+        if Manager.dt == 0:
+            Manager().rule.show()
+        else:
+            Manager().age.show()
 
     def check_rule(self, checkbox):
         if not checkbox.isChecked():
@@ -293,7 +300,6 @@ class Manager:
         self.rule.back_Button.clicked.connect(self.main.show)
         self.config.back_Button.clicked.connect(self.rule.show)
         self.age.back_Button.clicked.connect(self.config.show)
-        self.csvW.back_Button.clicked.connect(self.age.show)
 
 
 def selected_type(b):
