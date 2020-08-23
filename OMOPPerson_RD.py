@@ -17,8 +17,7 @@ location_df = pd.read_csv(location_file)
 location_list = location_df['Id']
 
 # messages to display at CLI
-m1 = "Please enter the number of OMOP Person records you want to create: "
-m2 = "Random OMOP Person, Specimen, Measurement, Observation, Location CSV tables generation complete!"
+m2 = "Random OMOP Person, Specimen, Measurement, Observation, and Location CSV tables generation complete!"
 
 
 # the class that generate random values for all the fields required in PERSON table
@@ -49,7 +48,7 @@ class OMOP_PatientRecord(rd.PatientRecord):
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(m1, m2), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(rd.main(100, m2), OMOP_PatientRecord.header_list).data_generate()
     import OMOPSpecimen_RD as specimen
 
     specimen.OMOP_PatientRecord(len(specimen.person_id_list),

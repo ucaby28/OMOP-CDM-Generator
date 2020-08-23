@@ -24,19 +24,32 @@ class MessageWindow:
         self.msg.setWindowTitle(title)
         self.msg.setText(message)
 
-    def info_window(self, title, item):
-        self.msg_setup(title, item + 'Do you want to continue to rule customisation? \n \n (Click Ignore to use '
+    def info_window(self, title, message):
+        self.msg_setup(title, message + 'Do you want to continue to rule customisation? \n \n (Click Ignore to use '
                                      'the default parameters instead.)')
         self.msg.setIcon(QMessageBox.Information)
         self.msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No | QMessageBox.Ignore)
         self.msg.buttonClicked.connect(self.popup_clicked)
         self.msg.exec_()
 
-    def error_window(self, title, item):
-        self.msg_setup(title, item)
+    def age_error_window(self, title, message):
+        self.msg_setup(title, message)
         self.msg.setIcon(QMessageBox.Warning)
         self.msg.setStandardButtons(QMessageBox.Ok)
         self.msg.buttonClicked.connect(Manager().age.show)
+        self.msg.exec_()
+
+    def csv_error_window(self, title, message):
+        self.msg_setup(title, message)
+        self.msg.setIcon(QMessageBox.Warning)
+        self.msg.setStandardButtons(QMessageBox.Ok)
+        self.msg.buttonClicked.connect(Manager().csvW.show)
+        self.msg.exec_()
+
+    def gen_window(self, title, message):
+        self.msg_setup(title, message)
+        self.msg.setIcon(QMessageBox.Information)
+        self.msg.setStandardButtons(QMessageBox.Ok)
         self.msg.exec_()
 
     def popup_clicked(self, btn):
@@ -71,7 +84,7 @@ class RuleWindow(QtWidgets.QDialog, rule_window):
 
     def check_rule(self, btn):
         if btn.isChecked():
-            gen().generate()
+            Manager().csvW.show()
         else:
             Manager().config.show()
 
@@ -113,9 +126,9 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                         MessageWindow().info_window('Notice', 'Missing distribution parameter(s).')
                 if 'records' in list:
                     try:
-                        gen.row = self.cfg['records']['size']
+                        gen.p_row = self.cfg['records']['size']
                     except Exception:
-                        gen.row = 100
+                        gen.p_row = 100
                         MessageWindow().info_window('Notice', 'Missing records parameter.')
             except Exception:
                 MessageWindow().info_window('Notice', 'No file path was found.')
@@ -183,12 +196,12 @@ class AgeWindow(QtWidgets.QDialog, age_window):
                     gen.c = c
                     Manager().csvW.show()
                 else:
-                    MessageWindow().error_window('Error', 'Please enter valid number(s).')
+                    MessageWindow().age_error_window('Error', 'Please enter valid number(s).')
             elif self.t.strip() == 'Poisson distribution' and float(b) > 0:
                 gen.b = b
                 Manager().csvW.show()
         except Exception:
-            MessageWindow().error_window('Error', 'Please enter valid number(s).')
+            MessageWindow().age_error_window('Error', 'Please enter valid number(s).')
 
     def validate_para(self, b, c):
         try:
@@ -237,7 +250,33 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
             gen().generate()
 
     def get_para(self):
-        pass
+        p = self.person_lineEdit_2.text()
+        s = self.specimen_lineEdit_3.text()
+        m = self.measurement_lineEdit.text()
+        o = self.observation__lineEdit_2.text()
+
+        if Manager.df == 1 and self.validate_para(p, s, m, o):
+            gen.p_row = p
+            gen.s_row = s
+            gen.m_row = m
+            gen.o_row = o
+            gen().generate()
+        elif Manager.df == 0 and self.validate_para(p, s, m, o):
+            gen.s_row = s
+            gen().generate()
+        else:
+            MessageWindow().csv_error_window('Error', 'Please enter a number greater than 0 in each field.')
+
+    def validate_para(self, p, s, m, o):
+        try:
+            if Manager.df == 1:
+                if int(p) > 0 and int(s) > 0 and int(m) > 0 and int(o) > 0:
+                    return True
+            elif Manager.df == 0 and int(s) > 0:
+                print('here')
+                return True
+        except Exception:
+            return False
 
 
 class Manager:
@@ -276,34 +315,41 @@ class gen:
     b = 40
     c = 20
     d = 'normal'
-    row = 100
+    p_row = 100
+    s_row = 100
+    m_row = 100
+    o_row = 100
 
     def generate(self):
         if Manager.dt == 0 and Manager.df == 0:
-            rd.PatientRecord(rd.main(gen.row, rd.m2), rd.PatientRecord.header_list).data_generate()
+            rd.PatientRecord(rd.main(gen.s_row, rd.m2), rd.PatientRecord.header_list).data_generate()
+            MessageWindow().gen_window('Successful', rd.m2)
         elif Manager.dt == 0 and Manager.df == 1:
-            OMOP_RD(gen.row)
+            OMOP_RD(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
+            MessageWindow().gen_window('Successful', person.m2)
         elif Manager.dt == 1 and Manager.df == 0:
-            rb.PatientRecord_RB(rd.main(gen.row, rb.m2), rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c,
-                                                                                                        gen.d)
+            rb.PatientRecord_RB(rd.main(gen.s_row, rb.m2), rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c,
+                                                                                                          gen.d)
+            MessageWindow().gen_window('Successful', rb.m2)
         elif Manager.dt == 1 and Manager.df == 1:
-            OMOP_RB(gen.row)
+            OMOP_RB(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
+            MessageWindow().gen_window('Successful', person_rb.m2)
         sys.exit()
 
 
-def OMOP_RD(row):
-    person.OMOP_PatientRecord(rd.main(row, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
+def OMOP_RD(p_row, s_row, m_row, o_row):
+    person.OMOP_PatientRecord(rd.main(p_row, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
     import OMOPSpecimen_RD as specimen
 
-    specimen.OMOP_PatientRecord(len(specimen.person_id_list),
+    specimen.OMOP_PatientRecord(s_row,
                                 specimen.OMOP_PatientRecord.header_list).data_generate()
     import OMOPMeasurement_RD as measurement
 
-    measurement.OMOP_PatientRecord(len(specimen.person_id_list),
+    measurement.OMOP_PatientRecord(m_row,
                                    measurement.OMOP_PatientRecord.header_list).data_generate()
     import OMOPObservation_RD as observation
 
-    observation.OMOP_PatientRecord(len(specimen.person_id_list),
+    observation.OMOP_PatientRecord(o_row,
                                    observation.OMOP_PatientRecord.header_list).data_generate()
     import OMOPLocation_RD as location
 
@@ -311,23 +357,23 @@ def OMOP_RD(row):
                                 location.OMOP_PatientRecord.header_list).data_generate()
 
 
-def OMOP_RB(row):
-    person_rb.OMOP_PatientRecord(rd.main(row, person_rb.m2),
+def OMOP_RB(p_row, s_row, m_row, o_row):
+    person_rb.OMOP_PatientRecord(rd.main(p_row, person_rb.m2),
                                  person.OMOP_PatientRecord.header_list).data_generate(gen.b, gen.c, gen.d)
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 
-    specimen_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
+    specimen_rb.OMOP_PatientRecord(s_row,
                                    specimen.OMOP_PatientRecord.header_list).data_generate()
     import OMOPMeasurement_RD as measurement
     import OMOPMeasurement_RB as measurement_rb
 
-    measurement_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
+    measurement_rb.OMOP_PatientRecord(m_row,
                                       measurement.OMOP_PatientRecord.header_list).data_generate()
     import OMOPObservation_RD as observation
     import OMOPObservation_RB as observation_rb
 
-    observation_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
+    observation_rb.OMOP_PatientRecord(o_row,
                                       observation.OMOP_PatientRecord.header_list).data_generate()
     import OMOPLocation_RD as location
     import OMOPLocation_RB as location_rb

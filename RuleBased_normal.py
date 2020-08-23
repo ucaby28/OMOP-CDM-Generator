@@ -3,7 +3,6 @@ import numpy as np
 import csv
 
 # messages to display at CLI
-m1 = "Please enter the number of patient records you want to create: "
 m2 = "Rule-based Patient CSV generation complete!"
 
 
@@ -50,4 +49,4 @@ class PatientRecord_RB(rd.PatientRecord):
 
 
 if __name__ == "__main__":
-    PatientRecord_RB(rd.main(m1, m2), PatientRecord_RB.header_list).data_generate(40, 20, 'Normal distribution')
+    PatientRecord_RB(rd.main(100, m2), PatientRecord_RB.header_list).data_generate(40, 20, 'Normal distribution')

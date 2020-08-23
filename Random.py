@@ -7,7 +7,6 @@ fake = Faker('en_GB')
 fake1 = Faker('en_US')
 
 # messages to display at CLI
-m1 = "Please enter the number of patient records you want to create: "
 m2 = "Random Patient CSV generation complete!"
 
 
@@ -22,10 +21,10 @@ def phone_num():
 
 
 # obtaining user input and return the input value
-def main(msg1, msg2):
+def main(row, msg2):
     # the user can customize the number of rows to generate
     while True:
-        num_records = msg1
+        num_records = row
         try:
             # checking whether the entered number is valid and return the valid input
             if int(num_records) > 0:
@@ -87,4 +86,4 @@ class PatientRecord:
 
 
 if __name__ == "__main__":
-    PatientRecord(main(m1, m2), PatientRecord.header_list).data_generate()
+    PatientRecord(main(100, m2), PatientRecord.header_list).data_generate()
