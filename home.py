@@ -174,13 +174,13 @@ class AgeWindow(QtWidgets.QDialog, age_window):
             self.para_label_2.setText('Standard deviation:')
             gen.d = 'normal'
         elif self.t.strip() == 'Binomial distribution':
-            self.para_label.setText('Probability (1 >= p >= 0):')
+            self.para_label.setText('Probability of success (1 >= p >= 0):')
             self.para_label_2.setHidden(False)
             self.sd_lineEdit_2.setHidden(False)
-            self.para_label_2.setText('Size (n):')
+            self.para_label_2.setText('Number of trials (n):')
             gen.d = 'binomial'
         elif self.t.strip() == 'Poisson distribution':
-            self.para_label.setText('Lambda (lam):')
+            self.para_label.setText('Lambda (lam >= 0):')
             self.para_label_2.setHidden(True)
             self.sd_lineEdit_2.setHidden(True)
             gen.d = 'poisson'
@@ -192,13 +192,13 @@ class AgeWindow(QtWidgets.QDialog, age_window):
             if self.t.strip() != 'Poisson distribution':
                 c = self.sd_lineEdit_2.text()
                 if self.validate_para(b, c):
-                    gen.b = b
-                    gen.c = c
+                    gen.b = float(b)
+                    gen.c = float(c)
                     Manager().csvW.show()
                 else:
                     MessageWindow().age_error_window('Error', 'Please enter valid number(s).')
-            elif self.t.strip() == 'Poisson distribution' and float(b) > 0:
-                gen.b = b
+            elif self.t.strip() == 'Poisson distribution' and float(b) >= 0:
+                gen.b = float(b)
                 Manager().csvW.show()
         except Exception:
             MessageWindow().age_error_window('Error', 'Please enter valid number(s).')
@@ -256,13 +256,13 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
         o = self.observation__lineEdit_2.text()
 
         if Manager.df == 1 and self.validate_para(p, s, m, o):
-            gen.p_row = p
-            gen.s_row = s
-            gen.m_row = m
-            gen.o_row = o
+            gen.p_row = int(p)
+            gen.s_row = int(s)
+            gen.m_row = int(m)
+            gen.o_row = int(o)
             gen().generate()
         elif Manager.df == 0 and self.validate_para(p, s, m, o):
-            gen.s_row = s
+            gen.s_row = int(s)
             gen().generate()
         else:
             MessageWindow().csv_error_window('Error', 'Please enter a number greater than 0 in each field.')
@@ -273,7 +273,6 @@ class CSVWindow(QtWidgets.QDialog, csv_window):
                 if int(p) > 0 and int(s) > 0 and int(m) > 0 and int(o) > 0:
                     return True
             elif Manager.df == 0 and int(s) > 0:
-                print('here')
                 return True
         except Exception:
             return False

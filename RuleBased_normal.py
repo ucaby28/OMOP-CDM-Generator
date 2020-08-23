@@ -22,7 +22,7 @@ class PatientRecord_RB(rd.PatientRecord):
         if d.strip() == 'normal':
             self.res = np.random.normal(b, c)
         elif d.strip() == 'binomial':
-            self.res = np.random.binomial(b, c)
+            self.res = np.random.binomial(c, b)
         elif d.strip() == 'poisson':
             self.res = np.random.poisson(b)
         return self.res
