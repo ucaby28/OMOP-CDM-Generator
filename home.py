@@ -123,15 +123,22 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                         gen.b = 40
                         gen.c = 20
                         gen.d = 'normal'
-                        MessageWindow().info_window('Notice', 'Missing distribution parameter(s).')
+                        MessageWindow().info_window('Notice', 'Missing distribution parameter(s). ')
                 if 'records' in list:
                     try:
-                        gen.p_row = self.cfg['records']['size']
-                    except Exception:
-                        gen.p_row = 100
-                        MessageWindow().info_window('Notice', 'Missing records parameter.')
+                        if Manager.df == 1:
+                            gen.p_row = int(self.cfg['records']['person'])
+                            gen.s_row = int(self.cfg['records']['specimen'])
+                            gen.m_row = int(self.cfg['records']['measurement'])
+                            gen.o_row = int(self.cfg['records']['observation'])
+                        else:
+                            gen.s_row = int(self.cfg['records']['rows'])
+                        gen().generate()
+                    except Exception as e:
+                        print(e)
+                        MessageWindow().info_window('Notice', 'Missing records parameter or invalid numbers. ')
             except Exception:
-                MessageWindow().info_window('Notice', 'No file path was found.')
+                MessageWindow().info_window('Notice', 'No file path was found. ')
         else:
             Manager().age.show()
 
@@ -143,8 +150,8 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                 gen.c = self.cfg['age']['sd']
         elif gen.d == 'binomial':
             if 1 >= self.cfg['age']['p'] >= 0 and self.cfg['age']['n'] >= 0:
-                gen.b = int(self.cfg['age']['n'])
-                gen.c = self.cfg['age']['p']
+                gen.b = self.cfg['age']['p']
+                gen.c = int(self.cfg['age']['n'])
         elif gen.d == 'poisson':
             if self.cfg['age']['lam'] > 0:
                 gen.b = self.cfg['age']['lam']

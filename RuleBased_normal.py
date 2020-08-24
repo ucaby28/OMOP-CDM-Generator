@@ -11,12 +11,13 @@ class PatientRecord_RB(rd.PatientRecord):
 
     # generating a rule-based date of birth from normal distribution and time with the corresponding age
     def dob_time(self, b, c, d):
-        if self.check_dist(b, c, d) >= 0:
-            self.age_dist = int(self.res)
-            self.dob_year = self.this_year - self.age_dist
-            self.dob_str = rd.fake1.date_time().isoformat()[4:]
-            self.dob_RB = rd.dt.datetime.fromisoformat(str(self.dob_year) + self.dob_str)
-        return self.dob_RB
+        while True:
+            if self.check_dist(b, c, d) >= 0:
+                self.age_dist = int(self.res)
+                self.dob_year = self.this_year - self.age_dist
+                self.dob_str = rd.fake1.date_time().isoformat()[4:]
+                self.dob_RB = rd.dt.datetime.fromisoformat(str(self.dob_year) + self.dob_str)
+            return self.dob_RB
 
     def check_dist(self, b, c, d):
         if d.strip() == 'normal':

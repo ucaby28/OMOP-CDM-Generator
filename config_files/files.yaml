@@ -3,4 +3,4 @@ age:
     n: 50
     p: 0.8
 records:
-
+    rows: 200
