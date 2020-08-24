@@ -65,8 +65,8 @@ class PatientRecord:
         return self.sdg_dob
 
     # output the random values as a csv file
-    def data_generate(self):
-        with open("Random_Patient_Data.csv", 'w') as csvFile:
+    def data_generate(self, file_name):
+        with open(file_name, 'w') as csvFile:
             writer = csv.DictWriter(csvFile, fieldnames=self.headers)
             writer.writeheader()
 

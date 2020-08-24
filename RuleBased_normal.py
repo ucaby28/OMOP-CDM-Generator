@@ -17,7 +17,7 @@ class PatientRecord_RB(rd.PatientRecord):
                 self.dob_year = self.this_year - self.age_dist
                 self.dob_str = rd.fake1.date_time().isoformat()[4:]
                 self.dob_RB = rd.dt.datetime.fromisoformat(str(self.dob_year) + self.dob_str)
-            return self.dob_RB
+                return self.dob_RB
 
     def check_dist(self, b, c, d):
         if d.strip() == 'normal':
@@ -29,8 +29,8 @@ class PatientRecord_RB(rd.PatientRecord):
         return self.res
 
     # output the rule-based values as a csv file
-    def data_generate(self, b, c, d):
-        with open("Rule-based_Patient_Data.csv", 'w') as csvFile:
+    def data_generate(self, b, c, d, file_name):
+        with open(file_name, 'w') as csvFile:
             writer = csv.DictWriter(csvFile, fieldnames=self.headers)
             writer.writeheader()
 

@@ -1,6 +1,6 @@
 from PyQt5 import QtWidgets, QtGui
 from PyQt5.QtGui import QFontMetrics
-from PyQt5.QtWidgets import QMessageBox
+from PyQt5.QtWidgets import QMessageBox, QFileDialog
 
 from ui_home import Ui_MainWindow as home_window
 from ui_config import Ui_Dialog as config_window
@@ -26,7 +26,7 @@ class MessageWindow:
 
     def info_window(self, title, message):
         self.msg_setup(title, message + 'Do you want to continue to rule customisation? \n \n (Click Ignore to use '
-                                     'the default parameters instead.)')
+                                        'the default parameters instead.)')
         self.msg.setIcon(QMessageBox.Information)
         self.msg.setStandardButtons(QMessageBox.Yes | QMessageBox.No | QMessageBox.Ignore)
         self.msg.buttonClicked.connect(self.popup_clicked)
@@ -99,8 +99,8 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
         self.back_Button.clicked.connect(self.hide)
 
     def upload_config_file(self):
-        self.file_name, _ = QtWidgets.QFileDialog.getOpenFileName(caption='Select File', directory=os.getcwd(),
-                                                                  filter='Config files (*.yaml *.yml)')
+        self.file_name, _ = QFileDialog.getOpenFileName(caption='Select File', directory=os.getcwd(),
+                                                        filter='Config files (*.yaml *.yml)')
 
         self.showpath_lineEdit.setText(self.file_name)
         fontMetrics = QFontMetrics(QtGui.QFont())
@@ -120,9 +120,6 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                     try:
                         self.check_age_para()
                     except Exception:
-                        gen.b = 40
-                        gen.c = 20
-                        gen.d = 'normal'
                         MessageWindow().info_window('Notice', 'Missing distribution parameter(s). ')
                 if 'records' in list:
                     try:
@@ -134,8 +131,7 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
                         else:
                             gen.s_row = int(self.cfg['records']['rows'])
                         gen().generate()
-                    except Exception as e:
-                        print(e)
+                    except Exception:
                         MessageWindow().info_window('Notice', 'Missing records parameter or invalid numbers. ')
             except Exception:
                 MessageWindow().info_window('Notice', 'No file path was found. ')
@@ -145,8 +141,8 @@ class ConfigWindow(QtWidgets.QDialog, config_window):
     def check_age_para(self):
         gen.d = self.cfg['age']['distribution']
         if gen.d == 'normal':
-            if (self.cfg['age']['average'] > 0 and self.cfg['age']['sd']) > 0:
-                gen.b = self.cfg['age']['average']
+            if (self.cfg['age']['mean'] > 0 and self.cfg['age']['sd']) > 0:
+                gen.b = self.cfg['age']['mean']
                 gen.c = self.cfg['age']['sd']
         elif gen.d == 'binomial':
             if 1 >= self.cfg['age']['p'] >= 0 and self.cfg['age']['n'] >= 0:
@@ -334,19 +330,33 @@ class gen:
 
     def generate(self):
         if Manager.dt == 0 and Manager.df == 0:
-            rd.PatientRecord(rd.main(gen.s_row, rd.m2), rd.PatientRecord.header_list).data_generate()
+            rd.PatientRecord(rd.main(gen.s_row, rd.m2),
+                             rd.PatientRecord.header_list).data_generate(self.dialog_save_name())
             MessageWindow().gen_window('Successful', rd.m2)
         elif Manager.dt == 0 and Manager.df == 1:
             OMOP_RD(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
             MessageWindow().gen_window('Successful', person.m2)
         elif Manager.dt == 1 and Manager.df == 0:
-            rb.PatientRecord_RB(rd.main(gen.s_row, rb.m2), rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c,
-                                                                                                          gen.d)
+            rb.PatientRecord_RB(rd.main(gen.s_row, rb.m2),
+                                rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c, gen.d,
+                                                                               self.dialog_save_name())
             MessageWindow().gen_window('Successful', rb.m2)
         elif Manager.dt == 1 and Manager.df == 1:
             OMOP_RB(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
             MessageWindow().gen_window('Successful', person_rb.m2)
         sys.exit()
+
+    def dialog_save_name(self):
+        self.filename = QFileDialog.getSaveFileName(caption='Save CSV File(s)', directory=os.getcwd(),
+                                                    filter='CSV Files (*.csv)')
+        if self.filename[0] == '':
+            MessageWindow().csv_error_window('Error', 'Please enter valid file name.')
+
+        if self.filename[1] == 'CSV Files (*.csv)' and self.filename[0][-4:] != '.csv':
+            self.filename = self.filename[0] + '.csv'
+        else:
+            self.filename = self.filename[0]
+        return self.filename
 
 
 def OMOP_RD(p_row, s_row, m_row, o_row):
