@@ -1,3 +1,4 @@
+import OMOPPerson_RB as person_rb
 import OMOPSpecimen_RB as specimen_rb
 import OMOPMeasurement_RD as measurement
 import Random as rd
@@ -14,8 +15,8 @@ class OMOP_PatientRecord(specimen_rb.OMOP_PatientRecord):
     measurement_id = 1
 
     # generating a Measurement table and output as a csv file
-    def data_generate(self):
-        with open("Rule-based_OMOP_Measurement.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Measurement.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -28,7 +29,9 @@ class OMOP_PatientRecord(specimen_rb.OMOP_PatientRecord):
                 })
                 OMOP_PatientRecord.measurement_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(specimen_rb.person_id_list), measurement.OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(specimen_rb.person_id_list),
+                       measurement.OMOP_PatientRecord.header_list).data_generate(person_rb.path)

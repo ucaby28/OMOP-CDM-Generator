@@ -1,3 +1,4 @@
+import OMOPPerson_RB as person_rb
 import OMOPLocation_RD as location
 import Random as rd
 
@@ -24,8 +25,8 @@ class OMOP_PatientRecord(location.OMOP_PatientRecord):
             return location.location_id_list[num]
 
     # generating a Location table and output as a csv file
-    def data_generate(self):
-        with open("Rule-based_OMOP_Location.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Location.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(len(location.location_id_list)):
@@ -34,7 +35,8 @@ class OMOP_PatientRecord(location.OMOP_PatientRecord):
                     "city": self.city,
                 })
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(location.location_id_list), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(location.location_id_list), OMOP_PatientRecord.header_list).data_generate(person_rb.path)

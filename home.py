@@ -327,81 +327,81 @@ class gen:
     s_row = 100
     m_row = 100
     o_row = 100
+    name = ''
 
     def generate(self):
-        if Manager.dt == 0 and Manager.df == 0:
-            rd.PatientRecord(rd.main(gen.s_row, rd.m2),
-                             rd.PatientRecord.header_list).data_generate(self.dialog_save_name())
-            MessageWindow().gen_window('Successful', rd.m2)
-        elif Manager.dt == 0 and Manager.df == 1:
-            OMOP_RD(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
-            MessageWindow().gen_window('Successful', person.m2)
-        elif Manager.dt == 1 and Manager.df == 0:
-            rb.PatientRecord_RB(rd.main(gen.s_row, rb.m2),
-                                rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c, gen.d,
-                                                                               self.dialog_save_name())
-            MessageWindow().gen_window('Successful', rb.m2)
-        elif Manager.dt == 1 and Manager.df == 1:
-            OMOP_RB(gen.p_row, gen.s_row, gen.m_row, gen.o_row)
-            MessageWindow().gen_window('Successful', person_rb.m2)
-        sys.exit()
+        if self.dialog_save_name():
+            if Manager.dt == 0 and Manager.df == 0:
+                rd.PatientRecord(gen.s_row,
+                                 rd.PatientRecord.header_list).data_generate(gen.name)
+                MessageWindow().gen_window('Successful', rd.m2)
+            elif Manager.dt == 0 and Manager.df == 1:
+                OMOP_RD(gen.p_row, gen.s_row, gen.m_row, gen.o_row, gen.name)
+                MessageWindow().gen_window('Successful', person.m2)
+            elif Manager.dt == 1 and Manager.df == 0:
+                rb.PatientRecord_RB(gen.s_row,
+                                    rb.PatientRecord_RB.header_list).data_generate(gen.b, gen.c, gen.d,
+                                                                                   gen.name)
+                MessageWindow().gen_window('Successful', rb.m2)
+            elif Manager.dt == 1 and Manager.df == 1:
+                OMOP_RB(gen.p_row, gen.s_row, gen.m_row, gen.o_row, gen.name)
+                MessageWindow().gen_window('Successful', person_rb.m2)
+            sys.exit()
 
     def dialog_save_name(self):
         self.filename = QFileDialog.getSaveFileName(caption='Save CSV File(s)', directory=os.getcwd(),
                                                     filter='CSV Files (*.csv)')
         if self.filename[0] == '':
             MessageWindow().csv_error_window('Error', 'Please enter valid file name.')
-
-        if self.filename[1] == 'CSV Files (*.csv)' and self.filename[0][-4:] != '.csv':
-            self.filename = self.filename[0] + '.csv'
-        else:
-            self.filename = self.filename[0]
-        return self.filename
+        elif self.filename[1] == 'CSV Files (*.csv)' and self.filename[0][-4:] == '.csv':
+            gen.name = self.filename[0][:-4]
+            return True
 
 
-def OMOP_RD(p_row, s_row, m_row, o_row):
-    person.OMOP_PatientRecord(rd.main(p_row, person.m2), person.OMOP_PatientRecord.header_list).data_generate()
+def OMOP_RD(p_row, s_row, m_row, o_row, file_name):
+    person.OMOP_PatientRecord(p_row, person.OMOP_PatientRecord.header_list).data_generate(file_name)
+    person.path = gen.name
     import OMOPSpecimen_RD as specimen
 
     specimen.OMOP_PatientRecord(s_row,
-                                specimen.OMOP_PatientRecord.header_list).data_generate()
+                                specimen.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPMeasurement_RD as measurement
 
     measurement.OMOP_PatientRecord(m_row,
-                                   measurement.OMOP_PatientRecord.header_list).data_generate()
+                                   measurement.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPObservation_RD as observation
 
     observation.OMOP_PatientRecord(o_row,
-                                   observation.OMOP_PatientRecord.header_list).data_generate()
+                                   observation.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPLocation_RD as location
-
     location.OMOP_PatientRecord(len(location.location_id_list),
-                                location.OMOP_PatientRecord.header_list).data_generate()
+                                location.OMOP_PatientRecord.header_list).data_generate(file_name)
 
 
-def OMOP_RB(p_row, s_row, m_row, o_row):
-    person_rb.OMOP_PatientRecord(rd.main(p_row, person_rb.m2),
-                                 person.OMOP_PatientRecord.header_list).data_generate(gen.b, gen.c, gen.d)
+def OMOP_RB(p_row, s_row, m_row, o_row, file_name):
+    person_rb.OMOP_PatientRecord(p_row,
+                                 person.OMOP_PatientRecord.header_list).data_generate(gen.b, gen.c, gen.d, file_name)
+    person_rb.path = gen.name
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 
     specimen_rb.OMOP_PatientRecord(s_row,
-                                   specimen.OMOP_PatientRecord.header_list).data_generate()
+                                   specimen.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPMeasurement_RD as measurement
     import OMOPMeasurement_RB as measurement_rb
 
     measurement_rb.OMOP_PatientRecord(m_row,
-                                      measurement.OMOP_PatientRecord.header_list).data_generate()
+                                      measurement.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPObservation_RD as observation
     import OMOPObservation_RB as observation_rb
 
     observation_rb.OMOP_PatientRecord(o_row,
-                                      observation.OMOP_PatientRecord.header_list).data_generate()
+                                      observation.OMOP_PatientRecord.header_list).data_generate(file_name)
     import OMOPLocation_RD as location
     import OMOPLocation_RB as location_rb
 
     location_rb.OMOP_PatientRecord(len(location.location_id_list),
-                                   location.OMOP_PatientRecord.header_list).data_generate()
+                                   location.OMOP_PatientRecord.header_list).data_generate(file_name)
 
 
 if __name__ == '__main__':

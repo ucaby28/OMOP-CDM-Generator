@@ -20,8 +20,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
     header_list = ["location_id", "city"]
 
     # generating a Location table and output as a csv file
-    def data_generate(self):
-        with open("Random_OMOP_Location.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Location.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(len(location_id_list)):
@@ -30,7 +30,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
                     "city": rd.fake.city(),
                 })
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(location_id_list), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(location_id_list), OMOP_PatientRecord.header_list).data_generate(person.path)

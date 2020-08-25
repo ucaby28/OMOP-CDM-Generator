@@ -1,14 +1,18 @@
 import RuleBased_normal as rb
+import OMOPPerson_RB as person_rb
 import OMOPSpecimen_RD as specimen
 import Random as rd
 import pandas as pd
 import random
 
 # read CSV files for pre-stored birth dates and store them into a list
-person_file = 'Rule-based_OMOP_Person.csv'
+# try:
+person_file = person_rb.path + '_Person.csv'
 person_df = pd.read_csv(person_file)
 person_id_list = person_df['person_id']
 person_year_of_birth_list = person_df['year_of_birth']
+# except FileNotFoundError:
+#     print('Please create a Person table before other OMOP rule-based tables')
 
 # messages to display at CLI
 m1 = "Please enter the number of OMOP Specimen records you want to create: "
@@ -25,8 +29,8 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
         return self.person_id, self.person_age
 
     # generating a Specimen table and output as a csv file
-    def data_generate(self):
-        with open("Rule-based_OMOP_Specimen.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Specimen.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -39,7 +43,8 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
                 })
                 OMOP_PatientRecord.specimen_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(person_id_list), specimen.OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(person_id_list), specimen.OMOP_PatientRecord.header_list).data_generate(person_rb.path)

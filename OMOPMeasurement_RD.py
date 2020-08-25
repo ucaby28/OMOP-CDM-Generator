@@ -26,8 +26,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
                    "measurement_type_concept_id"]
 
     # generating a Measurement table and output as a csv file
-    def data_generate(self):
-        with open("Random_OMOP_Measurement.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Measurement.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -40,7 +40,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
                 })
                 OMOP_PatientRecord.measurement_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(specimen.person_id_list), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(specimen.person_id_list), OMOP_PatientRecord.header_list).data_generate(person.path)

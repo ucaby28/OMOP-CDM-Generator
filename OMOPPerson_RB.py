@@ -1,8 +1,11 @@
+import os
+
 import OMOPPerson_RD as person
 import Random as rd
 import RuleBased_normal as rb
 
 # messages to display at CLI
+path = os.getcwd() + r'\OMOP_rule-based'
 m2 = "Rule-based OMOP Person, Specimen, Measurement, Observation, and Location CSV tables generation complete!"
 
 
@@ -10,8 +13,8 @@ m2 = "Rule-based OMOP Person, Specimen, Measurement, Observation, and Location C
 class OMOP_PatientRecord(rb.PatientRecord_RB):
 
     # generating a PERSON table and output as a csv file
-    def data_generate(self, b, c, d):
-        with open("Rule-based_OMOP_Person.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, b, c, d, file_name):
+        with open(file_name + "_Person.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -28,27 +31,28 @@ class OMOP_PatientRecord(rb.PatientRecord_RB):
                 })
                 OMOP_PatientRecord.person_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(100, m2), person.OMOP_PatientRecord.header_list).data_generate(40, 20, 'normal')
+    OMOP_PatientRecord(100, person.OMOP_PatientRecord.header_list).data_generate(40, 20, 'normal', path)
     import OMOPSpecimen_RD as specimen
     import OMOPSpecimen_RB as specimen_rb
 
     specimen_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
-                                   specimen.OMOP_PatientRecord.header_list).data_generate()
+                                   specimen.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPMeasurement_RD as measurement
     import OMOPMeasurement_RB as measurement_rb
 
     measurement_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
-                                      measurement.OMOP_PatientRecord.header_list).data_generate()
+                                      measurement.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPObservation_RD as observation
     import OMOPObservation_RB as observation_rb
 
     observation_rb.OMOP_PatientRecord(len(specimen_rb.person_id_list),
-                                      observation.OMOP_PatientRecord.header_list).data_generate()
+                                      observation.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPLocation_RD as location
     import OMOPLocation_RB as location_rb
 
     location_rb.OMOP_PatientRecord(len(location.location_id_list),
-                                   location.OMOP_PatientRecord.header_list).data_generate()
+                                   location.OMOP_PatientRecord.header_list).data_generate(path)

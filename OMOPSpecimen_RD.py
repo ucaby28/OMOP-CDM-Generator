@@ -5,7 +5,7 @@ import random
 
 # read CSV files for pre-stored IDs and store them into a list
 try:
-    person_id_file = 'Random_OMOP_Person.csv'
+    person_id_file = person.path + '_Person.csv'
     person_id_df = pd.read_csv(person_id_file)
     person_id_list = person_id_df['person_id']
 except FileNotFoundError:
@@ -30,8 +30,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
     header_list = ["person_id", "specimen_id", "specimen_concept_id", "specimen_type_concept_id", "specimen_date"]
 
     # generating a Specimen table and output as a csv file
-    def data_generate(self):
-        with open("Random_OMOP_Specimen.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Specimen.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -44,7 +44,8 @@ class OMOP_PatientRecord(person.OMOP_PatientRecord):
                 })
                 OMOP_PatientRecord.specimen_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(len(person_id_list), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(len(person_id_list), OMOP_PatientRecord.header_list).data_generate(person.path)

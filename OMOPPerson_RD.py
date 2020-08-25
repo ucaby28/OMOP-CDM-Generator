@@ -1,8 +1,10 @@
+import os
 import random
 import pandas as pd
 import Random as rd
 
 # read CSV files for pre-stored IDs and store them into a list
+path = os.getcwd() + r'\OMOP_random'
 gender_file = 'config_files/gender_id.csv'
 gender_df = pd.read_csv(gender_file)
 gender_list = gender_df['Id']
@@ -27,8 +29,8 @@ class OMOP_PatientRecord(rd.PatientRecord):
                    "birth_datetime", "race_concept_id", "ethnicity_concept_id", "location_id"]
 
     # generating a PERSON table and output as a csv file
-    def data_generate(self):
-        with open("Random_OMOP_Person.csv", 'wt') as OMOPcsvFile:
+    def data_generate(self, file_name):
+        with open(file_name + "_Person.csv", 'wt') as OMOPcsvFile:
             writer = rd.csv.DictWriter(OMOPcsvFile, fieldnames=self.headers)
             writer.writeheader()
             for i in range(self.records):
@@ -45,24 +47,25 @@ class OMOP_PatientRecord(rd.PatientRecord):
                 })
                 OMOP_PatientRecord.person_id += 1
             OMOPcsvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    OMOP_PatientRecord(rd.main(100, m2), OMOP_PatientRecord.header_list).data_generate()
+    OMOP_PatientRecord(100, OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPSpecimen_RD as specimen
 
     specimen.OMOP_PatientRecord(len(specimen.person_id_list),
-                                specimen.OMOP_PatientRecord.header_list).data_generate()
+                                specimen.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPMeasurement_RD as measurement
 
     measurement.OMOP_PatientRecord(len(specimen.person_id_list),
-                                   measurement.OMOP_PatientRecord.header_list).data_generate()
+                                   measurement.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPObservation_RD as observation
 
     observation.OMOP_PatientRecord(len(specimen.person_id_list),
-                                   observation.OMOP_PatientRecord.header_list).data_generate()
+                                   observation.OMOP_PatientRecord.header_list).data_generate(path)
     import OMOPLocation_RD as location
 
     location.OMOP_PatientRecord(len(location.location_id_list),
-                                location.OMOP_PatientRecord.header_list).data_generate()
+                                location.OMOP_PatientRecord.header_list).data_generate(path)
 

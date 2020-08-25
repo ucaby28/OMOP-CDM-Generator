@@ -1,4 +1,6 @@
 import csv
+import os
+
 from faker import Faker
 import datetime as dt
 
@@ -18,22 +20,6 @@ def person_name():
 # generating a random UK phone number
 def phone_num():
     return fake.phone_number()
-
-
-# obtaining user input and return the input value
-def main(row, msg2):
-    # the user can customize the number of rows to generate
-    while True:
-        num_records = row
-        try:
-            # checking whether the entered number is valid and return the valid input
-            if int(num_records) > 0:
-                print(msg2)
-                return num_records
-            else:
-                print("Please enter a number that is greater than 0.")
-        except ValueError:
-            print("Please try again and enter a number.")
 
 
 # generating selected fields with random values
@@ -66,7 +52,7 @@ class PatientRecord:
 
     # output the random values as a csv file
     def data_generate(self, file_name):
-        with open(file_name, 'w') as csvFile:
+        with open(file_name + '.csv', 'w') as csvFile:
             writer = csv.DictWriter(csvFile, fieldnames=self.headers)
             writer.writeheader()
 
@@ -83,7 +69,8 @@ class PatientRecord:
                 })
                 PatientRecord.person_id += 1
             csvFile.close()
+        print(m2)
 
 
 if __name__ == "__main__":
-    PatientRecord(main(100, m2), PatientRecord.header_list).data_generate()
+    PatientRecord(100, PatientRecord.header_list).data_generate(os.getcwd() + r'\random')

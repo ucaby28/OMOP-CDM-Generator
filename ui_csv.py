@@ -180,4 +180,4 @@ class Ui_Dialog(object):
         self.observation_label_2.setText(_translate("Dialog", "Number of Rows in Observation Table:"))
         self.default_checkBox.setText(_translate("Dialog", "Use 100 rows for each table"))
         self.back_Button.setText(_translate("Dialog", "Back"))
-        self.next_Button.setText(_translate("Dialog", "Next"))
+        self.next_Button.setText(_translate("Dialog", "Generate"))
