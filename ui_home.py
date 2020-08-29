@@ -5,6 +5,7 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1300, 450)
+        MainWindow.setStyleSheet("background-color: rgb(204, 252, 209);")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.formLayout_2 = QtWidgets.QFormLayout(self.centralwidget)
@@ -84,6 +85,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_5.addItem(spacerItem14)
         self.next_Button = QtWidgets.QPushButton(self.centralwidget)
         self.next_Button.setObjectName("next_Button")
+        self.next_Button.setStyleSheet("background-color: rgb(212, 212, 212);")
         self.horizontalLayout_5.addWidget(self.next_Button)
         spacerItem15 = QtWidgets.QSpacerItem(98, 20, QtWidgets.QSizePolicy.Expanding, QtWidgets.QSizePolicy.Minimum)
         self.horizontalLayout_5.addItem(spacerItem15)

@@ -43,7 +43,7 @@ class MessageWindow:
         self.msg_setup(title, message)
         self.msg.setIcon(QMessageBox.Warning)
         self.msg.setStandardButtons(QMessageBox.Ok)
-        self.msg.buttonClicked.connect(Manager().csvW.show)
+        self.msg.buttonClicked.connect(Manager().main.show)
         self.msg.exec_()
 
     def gen_window(self, title, message):
@@ -67,8 +67,8 @@ class MainWindow(QtWidgets.QMainWindow, home_window):
         self.setupUi(self)
         self.b3 = self.Random_radioButton
         self.b3.setChecked(True)
-        self.b3.toggled.connect(lambda: selected_format(self.b3))
         self.next_Button.clicked.connect(self.hide)
+        self.next_Button.clicked.connect(lambda: selected_format(self.b3))
 
 
 class RuleWindow(QtWidgets.QDialog, rule_window):
@@ -77,8 +77,8 @@ class RuleWindow(QtWidgets.QDialog, rule_window):
         self.setupUi(self)
         self.b1 = self.RD_radioButton
         self.b1.setChecked(True)
-        self.b1.toggled.connect(lambda: selected_type(self.b1))
         self.next_Button.clicked.connect(self.hide)
+        self.next_Button.clicked.connect(lambda: selected_type(self.b1))
         self.next_Button.clicked.connect(lambda: self.check_rule(self.b1))
         self.back_Button.clicked.connect(self.hide)
 
