@@ -11,10 +11,31 @@ There is an option for the user to specify which probability distributions to us
 Normal, Binomial, Poisson are the ones available.
 
 The user can also upload a YAML configuration file instead of setting the parameters via the UI. The followings are examples on how to set up the files.
+
 For Normal distribution:
+      age:
+          distribution: normal
+          mean: int (any number greater than 0)
+          sd: float (any number greater than 0)
 
 For Binomial distribution:
       age:
           distribution: binomial
           n: int (any number greater than 0)
           p: float (any number between 1 and 0)
+          
+For Poisson distribution:
+      age:
+          distribution: poisson
+          lam: int (any number greater than 0)
+
+For the Number of Records to Generate Using Random Format:
+      records:
+          rows: int (any number greater than 0)
+          
+For the Number of Records to Generate Using OMOP CDM Format:
+      records:  
+          person: int (any number greater than 0)
+          specimen: int (any number greater than 0)
+          measurement: int (any number greater than 0)
+          observation: int (any number greater than 0)
