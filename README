@@ -1,1 +1,20 @@
+To start the program, use Python to run home.py file.
 
+There are required python libraries to run this program.
+The following are the packages required:
+
+pyqt5, Faker, numpy, pandas, pyyaml
+
+Please install all of the packages listed above before you run home.py file on Python.
+
+There is an option for the user to specify which probability distributions to use when generating the patients' age.
+Normal, Binomial, Poisson are the ones available.
+
+The user can also upload a YAML configuration file instead of setting the parameters via the UI. The followings are examples on how to set up the files.
+For Normal distribution:
+
+For Binomial distribution:
+      age:
+          distribution: binomial
+          n: int (any number greater than 0)
+          p: float (any number between 1 and 0)
